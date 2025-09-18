@@ -62,9 +62,12 @@ function initializeMobileMenu() {
         // Close mobile menu when clicking outside (but not on controls)
         document.addEventListener('click', function(e) {
             const controls = document.querySelector('.controls');
+            const languageSwitch = document.querySelector('.language-switch');
             const isControlsClick = controls && controls.contains(e.target);
+            const isLanguageSwitchClick = languageSwitch && languageSwitch.contains(e.target);
             
-            if (!navigation.contains(e.target) && !mobileToggle.contains(e.target) && !isControlsClick) {
+            // Don't close mobile menu if clicking on controls or language switch
+            if (!navigation.contains(e.target) && !mobileToggle.contains(e.target) && !isControlsClick && !isLanguageSwitchClick) {
                 navigation.classList.remove('mobile-active');
                 mobileToggle.classList.remove('active');
             }

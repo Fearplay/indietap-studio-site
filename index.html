@@ -11,9 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
-        // Prevent flash of unstyled content in dark mode - improved version
+        // Prevent flash of unstyled content and language flash - improved version
         (function() {
             const theme = localStorage.getItem('theme') || 'light';
+            const language = localStorage.getItem('language') || 'en';
             const html = document.documentElement;
             
             // Apply theme immediately to html element
@@ -24,6 +25,9 @@
                 html.removeAttribute('data-theme');
                 html.classList.remove('dark-theme');
             }
+            
+            // Apply language immediately to prevent flash
+            html.setAttribute('lang', language);
             
             // When body is available, also apply theme and loading state
             function applyBodyTheme() {
@@ -75,12 +79,16 @@
                         <span class="theme-icon">☀️</span>
                         <span class="theme-icon">🌙</span>
                     </div>
-                    <div class="language-toggle" id="languageToggle">
-                        <span class="lang-current">EN</span>
-                        <div class="lang-dropdown">
-                            <span data-lang="en">English</span>
-                            <span data-lang="cs">Čeština</span>
+                    <div class="language-switch" id="languageSwitch">
+                        <div class="lang-option" data-lang="en">
+                            <span class="lang-flag">🇺🇸</span>
+                            <span class="lang-label">EN</span>
                         </div>
+                        <div class="lang-option" data-lang="cs">
+                            <span class="lang-flag">🇨🇿</span>
+                            <span class="lang-label">CS</span>
+                        </div>
+                        <div class="lang-slider"></div>
                     </div>
                 </div>
                 <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
