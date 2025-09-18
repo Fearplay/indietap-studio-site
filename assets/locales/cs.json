@@ -1,0 +1,59 @@
+{
+  "navigation": {
+    "apps": "Aplikace & Hry",
+    "privacy": "Ochrana soukromí",
+    "terms": "Podmínky použití",
+    "contact": "Kontakt",
+    "about": "O nás"
+  },
+  "hero": {
+    "title": "Vítejte v IndieTap Studio — tvoříme zábavné a užitečné mobilní aplikace",
+    "cta": "Prohlédnout aplikace"
+  },
+  "apps": {
+    "title": "Aplikace & Hry",
+    "couplefy": {
+      "category": "Vztahy • Životní styl",
+      "description": "Sledujte dny strávené pohromadě, svátky jmen a citáty v jedné aplikaci. Přizpůsobte si pozadí, přepínejte mezi tmavým a světlým režimem, prožívejte romantiku každý den.",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "tapjoy": {
+      "category": "Již brzy",
+      "description": "Vzrušující nová aplikace je na cestě! Zůstaňte naladěni na něco úžasného, co přinese radost do vaší každodenní rutiny.",
+      "comingSoon": "🚀 Již brzy"
+    }
+  },
+  "about": {
+    "title": "O nás",
+    "description": "Jsme dva vášniví vývojáři, kteří milují tvorbu aplikací a her. Naše cesta začala společným snem - vytvářet druh softwaru, který jsme jako děti vždy chtěli používat. Každý řádek kódu, který napíšeme, je poháněn stejným nadšením a zvědavostí, které nás přiměly zamilovat si technologie.",
+    "mission": "Naše mise je jednoduchá: vytvářet aplikace, které přinášejí radost, řeší problémy a dělají každodenní život o něco lepším. Od nástrojů pro vztahy, které pomáhají párům oslavovat jejich společnou cestu, po užitečné aplikace, které zjednodušují každodenní úkoly - do každého projektu vkládáme své srdce.",
+    "passion": "To, co nás pohání, je vzpomínka na to, že jsme byli mladí snílci, kteří si představovali úžasné aplikace, o kterých jsme si přáli, aby existovaly. Nyní máme dovednosti a vášeň, abychom tyto sny změnili ve skutečnost, nejen pro nás, ale pro každého, kdo používá naše výtvory."
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "description": "Rádi od vás uslyšíme! Ať už máte otázky, zpětnou vazbu nebo potřebujete podporu s našimi aplikacemi, jsme tu, abychom pomohli. Kontaktujte nás pomocí kterékoli z níže uvedených metod.",
+    "emailSupport": "Emailová podpora",
+    "emailDescription": "Pošlete nám své otázky nebo zpětnou vazbu přímo",
+    "bugReports": "Hlášení chyb",
+    "bugDescription": "Našli jste chybu v některé z našich aplikací? Dejte nám vědět!",
+    "reportBug": "Nahlásit chybu",
+    "featureRequests": "Návrhy funkcí",
+    "featureDescription": "Máte nápad na vylepšení našich aplikací?",
+    "suggestFeature": "Navrhnout funkci",
+    "responseTime": "Doba odezvy",
+    "responseDescription": "Obvykle odpovídáme na všechny dotazy do 24-48 hodin během pracovních dnů. V naléhavých případech označte svůj email jako \"Naléhavé\" v předmětu."
+  },
+  "footer": {
+    "contact": "Kontaktujte nás",
+    "rights": "© 2025 IndieTap Studio. Všechna práva vyhrazena."
+  },
+  "theme": {
+    "light": "Světlý",
+    "dark": "Tmavý"
+  },
+  "language": {
+    "en": "English",
+    "cs": "Čeština"
+  }
+}

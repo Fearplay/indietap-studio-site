@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IndieTap Studio - Fun and Useful Mobile Apps</title>
+    <link rel="icon" type="image/png" href="assets/icons/tapjoy_icon.png">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +18,31 @@
         <div class="container">
             <div class="nav">
                 <div class="logo">
-                    <h1>IndieTap Studio</h1>
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1>IndieTap Studio</h1>
+                    </a>
                 </div>
                 <nav class="navigation">
-                    <a href="#privacy" class="nav-link">Privacy Policy</a>
-                    <a href="#terms" class="nav-link">Terms of Service</a>
-                    <a href="#apps" class="nav-link">Apps & Games</a>
+                    <a href="#apps" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="#about" class="nav-link" data-key="navigation.about">About</a>
+                    <a href="privacy.html" class="nav-link" data-key="navigation.privacy">Privacy Policy</a>
+                    <a href="terms.html" class="nav-link" data-key="navigation.terms">Terms of Service</a>
+                    <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
                 </nav>
+                
+                <!-- Theme and Language Controls -->
+                <div class="controls">
+                    <div class="theme-toggle" id="themeToggle">
+                        <span class="theme-icon">🌙</span>
+                    </div>
+                    <div class="language-toggle" id="languageToggle">
+                        <span class="lang-current">EN</span>
+                        <div class="lang-dropdown">
+                            <span data-lang="en">English</span>
+                            <span data-lang="cs">Čeština</span>
+                        </div>
+                    </div>
+                </div>
                 <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
                     <span></span>
                     <span></span>
@@ -38,8 +57,8 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Welcome to IndieTap Studio — we build fun and useful mobile apps</h1>
-                    <a href="#apps" class="cta-button">See our apps</a>
+                    <h1 data-key="hero.title">Welcome to IndieTap Studio — we build fun and useful mobile apps</h1>
+                    <a href="#apps" class="cta-button" data-key="hero.cta">See our apps</a>
                 </div>
                 <div class="hero-image">
                     <div class="phone-mockup">
@@ -72,82 +91,77 @@
     <!-- Apps Section -->
     <section id="apps" class="apps-section">
         <div class="container">
-            <h2>Apps & Games</h2>
+            <h2 data-key="apps.title">Apps & Games</h2>
             <div class="apps-grid">
                 <div class="app-card">
-                    <div class="app-icon-container red">
-                        <div class="app-icon-shape"></div>
+                    <div class="app-icon-container">
+                        <img src="assets/icons/couplefy_icon.png" alt="Couplefy" style="width: 60px; height: 60px; border-radius: 16px;">
                     </div>
                     <div class="app-info">
-                        <h3>Tap Counter</h3>
-                        <p class="app-category">Utility App</p>
-                        <p class="app-description">A simple and elegant tap counter for tracking anything you need to
-                            count.</p>
-                        <a href="#" class="app-link">View on Google Play</a>
+                        <h3>Couplefy</h3>
+                        <p class="app-category" data-key="apps.couplefy.category">Relationship • Lifestyle</p>
+                        <p class="app-description" data-key="apps.couplefy.description">Track days together, name-days and quotes in one app. Customize backgrounds, switch dark/light mode, feel the romance every day.</p>
+                        <div class="app-links">
+                            <a href="https://apps.apple.com/us/app/couplefy/id6746437362" class="app-link app-store" target="_blank">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.13997 6.91 8.85997 6.88C10.15 6.85 11.36 7.74 12.1 7.74C12.83 7.74 14.3 6.68 15.85 6.84C16.48 6.87 18.29 7.13 19.56 8.91C19.47 8.97 17.39 10.3 17.41 13.42C17.44 17.18 20.76 18.5 20.76 18.5C20.76 18.5 20.17 20.87 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+                                </svg>
+                                <span data-key="apps.couplefy.appStore">App Store</span>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.fairplayx.couplefy&pli=1" class="app-link google-play" target="_blank">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m11.4653-6.02l1.9973-3.4619c.1409-.2442.057-.5579-.1864-.7-.2442-.1409-.5579-.057-.7.1864l-2.0223 3.5047C15.7976 8.2822 14.4457 7.8267 13.0002 7.8267s-2.7974.4555-4.0306 1.2439L6.9469 5.5659c-.1409-.2434-.4547-.3273-.7-.1864-.2442.1421-.3273.4558-.1864.7L8.0578 9.5214C6.0441 10.7241 4.775 12.6926 4.775 14.9316h14.4502c0-2.239-1.2691-4.2075-3.2828-5.4102"/>
+                                </svg>
+                                <span data-key="apps.couplefy.googlePlay">Google Play</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="app-card">
-                    <div class="app-icon-container green">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="white" />
-                        </svg>
+                <div class="app-card coming-soon">
+                    <div class="app-icon-container">
+                        <img src="assets/icons/tapjoy_icon.png" alt="TapJoy" style="width: 60px; height: 60px; border-radius: 16px;">
                     </div>
                     <div class="app-info">
-                        <h3>Quick Tasks</h3>
-                        <p class="app-category">Productivity</p>
-                        <p class="app-description">Manage your daily tasks with our intuitive and fast task management
-                            app.</p>
-                        <a href="#" class="app-link">View on Google Play</a>
-                    </div>
-                </div>
-
-                <div class="app-card">
-                    <div class="app-icon-container blue">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path
-                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
-                                fill="white" />
-                        </svg>
-                    </div>
-                    <div class="app-info">
-                        <h3>Indie Games Hub</h3>
-                        <p class="app-category">Entertainment</p>
-                        <p class="app-description">Discover and play amazing indie games from independent developers
-                            worldwide.</p>
-                        <a href="#" class="app-link">View on Google Play</a>
+                        <h3>TapJoy</h3>
+                        <p class="app-category" data-key="apps.tapjoy.category">Coming Very Soon</p>
+                        <p class="app-description" data-key="apps.tapjoy.description">An exciting new app is on its way! Stay tuned for something amazing that will bring joy to your daily routine.</p>
+                        <div class="coming-soon-badge">
+                            <span data-key="apps.tapjoy.comingSoon">🚀 Coming Very Soon</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Privacy & Terms Section -->
-    <section class="privacy-terms">
+    <!-- About Section -->
+    <section id="about" class="about-section">
         <div class="container">
-            <h2>Privacy & Terms</h2>
-            <div class="tabs">
-                <button class="tab-button active" data-tab="privacy">Privacy Policy</button>
-                <button class="tab-button" data-tab="terms">Terms of Service</button>
-            </div>
-            <div class="tab-content">
-                <div id="privacy" class="tab-panel active">
-                    <p>At IndieTap Studio, we take your privacy seriously. This privacy policy explains how we collect,
-                        use, and protect your personal information when you use our mobile applications and services.
-                    </p>
-                    <p>We collect only the minimum necessary data to provide you with the best possible experience. This
-                        may include usage analytics, crash reports, and performance metrics to help us improve our apps.
-                    </p>
-                    <p>Your data is never sold to third parties, and we use industry-standard encryption to protect your
-                        information. You have full control over your data and can request its deletion at any time.</p>
+            <h2 data-key="about.title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-key="about.description">We are two passionate developers who love creating apps and games. Our journey began with a shared dream - to build the kind of software we always wanted to use as kids. Every line of code we write is fueled by the same excitement and curiosity that made us fall in love with technology in the first place.</p>
+                    
+                    <p data-key="about.mission">Our mission is simple: create apps that bring joy, solve problems, and make everyday life a little bit better. From relationship tools that help couples celebrate their journey together, to utility apps that simplify daily tasks - we pour our hearts into every project.</p>
+                    
+                    <p data-key="about.passion">What drives us is the memory of being young dreamers, imagining the amazing apps we wished existed. Now, we have the skills and passion to make those dreams a reality, not just for us, but for everyone who uses our creations.</p>
                 </div>
-                <div id="terms" class="tab-panel">
-                    <p>These terms of service govern your use of IndieTap Studio applications and services. By using our
-                        apps, you agree to these terms and conditions.</p>
-                    <p>Our apps are provided "as is" without warranties of any kind. We strive to maintain high-quality,
-                        bug-free applications but cannot guarantee perfect functionality at all times.</p>
-                    <p>You are responsible for using our apps in accordance with applicable laws and regulations. Any
-                        misuse or violation of these terms may result in termination of service.</p>
+                <div class="about-illustration">
+                    <div class="developer-icons">
+                        <div class="dev-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Developer 1</span>
+                        </div>
+                        <div class="dev-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+                            </svg>
+                            <span>Developer 2</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -158,15 +172,18 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-left">
-                    <p>Contact us</p>
+                    <a href="contact.html" style="text-decoration: none; color: inherit;">
+                        <p data-key="footer.contact">Contact us</p>
+                    </a>
                 </div>
                 <div class="footer-right">
-                    <p>&copy; 2025 IndieTap Studio. All rights reserved.</p>
+                    <p data-key="footer.rights">&copy; 2025 IndieTap Studio. All rights reserved.</p>
                 </div>
             </div>
         </div>
     </footer>
 
+    <script src="js/localization.js"></script>
     <script src="js/script.js"></script>
 </body>
 

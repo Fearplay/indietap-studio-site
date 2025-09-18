@@ -106,48 +106,7 @@ function initializeScrollHeader() {
     });
 }
 
-// Add mobile menu styles dynamically
-const mobileMenuStyles = `
-@media (max-width: 768px) {
-    .navigation {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: white;
-        flex-direction: column;
-        padding: 1rem;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transform: translateY(-100%);
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3s ease;
-    }
-    
-    .navigation.mobile-active {
-        transform: translateY(0);
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    .mobile-menu-toggle.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-    }
-    
-    .mobile-menu-toggle.active span:nth-child(2) {
-        opacity: 0;
-    }
-    
-    .mobile-menu-toggle.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px);
-    }
-}
-`;
-
-// Insert mobile menu styles
-const styleSheet = document.createElement('style');
-styleSheet.textContent = mobileMenuStyles;
-document.head.appendChild(styleSheet);
+// Mobile menu styles are now in CSS file
 
 // Add intersection observer for animations
 const observerOptions = {

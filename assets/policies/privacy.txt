@@ -1,0 +1,59 @@
+Privacy Policy for IndieTap Studio Apps
+
+Last updated: January 18, 2025
+
+At IndieTap Studio, we are committed to protecting your privacy and ensuring transparency about how we handle your data. This privacy policy explains our practices regarding the collection, use, and protection of your personal information when you use our mobile applications.
+
+Information We Collect
+
+We collect only the minimum necessary data to provide you with the best possible experience:
+
+• Usage Analytics: We collect anonymous usage statistics to understand how our apps are used and to improve functionality. This includes app interactions, feature usage, and performance metrics.
+
+• Crash Reports: When our apps crash, we automatically collect crash logs that help us identify and fix bugs. These reports do not contain personal information.
+
+• Device Information: We may collect basic device information such as device type, operating system version, and app version to ensure compatibility and optimize performance.
+
+• Local Data: Some of our apps store data locally on your device (such as Couplefy storing your relationship milestone dates). This data remains on your device and is not transmitted to our servers unless you explicitly choose to back it up.
+
+How We Use Your Data
+
+We use collected information to:
+• Improve app functionality and user experience
+• Fix bugs and technical issues
+• Analyze usage patterns to develop new features
+• Ensure app compatibility across different devices
+
+Data Protection and Security
+
+• We use industry-standard encryption to protect your data
+• Your personal data is never sold to third parties
+• We implement appropriate security measures to prevent unauthorized access
+• Local data stored by our apps remains on your device under your control
+
+Third-Party Services
+
+Our apps may use third-party services (such as Google Play Services, Apple App Store services) that have their own privacy policies. We encourage you to review their privacy policies as well.
+
+Your Rights
+
+You have the right to:
+• Request deletion of any data we have collected about you
+• Access information about what data we have collected
+• Opt out of analytics data collection through your device settings
+• Delete local app data by uninstalling the app or clearing app data
+
+Children's Privacy
+
+Our apps are not intended for children under 13. We do not knowingly collect personal information from children under 13.
+
+Changes to This Policy
+
+We may update this privacy policy from time to time. We will notify users of any significant changes through app updates or other appropriate means.
+
+Contact Us
+
+If you have any questions about this privacy policy or our data practices, please contact us at:
+Email: saulfearplay@gmail.com
+
+This policy applies to all IndieTap Studio applications including Couplefy and other apps in our portfolio.
