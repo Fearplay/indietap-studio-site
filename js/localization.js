@@ -3,7 +3,18 @@ class LocalizationManager {
     constructor() {
         // Default to English, override with saved preference if exists
         this.currentLang = localStorage.getItem('language') || 'en';
-        this.currentTheme = localStorage.getItem('theme') || 'light';
+        
+        // Theme logic: Check localStorage first, then system preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            this.currentTheme = savedTheme;
+        } else {
+            // Use system preference if no saved theme
+            this.currentTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            // Save the detected preference to localStorage
+            localStorage.setItem('theme', this.currentTheme);
+        }
+        
         this.translations = {};
         this.initialized = false;
         this.languageChanging = false;

@@ -13,7 +13,15 @@
     <script>
         // Prevent flash of unstyled content and language flash - improved version
         (function() {
-            const theme = localStorage.getItem('theme') || 'light';
+            // Theme logic: Check localStorage first, then system preference
+            let theme = localStorage.getItem('theme');
+            if (!theme) {
+                // Use system preference if no saved theme
+                theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                // Save the detected preference to localStorage
+                localStorage.setItem('theme', theme);
+            }
+            
             const language = localStorage.getItem('language') || 'en';
             const html = document.documentElement;
             
@@ -224,7 +232,15 @@
     <script>
         // Prevent flash of unstyled content and language flash - improved version
         (function() {
-            const theme = localStorage.getItem('theme') || 'light';
+            // Theme logic: Check localStorage first, then system preference
+            let theme = localStorage.getItem('theme');
+            if (!theme) {
+                // Use system preference if no saved theme
+                theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                // Save the detected preference to localStorage
+                localStorage.setItem('theme', theme);
+            }
+            
             const language = localStorage.getItem('language') || 'en';
             const html = document.documentElement;
             
