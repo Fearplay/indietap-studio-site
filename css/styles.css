@@ -72,6 +72,11 @@ body.loaded .footer {
     transform: translateY(0);
 }
 
+.nav-link.active {
+    color: var(--accent-primary);
+    font-weight: 600;
+}
+
 body.loaded {
     opacity: 1;
 }

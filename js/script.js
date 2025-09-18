@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add scroll effect to header
     initializeScrollHeader();
+    
+    // Set active navigation state
+    initializeActiveNavigation();
 });
 
 // Tab Functionality
@@ -199,3 +202,32 @@ const debouncedScrollHandler = debounce(function() {
 }, 10);
 
 window.addEventListener('scroll', debouncedScrollHandler);
+
+// Active Navigation State
+function initializeActiveNavigation() {
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    // Remove active class from all nav links
+    navLinks.forEach(link => link.classList.remove('active'));
+    
+    // Set active class based on current page
+    navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        
+        // Handle different page types
+        if (currentPage === 'index.html' || currentPage === '' || currentPage === '/') {
+            if (href === 'index.html' || href === '#hero') {
+                link.classList.add('active');
+            }
+        } else if (currentPage === 'about.html' && href === 'about.html') {
+            link.classList.add('active');
+        } else if (currentPage === 'contact.html' && href === 'contact.html') {
+            link.classList.add('active');
+        } else if (currentPage === 'privacy.html' && href === 'privacy.html') {
+            link.classList.add('active');
+        } else if (currentPage === 'terms.html' && href === 'terms.html') {
+            link.classList.add('active');
+        }
+    });
+}
