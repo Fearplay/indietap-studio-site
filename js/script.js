@@ -19,7 +19,9 @@ function initializeTabs() {
     const tabPanels = document.querySelectorAll('.tab-panel');
     
     tabButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
             const targetTab = this.getAttribute('data-tab');
             
             // Remove active class from all buttons and panels
@@ -47,15 +49,22 @@ function initializeMobileMenu() {
         // Close mobile menu when clicking on navigation links
         const navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
-            link.addEventListener('click', function() {
+            link.addEventListener('click', function(e) {
+                // Only prevent default for hash links, not external links
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                }
                 navigation.classList.remove('mobile-active');
                 mobileToggle.classList.remove('active');
             });
         });
         
-        // Close mobile menu when clicking outside
+        // Close mobile menu when clicking outside (but not on controls)
         document.addEventListener('click', function(e) {
-            if (!navigation.contains(e.target) && !mobileToggle.contains(e.target)) {
+            const controls = document.querySelector('.controls');
+            const isControlsClick = controls && controls.contains(e.target);
+            
+            if (!navigation.contains(e.target) && !mobileToggle.contains(e.target) && !isControlsClick) {
                 navigation.classList.remove('mobile-active');
                 mobileToggle.classList.remove('active');
             }

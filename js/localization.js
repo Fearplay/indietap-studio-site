@@ -6,6 +6,7 @@ class LocalizationManager {
         this.currentTheme = localStorage.getItem('theme') || 'light';
         this.translations = {};
         this.initialized = false;
+        this.languageChanging = false;
     }
 
     async init() {
@@ -21,14 +22,17 @@ class LocalizationManager {
             this.translations.en = await enResponse.json();
             this.translations.cs = await csResponse.json();
 
-            // Initialize theme
+            // Initialize theme first (no visual flash)
             this.setTheme(this.currentTheme);
             
-            // Initialize language
-            this.setLanguage(this.currentLang);
-            
-            // Setup event listeners
+            // Setup event listeners before language initialization
             this.setupEventListeners();
+            
+            // Initialize language last to prevent flash
+            // Use setTimeout to ensure DOM is ready
+            setTimeout(() => {
+                this.setLanguage(this.currentLang);
+            }, 10);
             
             this.initialized = true;
         } catch (error) {
@@ -41,7 +45,9 @@ class LocalizationManager {
         // Theme toggle
         const themeToggle = document.getElementById('themeToggle');
         if (themeToggle) {
-            themeToggle.addEventListener('click', () => {
+            themeToggle.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
                 const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
                 this.setTheme(newTheme);
             });
@@ -53,24 +59,41 @@ class LocalizationManager {
         
         if (languageToggle && languageDropdown) {
             let hoverTimeout;
+            let isClickToggled = false;
             
             // Toggle dropdown on click
             languageToggle.addEventListener('click', (e) => {
+                e.preventDefault();
                 e.stopPropagation();
-                languageToggle.classList.toggle('active');
+                
+                clearTimeout(hoverTimeout);
+                
+                // Toggle the dropdown
+                const isActive = languageToggle.classList.contains('active');
+                if (isActive) {
+                    languageToggle.classList.remove('active');
+                    isClickToggled = false;
+                } else {
+                    languageToggle.classList.add('active');
+                    isClickToggled = true;
+                }
             });
             
-            // Show dropdown on hover
+            // Show dropdown on hover (only if not click-toggled closed)
             languageToggle.addEventListener('mouseenter', () => {
-                clearTimeout(hoverTimeout);
-                languageToggle.classList.add('active');
+                if (!isClickToggled || languageToggle.classList.contains('active')) {
+                    clearTimeout(hoverTimeout);
+                    languageToggle.classList.add('active');
+                }
             });
             
             // Hide dropdown on mouse leave with delay
             languageToggle.addEventListener('mouseleave', () => {
-                hoverTimeout = setTimeout(() => {
-                    languageToggle.classList.remove('active');
-                }, 300); // 300ms delay before hiding
+                if (!isClickToggled) {
+                    hoverTimeout = setTimeout(() => {
+                        languageToggle.classList.remove('active');
+                    }, 300);
+                }
             });
             
             // Keep dropdown open when hovering over it
@@ -79,24 +102,32 @@ class LocalizationManager {
             });
             
             languageDropdown.addEventListener('mouseleave', () => {
-                hoverTimeout = setTimeout(() => {
-                    languageToggle.classList.remove('active');
-                }, 300);
+                if (!isClickToggled) {
+                    hoverTimeout = setTimeout(() => {
+                        languageToggle.classList.remove('active');
+                    }, 300);
+                }
             });
             
             // Handle language selection
             languageDropdown.addEventListener('click', (e) => {
-                if (e.target.dataset.lang) {
+                e.preventDefault();
+                e.stopPropagation();
+                if (e.target.dataset.lang && e.target.dataset.lang !== this.currentLang) {
                     this.setLanguage(e.target.dataset.lang);
                     languageToggle.classList.remove('active');
                     clearTimeout(hoverTimeout);
+                    isClickToggled = false;
                 }
             });
             
             // Close dropdown when clicking outside
-            document.addEventListener('click', () => {
-                languageToggle.classList.remove('active');
-                clearTimeout(hoverTimeout);
+            document.addEventListener('click', (e) => {
+                if (!languageToggle.contains(e.target)) {
+                    languageToggle.classList.remove('active');
+                    clearTimeout(hoverTimeout);
+                    isClickToggled = false;
+                }
             });
         }
     }
@@ -129,10 +160,15 @@ class LocalizationManager {
     }
 
     setLanguage(lang) {
+        // Prevent rapid language switching
+        if (this.languageChanging) return;
+        if (lang === this.currentLang) return;
+        
+        this.languageChanging = true;
         this.currentLang = lang;
         localStorage.setItem('language', lang);
         
-        // Update current language display
+        // Update current language display immediately
         const langCurrent = document.querySelector('.lang-current');
         if (langCurrent) {
             langCurrent.textContent = lang.toUpperCase();
@@ -146,10 +182,18 @@ class LocalizationManager {
         
         // Dispatch language change event
         window.dispatchEvent(new CustomEvent('languageChanged', { detail: { language: lang } }));
+        
+        // Reset language changing flag after completion
+        setTimeout(() => {
+            this.languageChanging = false;
+        }, 300);
     }
 
     updateTranslations() {
         if (!this.translations[this.currentLang]) return;
+
+        // Add a smooth transition class to prevent visual flash
+        document.body.classList.add('language-changing');
 
         const elements = document.querySelectorAll('[data-key]');
         elements.forEach(element => {
@@ -160,7 +204,14 @@ class LocalizationManager {
                 if (element.tagName === 'INPUT' && element.type !== 'submit') {
                     element.placeholder = translation;
                 } else {
-                    element.textContent = translation;
+                    // Use a small delay to prevent flash
+                    if (element.textContent !== translation) {
+                        element.style.opacity = '0.7';
+                        requestAnimationFrame(() => {
+                            element.textContent = translation;
+                            element.style.opacity = '1';
+                        });
+                    }
                 }
             }
         });
@@ -169,6 +220,11 @@ class LocalizationManager {
         if (this.translations[this.currentLang].pageTitle) {
             document.title = this.translations[this.currentLang].pageTitle;
         }
+
+        // Remove transition class after update
+        setTimeout(() => {
+            document.body.classList.remove('language-changing');
+        }, 200);
     }
 
     getNestedTranslation(key) {

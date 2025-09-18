@@ -123,6 +123,20 @@ html[data-theme="dark"] body {
 
 /* Navigation link styles moved to prevent flash section above */
 
+/* Language transition smoothing */
+body.language-changing {
+    pointer-events: none;
+}
+
+body.language-changing [data-key] {
+    transition: opacity 0.15s ease-in-out;
+}
+
+/* Prevent layout shift during translations */
+[data-key] {
+    transition: opacity 0.1s ease-in-out;
+}
+
 /* Controls */
 .controls {
     display: flex;
@@ -912,14 +926,16 @@ html[data-theme="dark"] body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .controls {
-        display: none;
+        display: flex;
+        position: relative;
+        z-index: 1001; /* Higher than mobile menu */
     }
     
     .navigation {
         position: absolute;
         top: 100%;
         left: 0;
-        right: 0;
+        right: 120px; /* Leave space for controls */
         background: var(--bg-secondary);
         flex-direction: column;
         padding: 1rem;

@@ -1,3 +1,5 @@
+**Made by AI**
+
 # IndieTap Studio Website
 
 Officiální webová stránka pro IndieTap Studio - tvoříme zábavné a užitečné mobilní aplikace.
