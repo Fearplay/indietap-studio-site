@@ -48,12 +48,27 @@ class LocalizationManager {
         }
 
         // Language toggle
+        const languageToggle = document.getElementById('languageToggle');
         const languageDropdown = document.querySelector('.lang-dropdown');
-        if (languageDropdown) {
+        
+        if (languageToggle && languageDropdown) {
+            // Toggle dropdown on click
+            languageToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                languageToggle.classList.toggle('active');
+            });
+            
+            // Handle language selection
             languageDropdown.addEventListener('click', (e) => {
                 if (e.target.dataset.lang) {
                     this.setLanguage(e.target.dataset.lang);
+                    languageToggle.classList.remove('active');
                 }
+            });
+            
+            // Close dropdown when clicking outside
+            document.addEventListener('click', () => {
+                languageToggle.classList.remove('active');
             });
         }
     }
@@ -94,6 +109,9 @@ class LocalizationManager {
 
         // Update all translatable elements
         this.updateTranslations();
+        
+        // Dispatch language change event
+        window.dispatchEvent(new CustomEvent('languageChanged', { detail: { language: lang } }));
     }
 
     updateTranslations() {

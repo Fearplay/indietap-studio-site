@@ -21,11 +21,13 @@
     "tapjoy": {
       "category": "Již brzy",
       "description": "Vzrušující nová aplikace je na cestě! Zůstaňte naladěni na něco úžasného, co přinese radost do vaší každodenní rutiny.",
-      "comingSoon": "🚀 Již brzy"
+      "comingSoon": " Již brzy"
     }
   },
   "about": {
     "title": "O nás",
+    "subtitle": "Dva vášniví vývojáři vytvářející aplikace, o kterých jsme vždy snili",
+    "story": "Náš příběh",
     "description": "Jsme dva vášniví vývojáři, kteří milují tvorbu aplikací a her. Naše cesta začala společným snem - vytvářet druh softwaru, který jsme jako děti vždy chtěli používat. Každý řádek kódu, který napíšeme, je poháněn stejným nadšením a zvědavostí, které nás přiměly zamilovat si technologie.",
     "mission": "Naše mise je jednoduchá: vytvářet aplikace, které přinášejí radost, řeší problémy a dělají každodenní život o něco lepším. Od nástrojů pro vztahy, které pomáhají párům oslavovat jejich společnou cestu, po užitečné aplikace, které zjednodušují každodenní úkoly - do každého projektu vkládáme své srdce.",
     "passion": "To, co nás pohání, je vzpomínka na to, že jsme byli mladí snílci, kteří si představovali úžasné aplikace, o kterých jsme si přáli, aby existovaly. Nyní máme dovednosti a vášeň, abychom tyto sny změnili ve skutečnost, nejen pro nás, ale pro každého, kdo používá naše výtvory."

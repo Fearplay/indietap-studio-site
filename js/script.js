@@ -72,6 +72,13 @@ function initializeSmoothScrolling() {
             e.preventDefault();
             
             const targetId = this.getAttribute('href');
+            
+            // Check if we're on a different page and need to navigate to index.html
+            if (targetId === '#apps' && !window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
+                window.location.href = 'index.html' + targetId;
+                return;
+            }
+            
             const targetElement = document.querySelector(targetId);
             
             if (targetElement) {
@@ -80,6 +87,12 @@ function initializeSmoothScrolling() {
                 
                 window.scrollTo({
                     top: targetPosition,
+                    behavior: 'smooth'
+                });
+            } else if (targetId === '#apps') {
+                // If on index page but #apps doesn't exist, scroll to top
+                window.scrollTo({
+                    top: 0,
                     behavior: 'smooth'
                 });
             }
