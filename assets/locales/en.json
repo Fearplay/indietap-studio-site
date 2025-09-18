@@ -29,8 +29,10 @@
     "subtitle": "Two passionate developers building the apps we always dreamed of using",
     "story": "Our Story",
     "description": "We are two passionate developers who love creating apps and games. Our journey began with a shared dream - to build the kind of software we always wanted to use as kids. Every line of code we write is fueled by the same excitement and curiosity that made us fall in love with technology in the first place.",
-    "mission": "Our mission is simple: create apps that bring joy, solve problems, and make everyday life a little bit better. From relationship tools that help couples celebrate their journey together, to utility apps that simplify daily tasks - we pour our hearts into every project.",
-    "passion": "What drives us is the memory of being young dreamers, imagining the amazing apps we wished existed. Now, we have the skills and passion to make those dreams a reality, not just for us, but for everyone who uses our creations."
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is simple: create apps that bring joy, solve problems, and make everyday life a little bit better. From relationship tools that help couples celebrate their journey together, to utility apps that simplify daily tasks - we pour our hearts into every project.",
+    "passionTitle": "What Drives Us",
+    "passionText": "What drives us is the memory of being young dreamers, imagining the amazing apps we wished existed. Now, we have the skills and passion to make those dreams a reality, not just for us, but for everyone who uses our creations."
   },
   "contact": {
     "title": "Contact Us",
@@ -65,5 +67,12 @@
   "terms": {
     "title": "Terms of Service", 
     "loading": "Loading terms of service..."
+  },
+  "404": {
+    "title": "Page Not Found",
+    "number": "404",
+    "description": "Oops! The page you're looking for seems to have gone on an adventure. Don't worry, our apps are still here and ready to brighten your day!",
+    "home": "Go Home",
+    "apps": "See Our Apps"
   }
 }

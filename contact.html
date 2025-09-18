@@ -86,6 +86,22 @@
             border-color: var(--accent-primary);
         }
     </style>
+    <script>
+        // Prevent flash of unstyled content in dark mode
+        (function() {
+            const theme = localStorage.getItem('theme') || 'light';
+            if (theme === 'dark') {
+                document.body.classList.add('loading');
+                document.body.setAttribute('data-theme', 'dark');
+                setTimeout(() => {
+                    document.body.classList.remove('loading');
+                    document.body.classList.add('loaded');
+                }, 10);
+            } else {
+                document.body.classList.add('loaded');
+            }
+        })();
+    </script>
 </head>
 
 <body>
@@ -100,7 +116,7 @@
                 </div>
                 <nav class="navigation">
                     <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
-                    <a href="index.html#apps" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="privacy.html" class="nav-link" data-key="navigation.privacy">Privacy Policy</a>
                     <a href="terms.html" class="nav-link" data-key="navigation.terms">Terms of Service</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>

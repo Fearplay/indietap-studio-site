@@ -10,6 +10,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        // Prevent flash of unstyled content in dark mode
+        (function() {
+            const theme = localStorage.getItem('theme') || 'light';
+            if (theme === 'dark') {
+                document.body.classList.add('loading');
+                document.body.setAttribute('data-theme', 'dark');
+                setTimeout(() => {
+                    document.body.classList.remove('loading');
+                    document.body.classList.add('loaded');
+                }, 10);
+            } else {
+                document.body.classList.add('loaded');
+            }
+        })();
+    </script>
 </head>
 
 <body>
@@ -24,7 +40,7 @@
                 </div>
                 <nav class="navigation">
                     <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
-                    <a href="#apps" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="privacy.html" class="nav-link" data-key="navigation.privacy">Privacy Policy</a>
                     <a href="terms.html" class="nav-link" data-key="navigation.terms">Terms of Service</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
@@ -54,7 +70,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">

@@ -29,8 +29,10 @@
     "subtitle": "Dva vášniví vývojáři vytvářející aplikace, o kterých jsme vždy snili",
     "story": "Náš příběh",
     "description": "Jsme dva vášniví vývojáři, kteří milují tvorbu aplikací a her. Naše cesta začala společným snem - vytvářet druh softwaru, který jsme jako děti vždy chtěli používat. Každý řádek kódu, který napíšeme, je poháněn stejným nadšením a zvědavostí, které nás přiměly zamilovat si technologie.",
-    "mission": "Naše mise je jednoduchá: vytvářet aplikace, které přinášejí radost, řeší problémy a dělají každodenní život o něco lepším. Od nástrojů pro vztahy, které pomáhají párům oslavovat jejich společnou cestu, po užitečné aplikace, které zjednodušují každodenní úkoly - do každého projektu vkládáme své srdce.",
-    "passion": "To, co nás pohání, je vzpomínka na to, že jsme byli mladí snílci, kteří si představovali úžasné aplikace, o kterých jsme si přáli, aby existovaly. Nyní máme dovednosti a vášeň, abychom tyto sny změnili ve skutečnost, nejen pro nás, ale pro každého, kdo používá naše výtvory."
+    "missionTitle": "Naše mise",
+    "missionText": "Naše mise je jednoduchá: vytvářet aplikace, které přinášejí radost, řeší problémy a dělají každodenní život o něco lepším. Od nástrojů pro vztahy, které pomáhají párům oslavovat jejich společnou cestu, po užitečné aplikace, které zjednodušují každodenní úkoly - do každého projektu vkládáme své srdce.",
+    "passionTitle": "To, co nás pohání",
+    "passionText": "To, co nás pohání, je vzpomínka na to, že jsme byli mladí snílci, kteří si představovali úžasné aplikace, o kterých jsme si přáli, aby existovaly. Nyní máme dovednosti a vášeň, abychom tyto sny změnili ve skutečnost, nejen pro nás, ale pro každého, kdo používá naše výtvory."
   },
   "contact": {
     "title": "Kontaktujte nás",
@@ -65,5 +67,12 @@
   "terms": {
     "title": "Podmínky použití", 
     "loading": "Načítá se podmínky použití..."
+  },
+  "404": {
+    "title": "Stránka nenalezena",
+    "number": "404",
+    "description": "Ups! Stránka, kterou hledáte, se zřejmě vydala na dobrodružství. Nebojte se, naše aplikace jsou stále zde a připravené rozjasnit vám den!",
+    "home": "Domů",
+    "apps": "Zobrazit aplikace"
   }
 }

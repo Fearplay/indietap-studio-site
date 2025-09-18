@@ -74,7 +74,7 @@ function initializeSmoothScrolling() {
             const targetId = this.getAttribute('href');
             
             // Check if we're on a different page and need to navigate to index.html
-            if (targetId === '#apps' && !window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
+            if ((targetId === '#apps' || targetId === '#hero') && !window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
                 window.location.href = 'index.html' + targetId;
                 return;
             }
@@ -90,11 +90,23 @@ function initializeSmoothScrolling() {
                     behavior: 'smooth'
                 });
             } else if (targetId === '#apps') {
-                // If on index page but #apps doesn't exist, scroll to top
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
+                // For Apps & Games, scroll to hero section (not the actual apps section at bottom)
+                const heroSection = document.querySelector('.hero');
+                if (heroSection) {
+                    const headerHeight = document.querySelector('.header').offsetHeight;
+                    const targetPosition = heroSection.offsetTop - headerHeight - 20;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    // Fallback to top if no hero section found
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }
             }
         });
     });

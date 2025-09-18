@@ -10,6 +10,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        // Prevent flash of unstyled content in dark mode
+        (function() {
+            const theme = localStorage.getItem('theme') || 'light';
+            if (theme === 'dark') {
+                document.body.classList.add('loading');
+                document.body.setAttribute('data-theme', 'dark');
+                setTimeout(() => {
+                    document.body.classList.remove('loading');
+                    document.body.classList.add('loaded');
+                }, 10);
+            } else {
+                document.body.classList.add('loaded');
+            }
+        })();
+    </script>
 </head>
 
 <body>
@@ -24,7 +40,7 @@
                 </div>
                 <nav class="navigation">
                     <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
-                    <a href="index.html#apps" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="privacy.html" class="nav-link" data-key="navigation.privacy">Privacy Policy</a>
                     <a href="terms.html" class="nav-link" data-key="navigation.terms">Terms of Service</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
@@ -69,13 +85,13 @@
                     </div>
                     
                     <div class="about-block">
-                        <h2 data-key="about.mission">Our Mission</h2>
-                        <p data-key="about.mission">Our mission is simple: create apps that bring joy, solve problems, and make everyday life a little bit better. From relationship tools that help couples celebrate their journey together, to utility apps that simplify daily tasks - we pour our hearts into every project.</p>
+                        <h2 data-key="about.missionTitle">Our Mission</h2>
+                        <p data-key="about.missionText">Our mission is simple: create apps that bring joy, solve problems, and make everyday life a little bit better. From relationship tools that help couples celebrate their journey together, to utility apps that simplify daily tasks - we pour our hearts into every project.</p>
                     </div>
                     
                     <div class="about-block">
-                        <h2 data-key="about.passion">What Drives Us</h2>
-                        <p data-key="about.passion">What drives us is the memory of being young dreamers, imagining the amazing apps we wished existed. Now, we have the skills and passion to make those dreams a reality, not just for us, but for everyone who uses our creations.</p>
+                        <h2 data-key="about.passionTitle">What Drives Us</h2>
+                        <p data-key="about.passionText">What drives us is the memory of being young dreamers, imagining the amazing apps we wished existed. Now, we have the skills and passion to make those dreams a reality, not just for us, but for everyone who uses our creations.</p>
                     </div>
                 </div>
                 
@@ -87,8 +103,8 @@
                                     <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
-                            <h3>Developer 1</h3>
-                            <p>Frontend & Design</p>
+                            <h3>Fearplay</h3>
+                            <p>Full-Stack Developer</p>
                         </div>
                         
                         <div class="dev-card">
@@ -97,8 +113,8 @@
                                     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            <h3>Developer 2</h3>
-                            <p>Backend & Systems</p>
+                            <h3>SkynetCZ</h3>
+                            <p>Full-Stack Developer</p>
                         </div>
                     </div>
                 </div>
