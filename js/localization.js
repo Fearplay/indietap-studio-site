@@ -1,6 +1,7 @@
 // Localization and Theme Management
 class LocalizationManager {
     constructor() {
+        // Default to English, override with saved preference if exists
         this.currentLang = localStorage.getItem('language') || 'en';
         this.currentTheme = localStorage.getItem('theme') || 'light';
         this.translations = {};
@@ -67,10 +68,14 @@ class LocalizationManager {
             document.body.removeAttribute('data-theme');
         }
 
-        // Update theme icon
-        const themeIcon = document.querySelector('.theme-icon');
-        if (themeIcon) {
-            themeIcon.textContent = theme === 'light' ? '🌙' : '☀️';
+        // Update theme toggle appearance
+        const themeToggle = document.getElementById('themeToggle');
+        if (themeToggle) {
+            if (theme === 'dark') {
+                themeToggle.classList.add('dark');
+            } else {
+                themeToggle.classList.remove('dark');
+            }
         }
     }
 

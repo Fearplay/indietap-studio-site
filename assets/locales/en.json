@@ -55,5 +55,13 @@
   "language": {
     "en": "English",
     "cs": "Čeština"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "loading": "Loading privacy policy..."
+  },
+  "terms": {
+    "title": "Terms of Service", 
+    "loading": "Loading terms of service..."
   }
 }

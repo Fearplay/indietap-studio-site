@@ -55,5 +55,13 @@
   "language": {
     "en": "English",
     "cs": "Čeština"
+  },
+  "privacy": {
+    "title": "Ochrana soukromí",
+    "loading": "Načítá se zásady ochrany soukromí..."
+  },
+  "terms": {
+    "title": "Podmínky použití", 
+    "loading": "Načítá se podmínky použití..."
   }
 }
