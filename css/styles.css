@@ -39,13 +39,51 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Prevent white flash on page load */
-body.loading {
-    visibility: hidden;
+/* Prevent white flash on page load - improved version */
+body.loading .header,
+body.loading main,
+body.loading .footer {
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+body.loaded .header,
+body.loaded main,
+body.loaded .footer {
+    opacity: 1;
+}
+
+/* Prevent navigation button jumping */
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--accent-primary);
+    transform: translateY(-1px);
+}
+
+.nav-link:active {
+    transform: translateY(0);
 }
 
 body.loaded {
-    visibility: visible;
+    opacity: 1;
+}
+
+/* Apply dark theme immediately if stored */
+html[data-theme="dark"] {
+    background-color: #0f0f0f;
+}
+
+html[data-theme="dark"] body {
+    background-color: #0f0f0f;
+    color: #ffffff;
 }
 
 .container {
@@ -83,16 +121,7 @@ body.loaded {
     gap: 2rem;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: var(--text-secondary);
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-    color: var(--accent-primary);
-}
+/* Navigation link styles moved to prevent flash section above */
 
 /* Controls */
 .controls {

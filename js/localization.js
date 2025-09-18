@@ -52,10 +52,36 @@ class LocalizationManager {
         const languageDropdown = document.querySelector('.lang-dropdown');
         
         if (languageToggle && languageDropdown) {
+            let hoverTimeout;
+            
             // Toggle dropdown on click
             languageToggle.addEventListener('click', (e) => {
                 e.stopPropagation();
                 languageToggle.classList.toggle('active');
+            });
+            
+            // Show dropdown on hover
+            languageToggle.addEventListener('mouseenter', () => {
+                clearTimeout(hoverTimeout);
+                languageToggle.classList.add('active');
+            });
+            
+            // Hide dropdown on mouse leave with delay
+            languageToggle.addEventListener('mouseleave', () => {
+                hoverTimeout = setTimeout(() => {
+                    languageToggle.classList.remove('active');
+                }, 300); // 300ms delay before hiding
+            });
+            
+            // Keep dropdown open when hovering over it
+            languageDropdown.addEventListener('mouseenter', () => {
+                clearTimeout(hoverTimeout);
+            });
+            
+            languageDropdown.addEventListener('mouseleave', () => {
+                hoverTimeout = setTimeout(() => {
+                    languageToggle.classList.remove('active');
+                }, 300);
             });
             
             // Handle language selection
@@ -63,12 +89,14 @@ class LocalizationManager {
                 if (e.target.dataset.lang) {
                     this.setLanguage(e.target.dataset.lang);
                     languageToggle.classList.remove('active');
+                    clearTimeout(hoverTimeout);
                 }
             });
             
             // Close dropdown when clicking outside
             document.addEventListener('click', () => {
                 languageToggle.classList.remove('active');
+                clearTimeout(hoverTimeout);
             });
         }
     }
@@ -77,9 +105,15 @@ class LocalizationManager {
         this.currentTheme = theme;
         localStorage.setItem('theme', theme);
         
+        // Apply theme to both html and body elements for consistency
+        const html = document.documentElement;
         if (theme === 'dark') {
+            html.setAttribute('data-theme', 'dark');
+            html.classList.add('dark-theme');
             document.body.setAttribute('data-theme', 'dark');
         } else {
+            html.removeAttribute('data-theme');
+            html.classList.remove('dark-theme');
             document.body.removeAttribute('data-theme');
         }
 

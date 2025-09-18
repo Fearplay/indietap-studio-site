@@ -179,19 +179,42 @@
         }
     </style>
     <script>
-        // Prevent flash of unstyled content in dark mode
+        // Prevent flash of unstyled content in dark mode - improved version
         (function() {
             const theme = localStorage.getItem('theme') || 'light';
+            const html = document.documentElement;
+            
+            // Apply theme immediately to html element
             if (theme === 'dark') {
-                document.body.classList.add('loading');
-                document.body.setAttribute('data-theme', 'dark');
-                setTimeout(() => {
-                    document.body.classList.remove('loading');
-                    document.body.classList.add('loaded');
-                }, 10);
+                html.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
             } else {
-                document.body.classList.add('loaded');
+                html.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
             }
+            
+            // When body is available, also apply theme and loading state
+            function applyBodyTheme() {
+                if (document.body) {
+                    if (theme === 'dark') {
+                        document.body.setAttribute('data-theme', 'dark');
+                    }
+                    document.body.classList.add('loading');
+                    
+                    // Remove loading state after DOM is ready
+                    requestAnimationFrame(() => {
+                        setTimeout(() => {
+                            document.body.classList.remove('loading');
+                            document.body.classList.add('loaded');
+                        }, 10); // Reduced delay for faster loading
+                    });
+                } else {
+                    // Body not ready yet, try again
+                    setTimeout(applyBodyTheme, 1);
+                }
+            }
+            
+            applyBodyTheme();
         })();
     </script>
 </head>
@@ -208,7 +231,7 @@
                 </div>
                 <nav class="navigation">
                     <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
-                    <a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="index.html" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="privacy.html" class="nav-link" data-key="navigation.privacy">Privacy Policy</a>
                     <a href="terms.html" class="nav-link" data-key="navigation.terms">Terms of Service</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
@@ -275,19 +298,10 @@
             <div class="error-actions">
                 <a href="index.html" class="error-button primary" data-key="404.home">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
+                        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 0 01-2-2V9z"/>
                         <polyline points="9,22 9,12 15,12 15,22"/>
                     </svg>
                     Go Home
-                </a>
-                <a href="index.html#hero" class="error-button secondary" data-key="404.apps">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="3" width="7" height="7"/>
-                        <rect x="14" y="3" width="7" height="7"/>
-                        <rect x="14" y="14" width="7" height="7"/>
-                        <rect x="3" y="14" width="7" height="7"/>
-                    </svg>
-                    See Our Apps
                 </a>
             </div>
         </div>

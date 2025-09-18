@@ -100,19 +100,42 @@
         }
     </style>
     <script>
-        // Prevent flash of unstyled content in dark mode
+        // Prevent flash of unstyled content in dark mode - improved version
         (function() {
             const theme = localStorage.getItem('theme') || 'light';
+            const html = document.documentElement;
+            
+            // Apply theme immediately to html element
             if (theme === 'dark') {
-                document.body.classList.add('loading');
-                document.body.setAttribute('data-theme', 'dark');
-                setTimeout(() => {
-                    document.body.classList.remove('loading');
-                    document.body.classList.add('loaded');
-                }, 10);
+                html.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
             } else {
-                document.body.classList.add('loaded');
+                html.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
             }
+            
+            // When body is available, also apply theme and loading state
+            function applyBodyTheme() {
+                if (document.body) {
+                    if (theme === 'dark') {
+                        document.body.setAttribute('data-theme', 'dark');
+                    }
+                    document.body.classList.add('loading');
+                    
+                    // Remove loading state after DOM is ready
+                    requestAnimationFrame(() => {
+                        setTimeout(() => {
+                            document.body.classList.remove('loading');
+                            document.body.classList.add('loaded');
+                        }, 10); // Reduced delay for faster loading
+                    });
+                } else {
+                    // Body not ready yet, try again
+                    setTimeout(applyBodyTheme, 1);
+                }
+            }
+            
+            applyBodyTheme();
         })();
     </script>
 </head>
@@ -129,7 +152,7 @@
                 </div>
                 <nav class="navigation">
                     <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
-                    <a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="index.html" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="privacy.html" class="nav-link" data-key="navigation.privacy">Privacy Policy</a>
                     <a href="terms.html" class="nav-link" data-key="navigation.terms">Terms of Service</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
