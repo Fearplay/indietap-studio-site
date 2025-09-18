@@ -49,7 +49,16 @@
     "responseDescription": "We typically respond to all inquiries within 24-48 hours during business days. For urgent matters, please mark your email as \"Urgent\" in the subject line."
   },
   "footer": {
-    "contact": "Contact us",
+    "tagline": "Creating amazing mobile experiences",
+    "company": "Company",
+    "about": "About Us", 
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "preferences": "Preferences",
+    "theme": "Theme",
+    "language": "Language",
     "rights": "© 2025 IndieTap Studio. All rights reserved."
   },
   "theme": {

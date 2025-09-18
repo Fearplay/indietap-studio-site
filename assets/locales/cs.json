@@ -49,7 +49,16 @@
     "responseDescription": "Obvykle odpovídáme na všechny dotazy do 24-48 hodin během pracovních dnů. V naléhavých případech označte svůj email jako \"Naléhavé\" v předmětu."
   },
   "footer": {
-    "contact": "Kontaktujte nás",
+    "tagline": "Tvoříme úžasné mobilní zážitky",
+    "company": "Společnost",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "legal": "Právní",
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Podmínky použití",
+    "preferences": "Nastavení",
+    "theme": "Téma",
+    "language": "Jazyk",
     "rights": "© 2025 IndieTap Studio. Všechna práva vyhrazena."
   },
   "theme": {

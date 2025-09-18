@@ -65,42 +65,31 @@ class LocalizationManager {
             });
         }
 
-        // New Modern Language Switch - Toggle Design
-        const languageSwitch = document.getElementById('languageSwitch');
-        const langOptions = languageSwitch ? languageSwitch.querySelectorAll('.lang-option') : null;
+        // Simple Language Selector - Dropdown Design
+        const languageSelector = document.getElementById('languageSelector');
         
-        console.log('Language switch element:', languageSwitch);
-        console.log('Language options:', langOptions);
+        console.log('Language selector element:', languageSelector);
         
-        if (languageSwitch && langOptions && langOptions.length > 0) {
-            console.log('Setting up new language switch event listeners...');
+        if (languageSelector) {
+            console.log('Setting up language selector event listeners...');
             // Mark as setup to prevent duplicates
             this.eventListenersSetup = true;
             
-            // Update current language display
-            this.updateLanguageSwitch();
+            // Set current language value
+            languageSelector.value = this.currentLang;
             
-            // Add click listeners to each language option
-            langOptions.forEach(option => {
-                option.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    
-                    const targetLang = option.dataset.lang;
-                    console.log('Language option clicked:', targetLang);
-                    
-                    if (targetLang && targetLang !== this.currentLang) {
-                        this.setLanguage(targetLang);
-                    }
-                });
+            // Add change listener
+            languageSelector.addEventListener('change', (e) => {
+                const targetLang = e.target.value;
+                console.log('Language selected:', targetLang);
+                
+                if (targetLang && targetLang !== this.currentLang) {
+                    this.setLanguage(targetLang);
+                }
             });
         } else {
-            console.error('Language switch elements not found!', { 
-                languageSwitch, 
-                langOptions,
-                allLanguageSwitches: document.querySelectorAll('#languageSwitch')
-            });
-            // Language elements not found, retry after a short delay
+            console.error('Language selector element not found!');
+            // Language element not found, retry after a short delay
             setTimeout(() => {
                 this.setupLanguageEventListeners();
             }, 100);
@@ -114,32 +103,27 @@ class LocalizationManager {
             return;
         }
         
-        const languageSwitch = document.getElementById('languageSwitch');
-        const langOptions = languageSwitch ? languageSwitch.querySelectorAll('.lang-option') : null;
+        const languageSelector = document.getElementById('languageSelector');
         
-        if (languageSwitch && langOptions && langOptions.length > 0) {
-            console.log('Setting up language switch event listeners on retry...');
+        if (languageSelector) {
+            console.log('Setting up language selector event listeners on retry...');
             // Mark as setup to prevent duplicates
             this.eventListenersSetup = true;
             
-            this.updateLanguageSwitch();
+            // Set current language value
+            languageSelector.value = this.currentLang;
             
-            // Add click listeners to each language option
-            langOptions.forEach(option => {
-                option.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    
-                    const targetLang = option.dataset.lang;
-                    console.log('Language option clicked (retry):', targetLang);
-                    
-                    if (targetLang && targetLang !== this.currentLang) {
-                        this.setLanguage(targetLang);
-                    }
-                });
+            // Add change listener
+            languageSelector.addEventListener('change', (e) => {
+                const targetLang = e.target.value;
+                console.log('Language selected (retry):', targetLang);
+                
+                if (targetLang && targetLang !== this.currentLang) {
+                    this.setLanguage(targetLang);
+                }
             });
         } else {
-            console.log('Language switch elements still not found on retry');
+            console.log('Language selector element still not found on retry');
         }
     }
 
@@ -269,48 +253,17 @@ class LocalizationManager {
         return window.innerWidth <= 768;
     }
 
-    openLanguageDropdown() {
-        const languageToggle = document.getElementById('languageToggle');
-        if (languageToggle) {
-            languageToggle.classList.add('active');
-            this.updateLanguageDisplay();
-        }
-    }
-
-    closeLanguageDropdown() {
-        const languageToggle = document.getElementById('languageToggle');
-        if (languageToggle) {
-            languageToggle.classList.remove('active');
-            // Remove any selecting states
-            const selectingItems = document.querySelectorAll('.lang-dropdown .selecting');
-            selectingItems.forEach(item => item.classList.remove('selecting'));
-        }
-    }
 
     updateLanguageDisplay() {
-        // Fallback for old code - redirect to new function
-        this.updateLanguageSwitch();
+        // Update language selector value
+        this.updateLanguageSelector();
     }
 
-    updateLanguageSwitch() {
-        const languageSwitch = document.getElementById('languageSwitch');
-        if (languageSwitch) {
-            // Update switch slider position and active states
-            if (this.currentLang === 'cs') {
-                languageSwitch.classList.add('cs');
-            } else {
-                languageSwitch.classList.remove('cs');
-            }
-            
-            // Mark active language option
-            const langOptions = languageSwitch.querySelectorAll('.lang-option');
-            langOptions.forEach(option => {
-                if (option.dataset.lang === this.currentLang) {
-                    option.classList.add('active');
-                } else {
-                    option.classList.remove('active');
-                }
-            });
+    updateLanguageSelector() {
+        const languageSelector = document.getElementById('languageSelector');
+        if (languageSelector) {
+            // Set the correct option based on current language
+            languageSelector.value = this.currentLang;
         }
     }
 }
