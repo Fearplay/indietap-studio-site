@@ -244,8 +244,8 @@ class LocalizationManager {
         });
 
         // Update page title
-        if (this.translations[this.currentLang].pageTitle) {
-            document.title = this.translations[this.currentLang].pageTitle;
+        if (this.translations[this.currentLang].site && this.translations[this.currentLang].site.title) {
+            document.title = this.translations[this.currentLang].site.title;
         }
 
         // Remove transition class after update

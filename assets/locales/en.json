@@ -1,4 +1,7 @@
 {
+  "site": {
+    "title": "IndieTap Studio"
+  },
   "navigation": {
     "apps": "Apps & Games",
     "privacy": "Privacy Policy",

@@ -1,4 +1,7 @@
 {
+  "site": {
+    "title": "IndieTap Studio"
+  },
   "navigation": {
     "apps": "Aplikace & Hry",
     "privacy": "Ochrana soukromí",
