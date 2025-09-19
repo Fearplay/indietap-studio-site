@@ -40,11 +40,24 @@ class LocalizationManager {
             // Setup event listeners before language initialization
             this.setupEventListeners();
             
-            // Initialize language last to prevent flash
-            // Use setTimeout to ensure DOM is ready and elements are available
+            // Initialize language and ensure selector displays correct value immediately
+            this.setLanguage(this.currentLang);
+            
+            // Force update language selector multiple times to ensure it's set correctly
+            this.updateLanguageSelector();
+            
+            // Additional retries with different timings for robustness
             setTimeout(() => {
-                this.setLanguage(this.currentLang);
+                this.updateLanguageSelector();
             }, 50);
+            
+            setTimeout(() => {
+                this.updateLanguageSelector();
+            }, 150);
+            
+            setTimeout(() => {
+                this.updateLanguageSelector();
+            }, 300);
             
             this.initialized = true;
         } catch (error) {
@@ -54,14 +67,15 @@ class LocalizationManager {
     }
 
     setupEventListeners() {
-        // Theme toggle
-        const themeToggle = document.getElementById('themeToggle');
-        if (themeToggle) {
-            themeToggle.addEventListener('click', (e) => {
+        // Theme button
+        const themeButton = document.getElementById('themeButton');
+        if (themeButton) {
+            themeButton.addEventListener('click', (e) => {
                 e.preventDefault();
                 e.stopPropagation();
                 const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
                 this.setTheme(newTheme);
+                this.updateThemeButton();
             });
         }
 
@@ -69,14 +83,19 @@ class LocalizationManager {
         const languageSelector = document.getElementById('languageSelector');
         
         console.log('Language selector element:', languageSelector);
+        console.log('Current language from localStorage:', this.currentLang);
         
         if (languageSelector) {
             console.log('Setting up language selector event listeners...');
             // Mark as setup to prevent duplicates
             this.eventListenersSetup = true;
             
-            // Set current language value
+            // Ensure language selector shows the correct value from localStorage
             languageSelector.value = this.currentLang;
+            console.log('Language selector value set to:', this.currentLang);
+            
+            // Force update display to match current language 
+            this.updateTranslations();
             
             // Add change listener
             languageSelector.addEventListener('change', (e) => {
@@ -87,6 +106,15 @@ class LocalizationManager {
                     this.setLanguage(targetLang);
                 }
             });
+            
+            // Additional verification that the value is actually set
+            setTimeout(() => {
+                if (languageSelector.value !== this.currentLang) {
+                    console.log('Language selector value mismatch, fixing...');
+                    languageSelector.value = this.currentLang;
+                }
+            }, 10);
+            
         } else {
             console.error('Language selector element not found!');
             // Language element not found, retry after a short delay
@@ -110,8 +138,12 @@ class LocalizationManager {
             // Mark as setup to prevent duplicates
             this.eventListenersSetup = true;
             
-            // Set current language value
+            // Ensure language selector shows the correct value from localStorage
             languageSelector.value = this.currentLang;
+            console.log('Language selector value set to (retry):', this.currentLang);
+            
+            // Force update display to match current language 
+            this.updateTranslations();
             
             // Add change listener
             languageSelector.addEventListener('change', (e) => {
@@ -122,6 +154,15 @@ class LocalizationManager {
                     this.setLanguage(targetLang);
                 }
             });
+            
+            // Additional verification that the value is actually set
+            setTimeout(() => {
+                if (languageSelector.value !== this.currentLang) {
+                    console.log('Language selector value mismatch on retry, fixing...');
+                    languageSelector.value = this.currentLang;
+                }
+            }, 10);
+            
         } else {
             console.log('Language selector element still not found on retry');
         }
@@ -143,15 +184,8 @@ class LocalizationManager {
             document.body.removeAttribute('data-theme');
         }
 
-        // Update theme toggle appearance
-        const themeToggle = document.getElementById('themeToggle');
-        if (themeToggle) {
-            if (theme === 'dark') {
-                themeToggle.classList.add('dark');
-            } else {
-                themeToggle.classList.remove('dark');
-            }
-        }
+        // Update the theme button display
+        this.updateThemeButton();
     }
 
     setLanguage(lang) {
@@ -264,6 +298,47 @@ class LocalizationManager {
         if (languageSelector) {
             // Set the correct option based on current language
             languageSelector.value = this.currentLang;
+            console.log('updateLanguageSelector: Set value to', this.currentLang);
+            
+            // Verify the value was actually set and force it if needed
+            setTimeout(() => {
+                if (languageSelector.value !== this.currentLang) {
+                    console.log('updateLanguageSelector: Value verification failed, forcing...');
+                    languageSelector.selectedIndex = this.currentLang === 'cs' ? 1 : 0;
+                    console.log('updateLanguageSelector: Forced selectedIndex to', languageSelector.selectedIndex);
+                }
+            }, 5);
+            
+        } else {
+            console.log('updateLanguageSelector: Language selector not found, retrying...');
+            // Retry after a short delay if selector not found
+            setTimeout(() => {
+                const retrySelector = document.getElementById('languageSelector');
+                if (retrySelector) {
+                    retrySelector.value = this.currentLang;
+                    console.log('updateLanguageSelector: Retry successful, set value to', this.currentLang);
+                    
+                    // Also verify on retry
+                    setTimeout(() => {
+                        if (retrySelector.value !== this.currentLang) {
+                            console.log('updateLanguageSelector: Retry value verification failed, forcing...');
+                            retrySelector.selectedIndex = this.currentLang === 'cs' ? 1 : 0;
+                            console.log('updateLanguageSelector: Retry forced selectedIndex to', retrySelector.selectedIndex);
+                        }
+                    }, 5);
+                }
+            }, 100);
+        }
+    }
+
+    updateThemeButton() {
+        const themeButton = document.getElementById('themeButton');
+        if (themeButton) {
+            const themeIcon = themeButton.querySelector('.theme-icon');
+            if (themeIcon) {
+                // Update icon based on current theme
+                themeIcon.textContent = this.currentTheme === 'dark' ? '🌙' : '☀️';
+            }
         }
     }
 }
@@ -279,6 +354,14 @@ if (document.readyState === 'loading') {
 } else {
     localizationManager.init();
 }
+
+// Additional safeguard: Force update language selector when everything is loaded
+window.addEventListener('load', () => {
+    console.log('Window loaded, ensuring language selector is correct...');
+    setTimeout(() => {
+        localizationManager.updateLanguageSelector();
+    }, 100);
+});
 
 // Export for use in other scripts
 window.localizationManager = localizationManager;
