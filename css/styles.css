@@ -10,6 +10,9 @@
     --accent-secondary: #3b82f6;
     --border: #e5e7eb;
     --shadow: rgba(0, 0, 0, 0.1);
+    --surface: #ffffff;
+    --primary: #8b5cf6;
+    --primary-light: rgba(139, 92, 246, 0.1);
 }
 
 [data-theme="dark"] {
@@ -23,6 +26,9 @@
     --accent-secondary: #3b82f6;
     --border: #374151;
     --shadow: rgba(0, 0, 0, 0.4);
+    --surface: #1f2937;
+    --primary: #a78bfa;
+    --primary-light: rgba(167, 139, 250, 0.1);
 }
 
 * {
@@ -213,10 +219,16 @@ body.language-changing [data-key] {
     width: 25px;
     height: 3px;
     background-color: #333;
+    border-radius: 2px;
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
+/* Mobile menu - hidden by default on all devices */
+.mobile-menu {
+    display: none;
+}
+
+/* Header styles continue... */
 .hero {
     background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
     padding: 120px 0 80px;
@@ -634,6 +646,153 @@ body.language-changing [data-key] {
     background: linear-gradient(135deg, #137333 0%, #34A853 100%);
 }
 
+/* App Policies Section */
+.app-policies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+}
+
+.policy-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 10px 18px;
+    border-radius: 10px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.policy-link:hover {
+    color: #8b5cf6;
+    border-color: #8b5cf6;
+    background: rgba(139, 92, 246, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.15);
+}
+
+/* Dark mode specific styling for policy links */
+[data-theme="dark"] .policy-link {
+    background: #374151;
+    border-color: #4b5563;
+    color: #d1d5db;
+}
+
+[data-theme="dark"] .policy-link:hover {
+    background: rgba(167, 139, 250, 0.15);
+    border-color: #a78bfa;
+    color: #a78bfa;
+    box-shadow: 0 4px 12px rgba(167, 139, 250, 0.2);
+}
+
+/* App Header for Policy Pages */
+.app-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border);
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.app-subtitle {
+    margin: 0.5rem 0 0;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.policy-content {
+    background: var(--surface);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid var(--border);
+    line-height: 1.7;
+    max-width: none;
+    font-size: 0.95rem;
+}
+
+.policy-content h2 {
+    color: #8b5cf6;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.policy-content h3 {
+    color: #a855f7;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.policy-content p {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.policy-content ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.policy-content li {
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* Dark mode enhancements for policy pages */
+[data-theme="dark"] .privacy-terms {
+    background: var(--bg-primary);
+    color: #f9fafb;
+}
+
+[data-theme="dark"] .policy-content h2 {
+    color: #a78bfa;
+}
+
+[data-theme="dark"] .policy-content h3 {
+    color: #c084fc;
+}
+
+[data-theme="dark"] .policy-content {
+    background: var(--bg-secondary);
+    border-color: #374151;
+}
+
+[data-theme="dark"] .app-header {
+    border-color: #374151;
+}
+
+[data-theme="dark"] .app-header h1 {
+    color: #f9fafb;
+}
+
+[data-theme="dark"] .app-subtitle {
+    color: #d1d5db;
+}
+
 .coming-soon-badge {
     margin-top: 1rem;
 }
@@ -930,7 +1089,7 @@ body.language-changing [data-key] {
     }
     
     .mobile-menu {
-        display: block;
+        display: none;
         position: fixed;
         top: 0;
         right: 0;
@@ -945,6 +1104,7 @@ body.language-changing [data-key] {
     }
     
     .mobile-menu.active {
+        display: block;
         transform: translateX(0);
     }
     
@@ -1018,6 +1178,27 @@ body.language-changing [data-key] {
         width: 200px;
     }
     
+    .app-policies {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .policy-link {
+        width: 180px;
+        justify-content: center;
+    }
+    
+    .app-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .app-header h1 {
+        font-size: 2rem;
+    }
+    
     .app-icon-container {
         margin: 0 auto 1rem;
     }
@@ -1084,15 +1265,6 @@ body.language-changing [data-key] {
     .cta-button {
         padding: 10px 24px;
         font-size: 0.9rem;
-    }
-    
-    .mobile-menu {
-        padding: 1rem;
-        padding-top: 1.5rem; /* Space for controls */
-    }
-    
-    .mobile-menu ul li {
-        margin-bottom: 0.5rem;
     }
     
     .mobile-menu ul li a {

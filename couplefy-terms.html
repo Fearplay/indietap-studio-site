@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="site.title">IndieTap Studio</title>
+    <link rel="icon" type="image/png" href="assets/icons/couplefy_icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        // Prevent flash of unstyled content and language flash - improved version
+        (function() {
+            // Theme logic: Check localStorage first, then system preference
+            let theme = localStorage.getItem('theme');
+            if (!theme) {
+                // Use system preference if no saved theme
+                theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                // Save the detected preference to localStorage
+                localStorage.setItem('theme', theme);
+            }
+            
+            const language = localStorage.getItem('language') || 'en';
+            const html = document.documentElement;
+            
+            // Apply theme immediately to html element
+            if (theme === 'dark') {
+                html.setAttribute('data-theme', 'dark');
+                html.classList.add('dark-theme');
+            } else {
+                html.removeAttribute('data-theme');
+                html.classList.remove('dark-theme');
+            }
+            
+            // Apply language immediately to prevent flash
+            html.setAttribute('lang', language);
+            
+            // Store language for later use
+            window._initialLanguage = language;
+            window._initialTheme = theme;
+            
+            // When body is available, also apply theme and loading state
+            function applyBodyTheme() {
+                if (document.body) {
+                    if (theme === 'dark') {
+                        document.body.setAttribute('data-theme', 'dark');
+                    }
+                    document.body.classList.add('loading');
+                    
+                    // Keep loading state until translations are applied
+                    // This will be removed by localization.js after translations are loaded
+                } else {
+                    // Body not ready yet, try again
+                    setTimeout(applyBodyTheme, 1);
+                }
+            }
+            
+            applyBodyTheme();
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1>IndieTap Studio</h1>
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
+                    <a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
+                </nav>
+                
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="about.html" class="nav-link" data-key="navigation.about">About</a></li>
+            <li><a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a></li>
+            <li><a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Terms of Service Content -->
+    <section class="privacy-terms">
+        <div class="container">
+            <div class="app-header">
+                <img src="assets/icons/couplefy_icon.png" alt="Couplefy" style="width: 80px; height: 80px; border-radius: 20px;">
+                <div>
+                    <h1>Couplefy Terms of Service</h1>
+                    <p class="app-subtitle">Terms and conditions for using our app</p>
+                </div>
+            </div>
+            
+            <div class="policy-content">
+                <div id="terms-content" data-policy-path="assets/policies/couplefy/couplefy_terms.txt" data-policy-path-cs="assets/policies/couplefy/couplefy_terms_cs.txt">
+                    <p data-key="terms.loading">Loading terms of service...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h3>IndieTap Studio</h3>
+                    <p data-key="footer.tagline">Creating amazing mobile experiences</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 data-key="footer.company">Company</h4>
+                        <ul>
+                            <li><a href="about.html" data-key="footer.about">About Us</a></li>
+                            <li><a href="contact.html" data-key="footer.contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 data-key="footer.legal">Legal</h4>
+                        <ul>
+                            <li><a href="privacy.html" data-key="footer.privacy">Privacy Policy</a></li>
+                            <li><a href="terms.html" data-key="footer.terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 data-key="footer.preferences">Preferences</h4>
+                        <div class="footer-controls">
+                            <div class="control-group">
+                                <label data-key="footer.theme">Theme</label>
+                                <button class="theme-button" id="themeButton" aria-label="Toggle theme">
+                                    <span class="theme-icon">☀️</span>
+                                </button>
+                            </div>
+                            <div class="control-group">
+                                <label data-key="footer.language">Language</label>
+                                <select class="language-selector" id="languageSelector">
+                                    <option value="en">🇺🇸 English</option>
+                                    <option value="cs">🇨🇿 Čeština</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p data-key="footer.rights">&copy; 2025 IndieTap Studio. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/localization.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/policy-loader.js"></script>
+</body>
+
+</html>

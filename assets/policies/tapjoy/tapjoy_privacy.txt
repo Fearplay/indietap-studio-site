@@ -1,0 +1,76 @@
+TAPJOY PRIVACY POLICY
+
+Last updated: January 2025
+
+IndieTap Studio ("we," "our," or "us") operates the TapJoy mobile application (the "Service").
+
+This Privacy Policy explains how we collect, use, and protect your information when you use our Service.
+
+INFORMATION WE COLLECT
+
+Personal Information
+- User preferences and app settings
+- Custom content and data you create
+- User interaction patterns and preferences
+
+Device Information
+- Device type and operating system
+- App usage analytics and performance metrics
+- Crash reports and diagnostic information
+
+HOW WE USE YOUR INFORMATION
+
+We use the information we collect to:
+- Provide and maintain the TapJoy service
+- Personalize your app experience
+- Improve app functionality and user experience
+- Provide customer support and technical assistance
+
+DATA STORAGE AND SECURITY
+
+- Personal data is primarily stored locally on your device
+- We implement industry-standard security measures
+- Anonymous usage analytics may be collected for app improvement
+- We do not sell or share personal information with third parties
+
+THIRD-PARTY SERVICES
+
+TapJoy may integrate with:
+- Apple App Store / Google Play Store (for app distribution)
+- Analytics services (anonymous data only)
+- Cloud backup services (optional, user-controlled)
+- Push notification services
+
+CHILDREN'S PRIVACY
+
+TapJoy is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13.
+
+YOUR RIGHTS
+
+You have the right to:
+- Access your personal information
+- Update or correct your data
+- Delete your data (by uninstalling the app)
+- Contact us about privacy concerns
+
+DATA RETENTION
+
+We retain your information only as long as necessary to provide our services or as required by law.
+
+INTERNATIONAL TRANSFERS
+
+Your information may be processed in countries other than your own, but we ensure appropriate safeguards are in place.
+
+CHANGES TO THIS POLICY
+
+We may update this Privacy Policy from time to time. We will notify users of any material changes through the app or our website.
+
+CONTACT US
+
+If you have any questions about this Privacy Policy, please contact us at:
+Email: support@indietapstudio.com
+Website: https://indietapstudio.com
+
+IndieTap Studio
+Privacy Policy for TapJoy
+Effective Date: January 2025
