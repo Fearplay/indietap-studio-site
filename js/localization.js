@@ -1,14 +1,12 @@
 // Localization and Theme Management
 class LocalizationManager {
     constructor() {
-        // Default to English, override with saved preference if exists
-        this.currentLang = localStorage.getItem('language') || 'en';
+        // Use initial language from inline script if available, otherwise use saved preference
+        this.currentLang = window._initialLanguage || localStorage.getItem('language') || 'en';
         
-        // Theme logic: Check localStorage first, then system preference
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            this.currentTheme = savedTheme;
-        } else {
+        // Use initial theme from inline script if available, otherwise use saved preference
+        this.currentTheme = window._initialTheme || localStorage.getItem('theme');
+        if (!this.currentTheme) {
             // Use system preference if no saved theme
             this.currentTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
             // Save the detected preference to localStorage
@@ -45,6 +43,9 @@ class LocalizationManager {
             
             // Force update language selector multiple times to ensure it's set correctly
             this.updateLanguageSelector();
+            
+            // Remove loading state after translations are applied
+            this.finishLoading();
             
             // Additional retries with different timings for robustness
             setTimeout(() => {
@@ -236,14 +237,8 @@ class LocalizationManager {
                 if (element.tagName === 'INPUT' && element.type !== 'submit') {
                     element.placeholder = translation;
                 } else {
-                    // Use a small delay to prevent flash
-                    if (element.textContent !== translation) {
-                        element.style.opacity = '0.7';
-                        requestAnimationFrame(() => {
-                            element.textContent = translation;
-                            element.style.opacity = '1';
-                        });
-                    }
+                    // Direct update without delay to prevent flash
+                    element.textContent = translation;
                 }
             }
         });
@@ -256,7 +251,7 @@ class LocalizationManager {
         // Remove transition class after update
         setTimeout(() => {
             document.body.classList.remove('language-changing');
-        }, 200);
+        }, 100);
     }
 
     getNestedTranslation(key) {
@@ -340,6 +335,14 @@ class LocalizationManager {
                 themeIcon.textContent = this.currentTheme === 'dark' ? '🌙' : '☀️';
             }
         }
+    }
+
+    finishLoading() {
+        // Remove loading state and add loaded state to show elements with proper translations
+        requestAnimationFrame(() => {
+            document.body.classList.remove('loading');
+            document.body.classList.add('loaded');
+        });
     }
 }
 

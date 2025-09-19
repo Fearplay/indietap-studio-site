@@ -37,6 +37,10 @@
             // Apply language immediately to prevent flash
             html.setAttribute('lang', language);
             
+            // Store language for later use
+            window._initialLanguage = language;
+            window._initialTheme = theme;
+            
             // When body is available, also apply theme and loading state
             function applyBodyTheme() {
                 if (document.body) {
@@ -45,13 +49,8 @@
                     }
                     document.body.classList.add('loading');
                     
-                    // Remove loading state after DOM is ready
-                    requestAnimationFrame(() => {
-                        setTimeout(() => {
-                            document.body.classList.remove('loading');
-                            document.body.classList.add('loaded');
-                        }, 10); // Reduced delay for faster loading
-                    });
+                    // Keep loading state until translations are applied
+                    // This will be removed by localization.js after translations are loaded
                 } else {
                     // Body not ready yet, try again
                     setTimeout(applyBodyTheme, 1);
@@ -229,57 +228,6 @@
             }
         }
     </style>
-    <script>
-        // Prevent flash of unstyled content and language flash - improved version
-        (function() {
-            // Theme logic: Check localStorage first, then system preference
-            let theme = localStorage.getItem('theme');
-            if (!theme) {
-                // Use system preference if no saved theme
-                theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                // Save the detected preference to localStorage
-                localStorage.setItem('theme', theme);
-            }
-            
-            const language = localStorage.getItem('language') || 'en';
-            const html = document.documentElement;
-            
-            // Apply theme immediately to html element
-            if (theme === 'dark') {
-                html.setAttribute('data-theme', 'dark');
-                html.classList.add('dark-theme');
-            } else {
-                html.removeAttribute('data-theme');
-                html.classList.remove('dark-theme');
-            }
-            
-            // Apply language immediately to prevent flash
-            html.setAttribute('lang', language);
-            
-            // When body is available, also apply theme and loading state
-            function applyBodyTheme() {
-                if (document.body) {
-                    if (theme === 'dark') {
-                        document.body.setAttribute('data-theme', 'dark');
-                    }
-                    document.body.classList.add('loading');
-                    
-                    // Remove loading state after DOM is ready
-                    requestAnimationFrame(() => {
-                        setTimeout(() => {
-                            document.body.classList.remove('loading');
-                            document.body.classList.add('loaded');
-                        }, 10); // Reduced delay for faster loading
-                    });
-                } else {
-                    // Body not ready yet, try again
-                    setTimeout(applyBodyTheme, 1);
-                }
-            }
-            
-            applyBodyTheme();
-        })();
-    </script>
 </head>
 
 <body>

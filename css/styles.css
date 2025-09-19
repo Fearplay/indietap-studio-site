@@ -47,6 +47,16 @@ body.loading .footer {
     transition: opacity 0.15s ease;
 }
 
+/* Language flash prevention - hide translatable elements until proper language is loaded */
+body.loading [data-key] {
+    visibility: hidden;
+}
+
+body.loaded [data-key] {
+    visibility: visible;
+    transition: opacity 0.1s ease-in-out;
+}
+
 body.loaded .header,
 body.loaded main,
 body.loaded .footer {
