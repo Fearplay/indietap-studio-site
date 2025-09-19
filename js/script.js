@@ -41,23 +41,22 @@ function initializeTabs() {
 // Mobile Menu Functionality
 function initializeMobileMenu() {
     const mobileToggle = document.querySelector('.mobile-menu-toggle');
-    const navigation = document.querySelector('.navigation');
+    const mobileMenu = document.querySelector('.mobile-menu');
     
-    if (mobileToggle && navigation) {
-        mobileToggle.addEventListener('click', function() {
-            navigation.classList.toggle('mobile-active');
+    if (mobileToggle && mobileMenu) {
+        mobileToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            mobileMenu.classList.toggle('active');
             this.classList.toggle('active');
         });
         
         // Close mobile menu when clicking on navigation links
-        const navLinks = document.querySelectorAll('.nav-link');
-        navLinks.forEach(link => {
+        const mobileNavLinks = mobileMenu.querySelectorAll('.nav-link');
+        mobileNavLinks.forEach(link => {
             link.addEventListener('click', function(e) {
-                // Only prevent default for hash links, not external links
-                if (this.getAttribute('href').startsWith('#')) {
-                    e.preventDefault();
-                }
-                navigation.classList.remove('mobile-active');
+                // Don't prevent default - let navigation work normally
+                mobileMenu.classList.remove('active');
                 mobileToggle.classList.remove('active');
             });
         });
@@ -70,8 +69,8 @@ function initializeMobileMenu() {
             const isLanguageSwitchClick = languageSwitch && languageSwitch.contains(e.target);
             
             // Don't close mobile menu if clicking on controls or language switch
-            if (!navigation.contains(e.target) && !mobileToggle.contains(e.target) && !isControlsClick && !isLanguageSwitchClick) {
-                navigation.classList.remove('mobile-active');
+            if (!mobileMenu.contains(e.target) && !mobileToggle.contains(e.target) && !isControlsClick && !isLanguageSwitchClick) {
+                mobileMenu.classList.remove('active');
                 mobileToggle.classList.remove('active');
             }
         });
