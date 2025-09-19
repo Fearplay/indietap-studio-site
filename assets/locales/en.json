@@ -1,0 +1,90 @@
+{
+  "site": {
+    "title": "IndieTap Studio"
+  },
+  "navigation": {
+    "apps": "Apps & Games",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Welcome to IndieTap Studio — we build fun and useful mobile apps",
+    "cta": "See our apps"
+  },
+  "apps": {
+    "title": "Apps & Games",
+    "couplefy": {
+      "category": "Relationship • Lifestyle",
+      "description": "Track days together, name-days and quotes in one app. Customize backgrounds, switch dark/light mode, feel the romance every day.",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "tapjoy": {
+      "category": "Coming Very Soon",
+      "description": "An exciting new app is on its way! Stay tuned for something amazing that will bring joy to your daily routine.",
+      "comingSoon": "🚀 Coming Very Soon"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Two passionate developers building the apps we always dreamed of using",
+    "story": "Our Story",
+    "description": "We are two passionate developers who love creating apps and games. Our journey began with a shared dream - to build the kind of software we always wanted to use as kids. Every line of code we write is fueled by the same excitement and curiosity that made us fall in love with technology in the first place.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is simple: create apps that bring joy, solve problems, and make everyday life a little bit better. From relationship tools that help couples celebrate their journey together, to utility apps that simplify daily tasks - we pour our hearts into every project.",
+    "passionTitle": "What Drives Us",
+    "passionText": "What drives us is the memory of being young dreamers, imagining the amazing apps we wished existed. Now, we have the skills and passion to make those dreams a reality, not just for us, but for everyone who uses our creations."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you! Whether you have questions, feedback, or need support with our apps, we're here to help. Get in touch with us through any of the methods below.",
+    "emailSupport": "Email Support",
+    "emailDescription": "Send us your questions or feedback directly",
+    "bugReports": "Bug Reports",
+    "bugDescription": "Found a bug in one of our apps? Let us know!",
+    "reportBug": "Report a Bug",
+    "featureRequests": "Feature Requests",
+    "featureDescription": "Have an idea to improve our apps?",
+    "suggestFeature": "Suggest a Feature",
+    "responseTime": "Response Time",
+    "responseDescription": "We typically respond to all inquiries within 24-48 hours during business days. For urgent matters, please mark your email as \"Urgent\" in the subject line."
+  },
+  "footer": {
+    "tagline": "Creating amazing mobile experiences",
+    "company": "Company",
+    "about": "About Us", 
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "preferences": "Preferences",
+    "theme": "Theme",
+    "language": "Language",
+    "rights": "© 2025 IndieTap Studio. All rights reserved."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "en": "English",
+    "cs": "Čeština"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "loading": "Loading privacy policy..."
+  },
+  "terms": {
+    "title": "Terms of Service", 
+    "loading": "Loading terms of service..."
+  },
+  "404": {
+    "title": "Page Not Found",
+    "number": "404",
+    "description": "Oops! The page you're looking for seems to have gone on an adventure. Don't worry, our apps are still here and ready to brighten your day!",
+    "home": "Go Home",
+    "apps": "See Our Apps"
+  }
+}

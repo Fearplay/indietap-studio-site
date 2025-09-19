@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add scroll effect to header
     initializeScrollHeader();
+    
+    // Set active navigation state
+    initializeActiveNavigation();
 });
 
 // Tab Functionality
@@ -19,7 +22,9 @@ function initializeTabs() {
     const tabPanels = document.querySelectorAll('.tab-panel');
     
     tabButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
             const targetTab = this.getAttribute('data-tab');
             
             // Remove active class from all buttons and panels
@@ -47,15 +52,25 @@ function initializeMobileMenu() {
         // Close mobile menu when clicking on navigation links
         const navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
-            link.addEventListener('click', function() {
+            link.addEventListener('click', function(e) {
+                // Only prevent default for hash links, not external links
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                }
                 navigation.classList.remove('mobile-active');
                 mobileToggle.classList.remove('active');
             });
         });
         
-        // Close mobile menu when clicking outside
+        // Close mobile menu when clicking outside (but not on controls)
         document.addEventListener('click', function(e) {
-            if (!navigation.contains(e.target) && !mobileToggle.contains(e.target)) {
+            const controls = document.querySelector('.controls');
+            const languageSwitch = document.querySelector('.language-switch');
+            const isControlsClick = controls && controls.contains(e.target);
+            const isLanguageSwitchClick = languageSwitch && languageSwitch.contains(e.target);
+            
+            // Don't close mobile menu if clicking on controls or language switch
+            if (!navigation.contains(e.target) && !mobileToggle.contains(e.target) && !isControlsClick && !isLanguageSwitchClick) {
                 navigation.classList.remove('mobile-active');
                 mobileToggle.classList.remove('active');
             }
@@ -72,6 +87,13 @@ function initializeSmoothScrolling() {
             e.preventDefault();
             
             const targetId = this.getAttribute('href');
+            
+            // Check if we're on a different page and need to navigate to index.html
+            if ((targetId === '#apps' || targetId === '#hero') && !window.location.pathname.endsWith('index.html') && window.location.pathname !== '/') {
+                window.location.href = 'index.html' + targetId;
+                return;
+            }
+            
             const targetElement = document.querySelector(targetId);
             
             if (targetElement) {
@@ -82,6 +104,24 @@ function initializeSmoothScrolling() {
                     top: targetPosition,
                     behavior: 'smooth'
                 });
+            } else if (targetId === '#apps') {
+                // For Apps & Games, scroll to hero section (not the actual apps section at bottom)
+                const heroSection = document.querySelector('.hero');
+                if (heroSection) {
+                    const headerHeight = document.querySelector('.header').offsetHeight;
+                    const targetPosition = heroSection.offsetTop - headerHeight - 20;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    // Fallback to top if no hero section found
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }
             }
         });
     });
@@ -106,48 +146,7 @@ function initializeScrollHeader() {
     });
 }
 
-// Add mobile menu styles dynamically
-const mobileMenuStyles = `
-@media (max-width: 768px) {
-    .navigation {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: white;
-        flex-direction: column;
-        padding: 1rem;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transform: translateY(-100%);
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3s ease;
-    }
-    
-    .navigation.mobile-active {
-        transform: translateY(0);
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    .mobile-menu-toggle.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-    }
-    
-    .mobile-menu-toggle.active span:nth-child(2) {
-        opacity: 0;
-    }
-    
-    .mobile-menu-toggle.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px);
-    }
-}
-`;
-
-// Insert mobile menu styles
-const styleSheet = document.createElement('style');
-styleSheet.textContent = mobileMenuStyles;
-document.head.appendChild(styleSheet);
+// Mobile menu styles are now in CSS file
 
 // Add intersection observer for animations
 const observerOptions = {
@@ -203,3 +202,32 @@ const debouncedScrollHandler = debounce(function() {
 }, 10);
 
 window.addEventListener('scroll', debouncedScrollHandler);
+
+// Active Navigation State
+function initializeActiveNavigation() {
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    // Remove active class from all nav links
+    navLinks.forEach(link => link.classList.remove('active'));
+    
+    // Set active class based on current page
+    navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        
+        // Handle different page types
+        if (currentPage === 'index.html' || currentPage === '' || currentPage === '/') {
+            if (href === 'index.html' || href === '#hero') {
+                link.classList.add('active');
+            }
+        } else if (currentPage === 'about.html' && href === 'about.html') {
+            link.classList.add('active');
+        } else if (currentPage === 'contact.html' && href === 'contact.html') {
+            link.classList.add('active');
+        } else if (currentPage === 'privacy.html' && href === 'privacy.html') {
+            link.classList.add('active');
+        } else if (currentPage === 'terms.html' && href === 'terms.html') {
+            link.classList.add('active');
+        }
+    });
+}

@@ -60,6 +60,82 @@
             applyBodyTheme();
         })();
     </script>
+    <style>
+        .contact-section {
+            padding: 80px 0;
+            background-color: var(--bg-secondary);
+        }
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .contact-content h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--text-primary);
+        }
+        .contact-content p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+        .contact-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .contact-card {
+            background: var(--bg-tertiary);
+            padding: 2rem;
+            border-radius: 16px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px var(--shadow);
+        }
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--accent-primary);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: white;
+        }
+        .contact-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        .contact-card p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+        .contact-link {
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        .contact-link:hover {
+            background-color: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+    </style>
 </head>
 
 <body>
@@ -74,7 +150,7 @@
                 </div>
                 <nav class="navigation">
                     <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
-                    <a href="#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="index.html" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
                 </nav>
                 
@@ -87,89 +163,57 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
+    <!-- Contact Section -->
+    <section class="contact-section">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 data-key="hero.title">Welcome to IndieTap Studio — we build fun and useful mobile apps</h1>
-                    <a href="#apps" class="cta-button" data-key="hero.cta">See our apps</a>
-                </div>
-                <div class="hero-image">
-                    <div class="phone-mockup">
-                        <div class="phone-screen">
-                            <div class="app-icon check-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
-                                        fill="currentColor" />
-                                </svg>
-                            </div>
-                            <div class="app-icon minus-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path d="M19 13H5v-2h14v2z" fill="currentColor" />
-                                </svg>
-                            </div>
-                            <div class="app-icon grid-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path
-                                        d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
-                                        fill="currentColor" />
-                                </svg>
-                            </div>
+            <div class="contact-content">
+                <h1 data-key="contact.title">Contact Us</h1>
+                <p data-key="contact.description">We'd love to hear from you! Whether you have questions, feedback, or need support with our apps, 
+                   we're here to help. Get in touch with us through any of the methods below.</p>
+                
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+                            </svg>
                         </div>
+                        <h3 data-key="contact.emailSupport">Email Support</h3>
+                        <p data-key="contact.emailDescription">Send us your questions or feedback directly</p>
+                        <a href="mailto:saulfearplay@gmail.com" class="contact-link">saulfearplay@gmail.com</a>
                     </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.9 1 3 1.9 3 3V21C3 22.1 3.9 23 5 23H11V21H5V3H14V8H21ZM12 8V6H6V8H12ZM6 11V13H12V11H6ZM6 16V18H12V16H6ZM15 13V11H13V13H15ZM19 15L17.5 13.5L13 18L15.5 20.5L19 15Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 data-key="contact.bugReports">Bug Reports</h3>
+                        <p data-key="contact.bugDescription">Found a bug in one of our apps? Let us know!</p>
+                        <a href="mailto:saulfearplay@gmail.com?subject=Bug Report" class="contact-link" data-key="contact.reportBug">Report a Bug</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 data-key="contact.featureRequests">Feature Requests</h3>
+                        <p data-key="contact.featureDescription">Have an idea to improve our apps?</p>
+                        <a href="mailto:saulfearplay@gmail.com?subject=Feature Request" class="contact-link" data-key="contact.suggestFeature">Suggest a Feature</a>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 3rem; padding: 2rem; background: var(--bg-tertiary); border-radius: 16px;">
+                    <h3 style="color: var(--text-primary); margin-bottom: 1rem;" data-key="contact.responseTime">Response Time</h3>
+                    <p style="color: var(--text-secondary); margin: 0;" data-key="contact.responseDescription">We typically respond to all inquiries within 24-48 hours during business days. 
+                       For urgent matters, please mark your email as "Urgent" in the subject line.</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Apps Section -->
-    <section id="apps" class="apps-section">
-        <div class="container">
-            <h2 data-key="apps.title">Apps & Games</h2>
-            <div class="apps-grid">
-                <div class="app-card">
-                    <div class="app-icon-container">
-                        <img src="assets/icons/couplefy_icon.png" alt="Couplefy" style="width: 60px; height: 60px; border-radius: 16px;">
-                    </div>
-                    <div class="app-info">
-                        <h3>Couplefy</h3>
-                        <p class="app-category" data-key="apps.couplefy.category">Relationship • Lifestyle</p>
-                        <p class="app-description" data-key="apps.couplefy.description">Track days together, name-days and quotes in one app. Customize backgrounds, switch dark/light mode, feel the romance every day.</p>
-                        <div class="app-links">
-                            <a href="https://apps.apple.com/us/app/couplefy/id6746437362" class="app-link app-store" target="_blank">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.13997 6.91 8.85997 6.88C10.15 6.85 11.36 7.74 12.1 7.74C12.83 7.74 14.3 6.68 15.85 6.84C16.48 6.87 18.29 7.13 19.56 8.91C19.47 8.97 17.39 10.3 17.41 13.42C17.44 17.18 20.76 18.5 20.76 18.5C20.76 18.5 20.17 20.87 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
-                                </svg>
-                                <span data-key="apps.couplefy.appStore">App Store</span>
-                            </a>
-                            <a href="https://play.google.com/store/apps/details?id=com.fairplayx.couplefy&pli=1" class="app-link google-play" target="_blank">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m11.4653-6.02l1.9973-3.4619c.1409-.2442.057-.5579-.1864-.7-.2442-.1409-.5579-.057-.7.1864l-2.0223 3.5047C15.7976 8.2822 14.4457 7.8267 13.0002 7.8267s-2.7974.4555-4.0306 1.2439L6.9469 5.5659c-.1409-.2434-.4547-.3273-.7-.1864-.2442.1421-.3273.4558-.1864.7L8.0578 9.5214C6.0441 10.7241 4.775 12.6926 4.775 14.9316h14.4502c0-2.239-1.2691-4.2075-3.2828-5.4102"/>
-                                </svg>
-                                <span data-key="apps.couplefy.googlePlay">Google Play</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="app-card coming-soon">
-                    <div class="app-icon-container">
-                        <img src="assets/icons/tapjoy_icon.png" alt="TapJoy" style="width: 60px; height: 60px; border-radius: 16px;">
-                    </div>
-                    <div class="app-info">
-                        <h3>TapJoy</h3>
-                        <p class="app-category" data-key="apps.tapjoy.category">Coming Very Soon</p>
-                        <p class="app-description" data-key="apps.tapjoy.description">An exciting new app is on its way! Stay tuned for something amazing that will bring joy to your daily routine.</p>
-                        <div class="coming-soon-badge">
-                            <span data-key="apps.tapjoy.comingSoon">🚀 Coming Very Soon</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <!-- Footer -->
     <footer class="footer">
