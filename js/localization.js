@@ -1,8 +1,19 @@
 // Localization and Theme Management
 class LocalizationManager {
     constructor() {
-        // Use initial language from inline script if available, otherwise use saved preference
-        this.currentLang = window._initialLanguage || localStorage.getItem('language') || 'en';
+        // Check URL parameters first, then inline script, then localStorage, then default
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlLang = urlParams.get('lang');
+        
+        if (urlLang && (urlLang === 'en' || urlLang === 'cs')) {
+            // Valid language in URL, use it and save to localStorage
+            this.currentLang = urlLang;
+            localStorage.setItem('language', urlLang);
+            window._initialLanguage = urlLang; // Update for consistency
+        } else {
+            // Use initial language from inline script if available, otherwise use saved preference
+            this.currentLang = window._initialLanguage || localStorage.getItem('language') || 'en';
+        }
         
         // Use initial theme from inline script if available, otherwise use saved preference
         this.currentTheme = window._initialTheme || localStorage.getItem('theme');
