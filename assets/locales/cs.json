@@ -20,14 +20,17 @@
       "description": "Sledujte dny strávené pohromadě, svátky jmen a citáty v jedné aplikaci. Přizpůsobte si pozadí, přepínejte mezi tmavým a světlým režimem, prožívejte romantiku každý den.",
       "appStore": "App Store",
       "googlePlay": "Google Play",
-      "privacy": "Ochrana soukromí"
+      "privacy": "Ochrana soukromí",
+      "subtitle": "Jak chráníme vaše data o vztahu"
     },
     "tapjoy": {
       "category": "Již brzy",
       "description": "Vzrušující nová aplikace je na cestě! Zůstaňte naladěni na něco úžasného, co přinese radost do vaší každodenní rutiny.",
       "comingSoon": " Již brzy",
       "privacy": "Ochrana soukromí",
-      "terms": "Podmínky použití"
+      "terms": "Podmínky použití",
+      "subtitle": "Jak chráníme vaše data a soukromí",
+      "termsSubtitle": "Podmínky a pravidla pro používání naší aplikace"
     }
   },
   "about": {

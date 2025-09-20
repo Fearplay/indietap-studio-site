@@ -83,8 +83,20 @@ class PolicyLoader {
         let html = '';
         let inList = false;
         
-        for (const line of lines) {
-            const trimmedLine = line.trim();
+        // Define known headlines for better detection
+        const knownHeadlines = [
+            // English
+            'Privacy Policy', 'Data Collection and Use', 'Locally Stored Data', 'Security', 
+            'Changes', 'Effective Date', 'Your Consent', 'Contact',
+            // Czech
+            'Zásady ochrany osobních údajů', 'Shromažďování a používání údajů', 'Lokálně uložená data', 
+            'Zabezpečení', 'Změny', 'Platnost zásad od', 'Souhlas uživatele', 'Kontakt'
+        ];
+        
+        for (let i = 0; i < lines.length; i++) {
+            const trimmedLine = lines[i].trim();
+            const prevLine = i > 0 ? lines[i-1].trim() : '';
+            const nextLine = i < lines.length - 1 ? lines[i+1].trim() : '';
             
             if (!trimmedLine) {
                 // Empty line
@@ -92,51 +104,44 @@ class PolicyLoader {
                     html += '</ul>\n';
                     inList = false;
                 }
-                continue; // Skip empty lines instead of adding <br>
+                continue; // Skip empty lines
             }
             
-            // Check for main headings (all caps lines that are likely section headers)
-            if (trimmedLine === trimmedLine.toUpperCase() && trimmedLine.length > 5 && /^[A-Z\s&]+$/.test(trimmedLine)) {
-                if (inList) {
-                    html += '</ul>\n';
-                    inList = false;
-                }
-                html += `<h2>${trimmedLine}</h2>\n`;
-                continue;
-            }
-            
-            // Check for list items (lines starting with -)
-            if (trimmedLine.startsWith('- ')) {
+            // Check for bullet points (lines starting with • or -)
+            if (trimmedLine.startsWith('• ') || trimmedLine.startsWith('- ')) {
                 if (!inList) {
                     html += '<ul>\n';
                     inList = true;
                 }
-                html += `<li>${trimmedLine.substring(2)}</li>\n`;
+                const bulletContent = trimmedLine.startsWith('• ') ? trimmedLine.substring(2) : trimmedLine.substring(2);
+                html += `<li>${bulletContent}</li>\n`;
                 continue;
             }
             
-            // Regular paragraph
+            // Close list if we're not in a bullet point
             if (inList) {
                 html += '</ul>\n';
                 inList = false;
             }
             
-            // Check for subheadings - lines that don't end with punctuation and are relatively short
-            if (trimmedLine.length < 60 && !trimmedLine.endsWith('.') && !trimmedLine.endsWith(':') && 
-                !trimmedLine.includes('IndieTap Studio') && !trimmedLine.includes('email') && 
-                !trimmedLine.includes('@') && !trimmedLine.includes('http')) {
-                
-                // Additional check to see if it looks like a heading
-                const words = trimmedLine.split(' ');
-                const hasCapitalizedWords = words.filter(word => word[0] && word[0] === word[0].toUpperCase()).length >= words.length / 2;
-                
-                if (hasCapitalizedWords && trimmedLine.length > 8) {
-                    html += `<h3>${trimmedLine}</h3>\n`;
-                } else {
-                    html += `<p>${trimmedLine}</p>\n`;
-                }
+            // Check if this line is a known headline or looks like a standalone headline
+            const isKnownHeadline = knownHeadlines.includes(trimmedLine);
+            const isStandaloneHeading = (prevLine === '' || i === 0) && (nextLine === '' || i === lines.length - 1);
+            const isDate = trimmedLine.match(/^\d+\.\s+(ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince)\s+\d{4}$/) || // Czech dates like "28. května 2025"
+                          trimmedLine.match(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}$/) || // English dates like "May 28, 2025"
+                          trimmedLine === '28. května 2025' || trimmedLine === 'May 28, 2025'; // Exact matches as fallback
+            const looksLikeHeading = trimmedLine.length < 80 && 
+                                   !trimmedLine.endsWith('.') && 
+                                   !trimmedLine.includes('@') && 
+                                   !trimmedLine.includes('http') &&
+                                   !isDate; // Not a date
+            
+            if (isKnownHeadline || (isStandaloneHeading && looksLikeHeading && !isDate)) {
+                html += `<h3>${trimmedLine}</h3>\n`;
             } else {
-                html += `<p>${trimmedLine}</p>\n`;
+                // Support basic Markdown formatting (bold text with **)
+                let formattedLine = trimmedLine.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                html += `<p>${formattedLine}</p>\n`;
             }
         }
         
