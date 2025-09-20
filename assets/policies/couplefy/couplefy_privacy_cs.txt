@@ -1,66 +1,41 @@
-ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ COUPLEFY
+Zásady ochrany osobních údajů
 
-Poslední aktualizace: leden 2025
+Tato aplikace Couplefy (dále jen „Aplikace") byla vytvořena společností Fearplay (dále jen „Poskytovatel služby") jako bezplatná mobilní aplikace. Tato služba je poskytována „tak, jak je" a může ji používat kdokoli bez omezení na věk – aplikace není omezena věkovou hranicí a je vhodná i pro děti.
 
-IndieTap Studio ("my," "naše," nebo "nás") provozuje mobilní aplikaci Couplefy ("Služba").
+Shromažďování a používání údajů
 
-Tyto Zásady ochrany osobních údajů vysvětlují, jak sbíráme, používáme a chráníme vaše informace při používání naší Služby.
+Aplikace neshromažďuje žádné osobní ani technické údaje, jako je IP adresa, poloha, čas používání nebo typ zařízení.
 
-INFORMACE, KTERÉ SBÍRÁME
+Neodeslá žádná data mimo zařízení a nepoužívá žádné služby třetích stran, které by data sledovaly, analyzovaly nebo shromažďovaly.
+Veškerá data zůstávají lokálně na vašem zařízení a jsou používána výhradně pro správné fungování a personalizaci aplikace.
 
-Osobní informace
-- Data výročí a milníků vztahu
-- Vlastní zprávy a citáty, které zadáváte
-- Informace profilu (jména, fotografie, pokud jsou poskytnuty)
-- Předvolby aplikace a nastavení
+Lokálně uložená data
 
-Informace o zařízení
-- Typ zařízení a operační systém
-- Analytika používání aplikace
-- Zprávy o chybách a údaje o výkonu
+Aplikace ukládá některá data, která uživatel zadá, lokálně na zařízení. Tato data zahrnují:
 
-JAK POUŽÍVÁME VAŠE INFORMACE
+• Jména (např. partnera)
+• Datum začátku vztahu
+• Vizuální nastavení (tmavý režim, jazyk, apod.)
+• Obrázek zvolený uživatelem pro vizuální zobrazení vztahu
 
-Informace, které sbíráme, používáme k:
-- Poskytování a udržování služby Couplefy
-- Zasílání oznámení o milnících vztahu
-- Zlepšování funkčnosti aplikace a uživatelské zkušenosti
-- Poskytování zákaznické podpory
+Tato data nejsou přístupna Poskytovateli služby, nejsou odesílána na žádné servery a nejsou mazána vzdáleně. Pokud si uživatel přeje data odstranit, může tak učinit odinstalaci aplikace.
 
-UKLÁDÁNÍ DAT A ZABEZPEČENÍ
+Zabezpečení
 
-- Všechna osobní data jsou uložena lokálně na vašem zařízení
-- Nevysíláme vaše osobní data o vztahu na externí servery
-- Anonymní analytika používání může být sbírána pro zlepšení aplikace
-- Implementujeme odpovídající bezpečnostní opatření k ochraně vašich informací
+Aplikace sama nevyužívá žádná síťová připojení, neodesílá data a neshromažďuje žádné údaje. Lokální data zůstávají pod plnou kontrolou uživatele na jeho zařízení.
 
-SLUŽBY TŘETÍCH STRAN
+Změny
 
-Couplefy může integrovat s:
-- Apple App Store / Google Play Store (pro distribuci aplikací)
-- Analytické služby (pouze anonymní data)
-- Služby push oznámení
+Zásady ochrany osobních údajů mohou být v budoucnu aktualizovány. O všech změnách bude informováno formou aktualizace tohoto dokumentu. Doporučujeme zásady pravidelně kontrolovat.
 
-SOUKROMÍ DĚTÍ
+Platnost zásad od
 
-Couplefy je určena pro uživatele ve věku 13 let a starší. Nevědomě nesbíráme osobní informace od dětí mladších 13 let.
+28. května 2025
 
-VAŠE PRÁVA
+Souhlas uživatele
 
-Máte právo:
-- Přístup k vašim osobním informacím
-- Smazání vašich dat (odinstalováním aplikace)
-- Kontaktování nás ohledně obav o soukromí
+Používáním aplikace souhlasíte s tím, že všechna uživatelská data zůstávají výhradně ve vašem zařízení a že Aplikace nepřenáší ani nezpracovává žádné osobní údaje mimo něj.
 
-ZMĚNY TĚCHTO ZÁSAD
+Kontakt
 
-Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. O jakýchkoli podstatných změnách budeme uživatele informovat prostřednictvím aplikace.
-
-KONTAKTUJTE NÁS
-
-Máte-li jakékoli otázky týkající se těchto Zásad ochrany osobních údajů, kontaktujte nás prosím na:
-Email: support@indietapstudio.com
-
-IndieTap Studio
-Zásady ochrany osobních údajů pro Couplefy
-Datum účinnosti: leden 2025
+V případě dotazů týkajících se soukromí nebo aplikace nás můžete kontaktovat e-mailem: sausfearplay@gmail.com
