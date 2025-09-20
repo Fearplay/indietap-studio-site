@@ -1,0 +1,76 @@
+ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ TAPJOY
+
+Poslední aktualizace: leden 2025
+
+IndieTap Studio ("my," "naše," nebo "nás") provozuje mobilní aplikaci TapJoy ("Služba").
+
+Tyto Zásady ochrany osobních údajů vysvětlují, jak sbíráme, používáme a chráníme vaše informace při používání naší Služby.
+
+INFORMACE, KTERÉ SBÍRÁME
+
+Osobní informace
+- Uživatelské předvolby a nastavení aplikace
+- Vlastní obsah a data, která vytvoříte
+- Vzory interakcí uživatelů a preference
+
+Informace o zařízení
+- Typ zařízení a operační systém
+- Analytika používání aplikace a metriky výkonu
+- Zprávy o chybách a diagnostické informace
+
+JAK POUŽÍVÁME VAŠE INFORMACE
+
+Informace, které sbíráme, používáme k:
+- Poskytování a udržování služby TapJoy
+- Přizpůsobování vaší zkušenosti s aplikací
+- Zlepšování funkčnosti aplikace a uživatelské zkušenosti
+- Poskytování zákaznické podpory a technické pomoci
+
+UKLÁDÁNÍ DAT A ZABEZPEČENÍ
+
+- Osobní data jsou primárně uložena lokálně na vašem zařízení
+- Implementujeme bezpečnostní opatření odpovídající průmyslovým standardům
+- Anonymní analytika používání může být sbírána pro zlepšení aplikace
+- Neprodáváme ani nesdílíme osobní informace s třetími stranami
+
+SLUŽBY TŘETÍCH STRAN
+
+TapJoy může integrovat s:
+- Apple App Store / Google Play Store (pro distribuci aplikací)
+- Analytické služby (pouze anonymní data)
+- Služby cloudového zálohování (volitelné, uživatelem řízené)
+- Služby push oznámení
+
+SOUKROMÍ DĚTÍ
+
+TapJoy je určena pro uživatele ve věku 13 let a starší. Nevědomě nesbíráme osobní informace od dětí mladších 13 let.
+
+VAŠE PRÁVA
+
+Máte právo:
+- Přístup k vašim osobním informacím
+- Aktualizace nebo oprava vašich dat
+- Smazání vašich dat (odinstalováním aplikace)
+- Kontaktování nás ohledně obav o soukromí
+
+UCHOVÁVÁNÍ DAT
+
+Vaše informace uchováváme pouze tak dlouho, jak je nezbytné pro poskytování našich služeb nebo jak požaduje zákon.
+
+MEZINÁRODNÍ PŘENOSY
+
+Vaše informace mohou být zpracovávány v jiných zemích než ve vaší vlastní, ale zajišťujeme, aby byla zavedena odpovídající ochranná opatření.
+
+ZMĚNY TĚCHTO ZÁSAD
+
+Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. O jakýchkoli podstatných změnách budeme uživatele informovat prostřednictvím aplikace nebo našich webových stránek.
+
+KONTAKTUJTE NÁS
+
+Máte-li jakékoli otázky týkající se těchto Zásad ochrany osobních údajů, kontaktujte nás prosím na:
+Email: support@indietapstudio.com
+Webové stránky: https://indietapstudio.com
+
+IndieTap Studio
+Zásady ochrany osobních údajů pro TapJoy
+Datum účinnosti: leden 2025

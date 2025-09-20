@@ -74,7 +74,7 @@
                 </div>
                 <nav class="navigation">
                     <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
-                    <a href="#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
                 </nav>
                 
@@ -91,102 +91,29 @@
     <div class="mobile-menu">
         <ul>
             <li><a href="about.html" class="nav-link" data-key="navigation.about">About</a></li>
-            <li><a href="#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a></li>
+            <li><a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a></li>
             <li><a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a></li>
         </ul>
     </div>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
+    <!-- Terms of Service Content -->
+    <section class="privacy-terms">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 data-key="hero.title">Welcome to IndieTap Studio — we build fun and useful mobile apps</h1>
-                    <a href="#apps" class="cta-button" data-key="hero.cta">See our apps</a>
+            <div class="app-header">
+                <img src="assets/icons/tapjoy_icon.png" alt="TapJoy" style="width: 80px; height: 80px; border-radius: 20px;">
+                <div>
+                    <h1>TapJoy Terms of Service</h1>
+                    <p class="app-subtitle">Terms and conditions for using our app</p>
                 </div>
-                <div class="hero-image">
-                    <div class="phone-mockup">
-                        <div class="phone-screen">
-                            <div class="app-icon check-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
-                                        fill="currentColor" />
-                                </svg>
-                            </div>
-                            <div class="app-icon minus-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path d="M19 13H5v-2h14v2z" fill="currentColor" />
-                                </svg>
-                            </div>
-                            <div class="app-icon grid-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path
-                                        d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
-                                        fill="currentColor" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            
+            <div class="policy-content">
+                <div id="terms-content" data-policy-path="assets/policies/tapjoy/tapjoy_terms.txt" data-policy-path-cs="assets/policies/tapjoy/tapjoy_terms_cs.txt">
+                    <p data-key="terms.loading">Loading terms of service...</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Apps Section -->
-    <section id="apps" class="apps-section">
-        <div class="container">
-            <h2 data-key="apps.title">Apps & Games</h2>
-            <div class="apps-grid">
-                <div class="app-card">
-                    <div class="app-icon-container">
-                        <img src="assets/icons/couplefy_icon.png" alt="Couplefy" style="width: 60px; height: 60px; border-radius: 16px;">
-                    </div>
-                    <div class="app-info">
-                        <h3>Couplefy</h3>
-                        <p class="app-category" data-key="apps.couplefy.category">Relationship • Lifestyle</p>
-                        <p class="app-description" data-key="apps.couplefy.description">Track days together, name-days and quotes in one app. Customize backgrounds, switch dark/light mode, feel the romance every day.</p>
-                        <div class="app-links">
-                            <a href="https://apps.apple.com/us/app/couplefy/id6746437362" class="app-link app-store" target="_blank">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.13997 6.91 8.85997 6.88C10.15 6.85 11.36 7.74 12.1 7.74C12.83 7.74 14.3 6.68 15.85 6.84C16.48 6.87 18.29 7.13 19.56 8.91C19.47 8.97 17.39 10.3 17.41 13.42C17.44 17.18 20.76 18.5 20.76 18.5C20.76 18.5 20.17 20.87 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
-                                </svg>
-                                <span data-key="apps.couplefy.appStore">App Store</span>
-                            </a>
-                            <a href="https://play.google.com/store/apps/details?id=com.fairplayx.couplefy&pli=1" class="app-link google-play" target="_blank">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m11.4653-6.02l1.9973-3.4619c.1409-.2442.057-.5579-.1864-.7-.2442-.1409-.5579-.057-.7.1864l-2.0223.5047C15.7976 8.2822 14.4457 7.8267 13.0002 7.8267s-2.7974.4555-4.0306 1.2439L6.9469 5.5659c-.1409-.2434-.4547-.3273-.7-.1864-.2442.1421-.3273.4558-.1864.7L8.0578 9.5214C6.0441 10.7241 4.775 12.6926 4.775 14.9316h14.4502c0-2.239-1.2691-4.2075-3.2828-5.4102"/>
-                                </svg>
-                                <span data-key="apps.couplefy.googlePlay">Google Play</span>
-                            </a>
-                        </div>
-                        <div class="app-policies">
-                            <a href="couplefy-privacy.html" class="policy-link" data-key="apps.couplefy.privacy">Privacy Policy</a>
-                            <a href="couplefy-terms.html" class="policy-link" data-key="apps.couplefy.terms">Terms of Service</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="app-card coming-soon">
-                    <div class="app-icon-container">
-                        <img src="assets/icons/tapjoy_icon.png" alt="TapJoy" style="width: 60px; height: 60px; border-radius: 16px;">
-                    </div>
-                    <div class="app-info">
-                        <h3>TapJoy</h3>
-                        <p class="app-category" data-key="apps.tapjoy.category">Coming Very Soon</p>
-                        <p class="app-description" data-key="apps.tapjoy.description">An exciting new app is on its way! Stay tuned for something amazing that will bring joy to your daily routine.</p>
-                        <div class="coming-soon-badge">
-                            <span data-key="apps.tapjoy.comingSoon">🚀 Coming Very Soon</span>
-                        </div>
-                        <div class="app-policies">
-                            <a href="tapjoy-privacy.html" class="policy-link" data-key="apps.tapjoy.privacy">Privacy Policy</a>
-                            <a href="tapjoy-terms.html" class="policy-link" data-key="apps.tapjoy.terms">Terms of Service</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <!-- Footer -->
     <footer class="footer">
@@ -245,6 +172,7 @@
 
     <script src="js/localization.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/policy-loader.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,66 @@
+ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ COUPLEFY
+
+Poslední aktualizace: leden 2025
+
+IndieTap Studio ("my," "naše," nebo "nás") provozuje mobilní aplikaci Couplefy ("Služba").
+
+Tyto Zásady ochrany osobních údajů vysvětlují, jak sbíráme, používáme a chráníme vaše informace při používání naší Služby.
+
+INFORMACE, KTERÉ SBÍRÁME
+
+Osobní informace
+- Data výročí a milníků vztahu
+- Vlastní zprávy a citáty, které zadáváte
+- Informace profilu (jména, fotografie, pokud jsou poskytnuty)
+- Předvolby aplikace a nastavení
+
+Informace o zařízení
+- Typ zařízení a operační systém
+- Analytika používání aplikace
+- Zprávy o chybách a údaje o výkonu
+
+JAK POUŽÍVÁME VAŠE INFORMACE
+
+Informace, které sbíráme, používáme k:
+- Poskytování a udržování služby Couplefy
+- Zasílání oznámení o milnících vztahu
+- Zlepšování funkčnosti aplikace a uživatelské zkušenosti
+- Poskytování zákaznické podpory
+
+UKLÁDÁNÍ DAT A ZABEZPEČENÍ
+
+- Všechna osobní data jsou uložena lokálně na vašem zařízení
+- Nevysíláme vaše osobní data o vztahu na externí servery
+- Anonymní analytika používání může být sbírána pro zlepšení aplikace
+- Implementujeme odpovídající bezpečnostní opatření k ochraně vašich informací
+
+SLUŽBY TŘETÍCH STRAN
+
+Couplefy může integrovat s:
+- Apple App Store / Google Play Store (pro distribuci aplikací)
+- Analytické služby (pouze anonymní data)
+- Služby push oznámení
+
+SOUKROMÍ DĚTÍ
+
+Couplefy je určena pro uživatele ve věku 13 let a starší. Nevědomě nesbíráme osobní informace od dětí mladších 13 let.
+
+VAŠE PRÁVA
+
+Máte právo:
+- Přístup k vašim osobním informacím
+- Smazání vašich dat (odinstalováním aplikace)
+- Kontaktování nás ohledně obav o soukromí
+
+ZMĚNY TĚCHTO ZÁSAD
+
+Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. O jakýchkoli podstatných změnách budeme uživatele informovat prostřednictvím aplikace.
+
+KONTAKTUJTE NÁS
+
+Máte-li jakékoli otázky týkající se těchto Zásad ochrany osobních údajů, kontaktujte nás prosím na:
+Email: support@indietapstudio.com
+
+IndieTap Studio
+Zásady ochrany osobních údajů pro Couplefy
+Datum účinnosti: leden 2025

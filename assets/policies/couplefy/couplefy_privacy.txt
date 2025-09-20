@@ -1,0 +1,66 @@
+COUPLEFY PRIVACY POLICY
+
+Last updated: January 2025
+
+IndieTap Studio ("we," "our," or "us") operates the Couplefy mobile application (the "Service").
+
+This Privacy Policy explains how we collect, use, and protect your information when you use our Service.
+
+INFORMATION WE COLLECT
+
+Personal Information
+- Relationship milestone dates and anniversaries
+- Custom messages and quotes you enter
+- Profile information (names, photos if provided)
+- App usage preferences and settings
+
+Device Information
+- Device type and operating system
+- App usage analytics
+- Crash reports and performance data
+
+HOW WE USE YOUR INFORMATION
+
+We use the information we collect to:
+- Provide and maintain the Couplefy service
+- Send you relationship milestone notifications
+- Improve app functionality and user experience
+- Provide customer support
+
+DATA STORAGE AND SECURITY
+
+- All personal data is stored locally on your device
+- We do not upload your personal relationship data to external servers
+- Anonymous usage analytics may be collected to improve the app
+- We implement appropriate security measures to protect your information
+
+THIRD-PARTY SERVICES
+
+Couplefy may integrate with:
+- Apple App Store / Google Play Store (for app distribution)
+- Analytics services (anonymous data only)
+- Push notification services
+
+CHILDREN'S PRIVACY
+
+Couplefy is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13.
+
+YOUR RIGHTS
+
+You have the right to:
+- Access your personal information
+- Delete your data (by uninstalling the app)
+- Contact us about privacy concerns
+
+CHANGES TO THIS POLICY
+
+We may update this Privacy Policy from time to time. We will notify users of any material changes through the app.
+
+CONTACT US
+
+If you have any questions about this Privacy Policy, please contact us at:
+Email: support@indietapstudio.com
+
+IndieTap Studio
+Privacy Policy for Couplefy
+Effective Date: January 2025

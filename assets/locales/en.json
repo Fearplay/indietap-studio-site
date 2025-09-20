@@ -19,12 +19,16 @@
       "category": "Relationship • Lifestyle",
       "description": "Track days together, name-days and quotes in one app. Customize backgrounds, switch dark/light mode, feel the romance every day.",
       "appStore": "App Store",
-      "googlePlay": "Google Play"
+      "googlePlay": "Google Play",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
     },
     "tapjoy": {
       "category": "Coming Very Soon",
       "description": "An exciting new app is on its way! Stay tuned for something amazing that will bring joy to your daily routine.",
-      "comingSoon": "🚀 Coming Very Soon"
+      "comingSoon": "🚀 Coming Very Soon",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
     }
   },
   "about": {
