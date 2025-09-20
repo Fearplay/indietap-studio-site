@@ -22,7 +22,19 @@
                 localStorage.setItem('theme', theme);
             }
             
-            const language = localStorage.getItem('language') || 'en';
+            // Language logic: Check URL parameter first, then localStorage, then default
+            const urlParams = new URLSearchParams(window.location.search);
+            const urlLang = urlParams.get('lang');
+            let language;
+            
+            if (urlLang && (urlLang === 'en' || urlLang === 'cs')) {
+                // Valid language in URL, use it and save to localStorage
+                language = urlLang;
+                localStorage.setItem('language', urlLang);
+            } else {
+                // No URL parameter or invalid, use localStorage or default
+                language = localStorage.getItem('language') || 'en';
+            }
             const html = document.documentElement;
             
             // Apply theme immediately to html element
