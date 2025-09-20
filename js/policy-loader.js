@@ -5,7 +5,32 @@
 
 class PolicyLoader {
     constructor() {
-        this.currentLanguage = localStorage.getItem('language') || 'en';
+        // Check URL parameters first, then localStorage, then default to 'en'
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlLang = urlParams.get('lang');
+        
+        if (urlLang && (urlLang === 'en' || urlLang === 'cs')) {
+            // If valid language in URL, use it and save to localStorage
+            this.currentLanguage = urlLang;
+            localStorage.setItem('language', urlLang);
+            
+            // Update the language selector if it exists
+            setTimeout(() => {
+                const langSelector = document.getElementById('languageSelector');
+                if (langSelector) {
+                    langSelector.value = urlLang;
+                }
+            }, 100);
+            
+            // Trigger language change event for other components
+            window.dispatchEvent(new CustomEvent('languageChanged', {
+                detail: { language: urlLang }
+            }));
+        } else {
+            // No URL parameter or invalid, use localStorage or default
+            this.currentLanguage = localStorage.getItem('language') || 'en';
+        }
+        
         this.init();
         
         // Listen for language changes
