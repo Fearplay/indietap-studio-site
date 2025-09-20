@@ -1,66 +1,41 @@
-COUPLEFY PRIVACY POLICY
+Privacy Policy
 
-Last updated: January 2025
+This privacy policy applies to the Couplefy app (hereafter referred to as the "Application"), developed by Fearplay (hereafter referred to as the "Service Provider") as a free mobile application. The Application is provided "as is" and is intended for use by all age groups — including children. There are no age restrictions, as the app does not contain content or features unsuitable for younger users.
 
-IndieTap Studio ("we," "our," or "us") operates the Couplefy mobile application (the "Service").
+Data Collection and Use
 
-This Privacy Policy explains how we collect, use, and protect your information when you use our Service.
+The Application does not collect any personal or technical information, such as IP address, location, usage duration, or device type.
 
-INFORMATION WE COLLECT
+No data is ever transmitted off the user's device, and the Application does not use any third-party services that would collect, track, or analyze user data.
+All information remains strictly local to the device and is used solely to ensure proper functioning and personalization within the app.
 
-Personal Information
-- Relationship milestone dates and anniversaries
-- Custom messages and quotes you enter
-- Profile information (names, photos if provided)
-- App usage preferences and settings
+Locally Stored Data
 
-Device Information
-- Device type and operating system
-- App usage analytics
-- Crash reports and performance data
+The Application stores some user-provided data locally on the device. This includes:
 
-HOW WE USE YOUR INFORMATION
+• Names entered by the user (e.g., couple names)
+• Relationship start date
+• Visual preferences (e.g., dark mode, language settings)
+• An image selected by the user to visually represent their relationship within the app
 
-We use the information we collect to:
-- Provide and maintain the Couplefy service
-- Send you relationship milestone notifications
-- Improve app functionality and user experience
-- Provide customer support
+This data is never transmitted, never shared, and never accessible to the Service Provider or any other party.
+If a user wishes to remove this data, they can do so simply by uninstalling the app.
 
-DATA STORAGE AND SECURITY
+Security
 
-- All personal data is stored locally on your device
-- We do not upload your personal relationship data to external servers
-- Anonymous usage analytics may be collected to improve the app
-- We implement appropriate security measures to protect your information
+The Application does not use network connections, does not transmit data, and does not collect any user information. All data remains fully under the user's control on their own device.
 
-THIRD-PARTY SERVICES
+Changes
 
-Couplefy may integrate with:
-- Apple App Store / Google Play Store (for app distribution)
-- Analytics services (anonymous data only)
-- Push notification services
+This Privacy Policy may be updated from time to time. Any changes will be published on this page. Users are encouraged to review the Privacy Policy periodically.
 
-CHILDREN'S PRIVACY
+Effective Date:
+May 28, 2025
 
-Couplefy is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13.
+Your Consent
 
-YOUR RIGHTS
+By using the Application, you acknowledge and agree that all data remains on your device and that no personal information is processed or transmitted externally.
 
-You have the right to:
-- Access your personal information
-- Delete your data (by uninstalling the app)
-- Contact us about privacy concerns
+Contact
 
-CHANGES TO THIS POLICY
-
-We may update this Privacy Policy from time to time. We will notify users of any material changes through the app.
-
-CONTACT US
-
-If you have any questions about this Privacy Policy, please contact us at:
-Email: support@indietapstudio.com
-
-IndieTap Studio
-Privacy Policy for Couplefy
-Effective Date: January 2025
+If you have any questions regarding privacy or the Application itself, you can reach the Service Provider at: sausfearplay@gmail.com
