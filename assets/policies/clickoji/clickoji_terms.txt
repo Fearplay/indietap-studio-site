@@ -1,20 +1,20 @@
-TAPJOY TERMS OF SERVICE
+CLICKOJI TERMS OF SERVICE
 
 Last updated: January 2025
 
-These Terms of Service ("Terms") govern your use of the TapJoy mobile application ("App") operated by IndieTap Studio ("we," "us," or "our").
+These Terms of Service ("Terms") govern your use of the Clickoji mobile application ("App") operated by IndieTap Studio ("we," "us," or "our").
 
 ACCEPTANCE OF TERMS
 
-By downloading, installing, or using TapJoy, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
+By downloading, installing, or using Clickoji, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
 
 DESCRIPTION OF SERVICE
 
-TapJoy is a mobile application designed to bring joy and utility to your daily routine through innovative features and user-friendly design.
+Clickoji is a mobile application designed to bring joy and utility to your daily routine through innovative features and user-friendly design.
 
 LICENSE TO USE
 
-We grant you a limited, non-exclusive, non-transferable, revocable license to use TapJoy for personal, non-commercial purposes in accordance with these Terms.
+We grant you a limited, non-exclusive, non-transferable, revocable license to use Clickoji for personal, non-commercial purposes in accordance with these Terms.
 
 USER ACCOUNTS
 
@@ -54,11 +54,11 @@ Your privacy is important to us. Please review our Privacy Policy to understand 
 
 DISCLAIMERS
 
-TapJoy is provided "as is" without warranties of any kind. We do not guarantee that the App will be error-free, secure, or uninterrupted.
+Clickoji is provided "as is" without warranties of any kind. We do not guarantee that the App will be error-free, secure, or uninterrupted.
 
 LIMITATION OF LIABILITY
 
-IndieTap Studio shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of TapJoy.
+IndieTap Studio shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of Clickoji.
 
 INDEMNIFICATION
 
@@ -67,7 +67,7 @@ You agree to indemnify and hold harmless IndieTap Studio from any claims arising
 UPDATES AND MODIFICATIONS
 
 We reserve the right to:
-- Modify or discontinue TapJoy at any time
+- Modify or discontinue Clickoji at any time
 - Update these Terms (continued use constitutes acceptance)
 - Update the App to improve functionality or security
 
@@ -88,5 +88,5 @@ Email: support@indietapstudio.com
 Website: https://indietapstudio.com
 
 IndieTap Studio
-Terms of Service for TapJoy
+Terms of Service for Clickoji
 Effective Date: January 2025

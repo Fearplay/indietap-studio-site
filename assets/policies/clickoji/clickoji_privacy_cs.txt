@@ -1,8 +1,8 @@
-ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ TAPJOY
+ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ CLICKOJI
 
 Poslední aktualizace: leden 2025
 
-IndieTap Studio ("my," "naše," nebo "nás") provozuje mobilní aplikaci TapJoy ("Služba").
+IndieTap Studio ("my," "naše," nebo "nás") provozuje mobilní aplikaci Clickoji ("Služba").
 
 Tyto Zásady ochrany osobních údajů vysvětlují, jak sbíráme, používáme a chráníme vaše informace při používání naší Služby.
 
@@ -21,7 +21,7 @@ Informace o zařízení
 JAK POUŽÍVÁME VAŠE INFORMACE
 
 Informace, které sbíráme, používáme k:
-- Poskytování a udržování služby TapJoy
+- Poskytování a udržování služby Clickoji
 - Přizpůsobování vaší zkušenosti s aplikací
 - Zlepšování funkčnosti aplikace a uživatelské zkušenosti
 - Poskytování zákaznické podpory a technické pomoci
@@ -35,7 +35,7 @@ UKLÁDÁNÍ DAT A ZABEZPEČENÍ
 
 SLUŽBY TŘETÍCH STRAN
 
-TapJoy může integrovat s:
+Clickoji může integrovat s:
 - Apple App Store / Google Play Store (pro distribuci aplikací)
 - Analytické služby (pouze anonymní data)
 - Služby cloudového zálohování (volitelné, uživatelem řízené)
@@ -43,7 +43,7 @@ TapJoy může integrovat s:
 
 SOUKROMÍ DĚTÍ
 
-TapJoy je určena pro uživatele ve věku 13 let a starší. Nevědomě nesbíráme osobní informace od dětí mladších 13 let.
+Clickoji je určena pro uživatele ve věku 13 let a starší. Nevědomě nesbíráme osobní informace od dětí mladších 13 let.
 
 VAŠE PRÁVA
 
@@ -72,5 +72,5 @@ Email: support@indietapstudio.com
 Webové stránky: https://indietapstudio.com
 
 IndieTap Studio
-Zásady ochrany osobních údajů pro TapJoy
+Zásady ochrany osobních údajů pro Clickoji
 Datum účinnosti: leden 2025
