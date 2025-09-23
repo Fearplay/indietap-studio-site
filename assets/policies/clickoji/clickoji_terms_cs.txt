@@ -1,20 +1,20 @@
-PODMÍNKY SLUŽBY TAPJOY
+PODMÍNKY SLUŽBY CLICKOJI
 
 Poslední aktualizace: leden 2025
 
-Tyto Podmínky služby ("Podmínky") upravují vaše používání mobilní aplikace TapJoy ("Aplikace") provozované společností IndieTap Studio ("my," "nás" nebo "naše").
+Tyto Podmínky služby ("Podmínky") upravují vaše používání mobilní aplikace Clickoji ("Aplikace") provozované společností IndieTap Studio ("my," "nás" nebo "naše").
 
 PŘIJETÍ PODMÍNEK
 
-Stažením, instalací nebo používáním TapJoy souhlasíte s těmito Podmínkami. Pokud s těmito Podmínkami nesouhlasíte, nepoužívejte prosím Aplikaci.
+Stažením, instalací nebo používáním Clickoji souhlasíte s těmito Podmínkami. Pokud s těmito Podmínkami nesouhlasíte, nepoužívejte prosím Aplikaci.
 
 POPIS SLUŽBY
 
-TapJoy je mobilní aplikace navržená k tomu, aby přinesla radost a užitečnost do vaší denní rutiny prostřednictvím inovativních funkcí a uživatelsky přívětivého designu.
+Clickoji je mobilní aplikace navržená k tomu, aby přinesla radost a užitečnost do vaší denní rutiny prostřednictvím inovativních funkcí a uživatelsky přívětivého designu.
 
 LICENCE K POUŽÍVÁNÍ
 
-Udělujeme vám omezenou, nevýhradní, nepřenosnou, odvolatelnou licenci k používání TapJoy pro osobní, nekomerční účely v souladu s těmito Podmínkami.
+Udělujeme vám omezenou, nevýhradní, nepřenosnou, odvolatelnou licenci k používání Clickoji pro osobní, nekomerční účely v souladu s těmito Podmínkami.
 
 UŽIVATELSKÉ ÚČTY
 
@@ -54,11 +54,11 @@ Vaše soukromí je pro nás důležité. Přečtěte si prosím naše Zásady oc
 
 ODMÍTNUTÍ ZÁRUK
 
-TapJoy je poskytována "tak, jak je" bez jakýchkoli záruk. Nezaručujeme, že Aplikace bude bez chyb, bezpečná nebo nepřerušovaná.
+Clickoji je poskytována "tak, jak je" bez jakýchkoli záruk. Nezaručujeme, že Aplikace bude bez chyb, bezpečná nebo nepřerušovaná.
 
 OMEZENÍ ODPOVĚDNOSTI
 
-IndieTap Studio nenesou odpovědnost za žádné nepřímé, náhodné, zvláštní, následné nebo trestní škody vyplývající z vašeho používání TapJoy.
+IndieTap Studio nenesou odpovědnost za žádné nepřímé, náhodné, zvláštní, následné nebo trestní škody vyplývající z vašeho používání Clickoji.
 
 ODŠKODNĚNÍ
 
@@ -67,7 +67,7 @@ Souhlasíte s tím, že odškodníte a zbavíte IndieTap Studio odpovědnosti za
 AKTUALIZACE A ÚPRAVY
 
 Vyhrazujeme si právo:
-- Kdykoliv upravit nebo ukončit TapJoy
+- Kdykoliv upravit nebo ukončit Clickoji
 - Aktualizovat tyto Podmínky (pokračující používání znamená přijetí)
 - Aktualizovat Aplikaci za účelem zlepšení funkčnosti nebo bezpečnosti
 
@@ -88,5 +88,5 @@ Email: support@indietapstudio.com
 Webové stránky: https://indietapstudio.com
 
 IndieTap Studio
-Podmínky služby pro TapJoy
+Podmínky služby pro Clickoji
 Datum účinnosti: leden 2025

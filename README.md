@@ -35,7 +35,7 @@ indietap-studio-site/
 - **Dark/Light theme** - přepínání témat s anti-FOUC ochranou
 - **Moderní UI** - gradientové designy, animace, floating efekty
 - **Custom 404 stránka** - animovaná error stránka s navigací
-- **Real aplikace** - Couplefy (live) + TapJoy (coming soon)
+- **Real aplikace** - Couplefy (live) + Clickoji (coming soon)
 - **Performance optimized** - debounced events, lazy loading
 - **SEO friendly** - sémantické HTML, meta tagy
 - **Security headers** - XSS protection, content security

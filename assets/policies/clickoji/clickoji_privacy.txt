@@ -1,8 +1,8 @@
-TAPJOY PRIVACY POLICY
+CLICKOJI PRIVACY POLICY
 
 Last updated: January 2025
 
-IndieTap Studio ("we," "our," or "us") operates the TapJoy mobile application (the "Service").
+IndieTap Studio ("we," "our," or "us") operates the Clickoji mobile application (the "Service").
 
 This Privacy Policy explains how we collect, use, and protect your information when you use our Service.
 
@@ -21,7 +21,7 @@ Device Information
 HOW WE USE YOUR INFORMATION
 
 We use the information we collect to:
-- Provide and maintain the TapJoy service
+- Provide and maintain the Clickoji service
 - Personalize your app experience
 - Improve app functionality and user experience
 - Provide customer support and technical assistance
@@ -35,7 +35,7 @@ DATA STORAGE AND SECURITY
 
 THIRD-PARTY SERVICES
 
-TapJoy may integrate with:
+Clickoji may integrate with:
 - Apple App Store / Google Play Store (for app distribution)
 - Analytics services (anonymous data only)
 - Cloud backup services (optional, user-controlled)
@@ -43,7 +43,7 @@ TapJoy may integrate with:
 
 CHILDREN'S PRIVACY
 
-TapJoy is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13.
+Clickoji is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13.
 
 YOUR RIGHTS
 
@@ -72,5 +72,5 @@ Email: support@indietapstudio.com
 Website: https://indietapstudio.com
 
 IndieTap Studio
-Privacy Policy for TapJoy
+Privacy Policy for Clickoji
 Effective Date: January 2025
