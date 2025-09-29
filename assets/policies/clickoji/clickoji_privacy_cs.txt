@@ -1,76 +1,90 @@
-ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ CLICKOJI
+Zásady ochrany osobních údajů
 
-Poslední aktualizace: leden 2025
+**Datum účinnosti:** 29. 9. 2025
+**Kontakt:** indietapstudio@gmail.com
 
-IndieTap Studio ("my," "naše," nebo "nás") provozuje mobilní aplikaci Clickoji ("Služba").
+1. ÚVOD
 
-Tyto Zásady ochrany osobních údajů vysvětlují, jak sbíráme, používáme a chráníme vaše informace při používání naší Služby.
+**FairplayX** („my") respektuje vaše soukromí. Tyto Zásady ochrany osobních údajů vysvětlují, jak nakládáme s informacemi v mobilní aplikaci Clickoji. Aplikace je zdarma a podporovaná reklamou. Nemáme vlastní backend, nevyžadujeme registraci a nezasíláme marketingové e-maily.
 
-INFORMACE, KTERÉ SBÍRÁME
+2. JAKÁ DATA SHROMAŽĎUJEME
 
-Osobní informace
-- Uživatelské předvolby a nastavení aplikace
-- Vlastní obsah a data, která vytvoříte
-- Vzory interakcí uživatelů a preference
+**A) Data uložená lokálně ve vašem zařízení**
+• Pouze věková kategorie (nad/pod 16 let) – ukládá se jako logická hodnota pro nastavení omezení reklam.
+• Herní postup a nastavení – skóre, úspěchy, zvuk/hudba, téma, jazyk.
 
-Informace o zařízení
-- Typ zařízení a operační systém
-- Analytika používání aplikace a metriky výkonu
-- Zprávy o chybách a diagnostické informace
+**Tato data zůstávají pouze ve vašem zařízení v místním úložišti Hive. Nedostáváme je my ani žádná jiná třetí strana.**
 
-JAK POUŽÍVÁME VAŠE INFORMACE
+**B) Data shromažďovaná třetími stranami (Google AdMob)**
+**Pro zobrazení reklam může sada Google Mobile Ads SDK shromažďovat a zpracovávat:**
+• Reklamní ID (GAID/IDFA) a základní informace o zařízení.
+• Data o interakci s reklamou (zobrazení, kliknutí).
+• Přibližnou polohu (země/region odvozené z IP sítě; nikoli přesná GPS).
+• Diagnostická/výkonnostní data (spolehlivost aplikace, prevence podvodů).
 
-Informace, které sbíráme, používáme k:
-- Poskytování a udržování služby Clickoji
-- Přizpůsobování vaší zkušenosti s aplikací
-- Zlepšování funkčnosti aplikace a uživatelské zkušenosti
-- Poskytování zákaznické podpory a technické pomoci
+**Tato data zpracovává Google podle svých zásad:**
+• <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
+• <a href="https://policies.google.com/technologies/ads" target="_blank">https://policies.google.com/technologies/ads</a>
 
-UKLÁDÁNÍ DAT A ZABEZPEČENÍ
+3. ÚČELY A PRÁVNÍ ZÁKLADY
 
-- Osobní data jsou primárně uložena lokálně na vašem zařízení
-- Implementujeme bezpečnostní opatření odpovídající průmyslovým standardům
-- Anonymní analytika používání může být sbírána pro zlepšení aplikace
-- Neprodáváme ani nesdílíme osobní informace s třetími stranami
+• Souhlas (GDPR/UK GDPR) pro personalizovanou reklamu a měření prostřednictvím User Messaging Platform (UMP) od Googlu.
+• Oprávněný zájem pro účely bezpečnosti, diagnostiky a prevence podvodů.
 
-SLUŽBY TŘETÍCH STRAN
+4. VAŠE VOLBY
 
-Clickoji může integrovat s:
-- Apple App Store / Google Play Store (pro distribuci aplikací)
-- Analytické služby (pouze anonymní data)
-- Služby cloudového zálohování (volitelné, uživatelem řízené)
-- Služby push oznámení
+• Spravujte souhlas a personalizaci reklam v Nastavení → Možnosti ochrany soukromí (otevře UMP).
+• V nastavení zařízení můžete resetovat nebo omezit reklamní ID.
+• Obyvatelé Kalifornie mohou využít volbu „Do Not Sell or Share My Personal Information" v Možnostech ochrany soukromí.
 
-SOUKROMÍ DĚTÍ
+5. DĚTI
 
-Clickoji je určena pro uživatele ve věku 13 let a starší. Nevědomě nesbíráme osobní informace od dětí mladších 13 let.
+• Aplikace není určena dětem mladším 13 let.
+• Ukládáme pouze věkovou kategorii.
+• Uživatelé mladší 16 let dostávají omezenou reklamu (nepersonalizovanou).
+• Vědomě neshromažďujeme osobní údaje dětí.
 
-VAŠE PRÁVA
+6. DOBA UCHOVÁNÍ DAT
 
-Máte právo:
-- Přístup k vašim osobním informacím
-- Aktualizace nebo oprava vašich dat
-- Smazání vašich dat (odinstalováním aplikace)
-- Kontaktování nás ohledně obav o soukromí
+• Lokální herní data: zůstávají pouze do doby, než aplikaci odinstalujete. Odinstalací se tato data trvale smažou.
+• Data AdMob: uchovává Google podle svých zásad.
 
-UCHOVÁVÁNÍ DAT
+7. SDÍLENÍ A PŘENOSY
 
-Vaše informace uchováváme pouze tak dlouho, jak je nezbytné pro poskytování našich služeb nebo jak požaduje zákon.
+• Vaše osobní údaje neprodáváme.
+• Omezené identifikátory (např. reklamní ID) mohou být sdíleny s Google AdMob pro účely zobrazování a měření reklam.
+• Google může tato data zpracovávat i mezinárodně.
 
-MEZINÁRODNÍ PŘENOSY
+8. ZABEZPEČENÍ
 
-Vaše informace mohou být zpracovávány v jiných zemích než ve vaší vlastní, ale zajišťujeme, aby byla zavedena odpovídající ochranná opatření.
+• Veškerá síťová komunikace a reklamy využívají HTTPS/TLS.
+• Lokální herní data zůstávají ve vašem zařízení.
+• Přestože podnikáme kroky k ochraně dat, žádná metoda přenosu nebo ukládání není 100% bezpečná.
 
-ZMĚNY TĚCHTO ZÁSAD
+9. KALIFORNSKÉ SOUKROMÍ (CCPA/CPRA)
 
-Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. O jakýchkoli podstatných změnách budeme uživatele informovat prostřednictvím aplikace nebo našich webových stránek.
+• Osobní údaje neprodáváme.
+• Reklamní ID může být sdíleno s Google AdMob pro tzv. cross-context advertising.
+• Opt-out: dostupné přes Možnosti ochrany soukromí v aplikaci nebo nastavení zařízení.
+• Vaše práva: přístup/znalost, výmaz, oprava, omezení použití citlivých údajů (neshromažďujeme), nediskriminace.
+• Žádosti: e-mailem na indietapstudio@gmail.com (odpověď do 45 dnů).
 
-KONTAKTUJTE NÁS
+**Kategorie shromažďovaných údajů za posledních 12 měsíců:**
+• Identifikátory (reklamní ID)
+• Aktivita v aplikaci (zobrazení a kliknutí na reklamy)
+• Přibližná geolokace (země/region odvozené Googlem)
+• Diagnostika (výkon/prevence podvodů)
 
-Máte-li jakékoli otázky týkající se těchto Zásad ochrany osobních údajů, kontaktujte nás prosím na:
-Email: support@indietapstudio.com
-Webové stránky: https://indietapstudio.com
+10. CALOPPA
 
-IndieTap Studio
-Zásady ochrany osobních údajů pro Clickoji
-Datum účinnosti: leden 2025
+• Tyto zásady uvádějí datum účinnosti.
+• Jsou dostupné z aplikace (Nastavení → Zásady ochrany soukromí) a záznamu v Google Play.
+• Do Not Track (DNT): nereagujeme na signály DNT (neexistuje průmyslový standard). Reklamy můžete ovládat v nastavení zařízení a v Možnostech ochrany soukromí.
+
+11. ZMĚNY
+
+• Tyto zásady můžeme čas od času aktualizovat. Nejnovější verze bude vždy zveřejněna s aktualizovaným datem účinnosti.
+
+12. KONTAKT
+
+• Pokud máte dotazy k těmto Zásadám nebo k našemu nakládání s daty, kontaktujte nás: indietapstudio@gmail.com
