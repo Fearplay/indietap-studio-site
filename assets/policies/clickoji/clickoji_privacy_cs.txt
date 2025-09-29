@@ -23,8 +23,8 @@ Zásady ochrany osobních údajů
 • Diagnostická/výkonnostní data (spolehlivost aplikace, prevence podvodů).
 
 **Tato data zpracovává Google podle svých zásad:**
-• <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
-• <a href="https://policies.google.com/technologies/ads" target="_blank">https://policies.google.com/technologies/ads</a>
+• https://policies.google.com/privacy
+• https://policies.google.com/technologies/ads
 
 3. ÚČELY A PRÁVNÍ ZÁKLADY
 

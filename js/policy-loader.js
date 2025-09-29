@@ -138,7 +138,15 @@ class PolicyLoader {
                     html += '<ul>\n';
                     inList = true;
                 }
-                const bulletContent = trimmedLine.startsWith('• ') ? trimmedLine.substring(2) : trimmedLine.substring(2);
+                let bulletContent = trimmedLine.startsWith('• ') ? trimmedLine.substring(2) : trimmedLine.substring(2);
+                
+                // Support formatting in bullet points
+                bulletContent = bulletContent.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                bulletContent = bulletContent.replace(
+                    /(https?:\/\/[^\s]+)/g,
+                    '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-link">$1</a>'
+                );
+                
                 html += `<li>${bulletContent}</li>\n`;
                 continue;
             }
@@ -166,6 +174,13 @@ class PolicyLoader {
             } else {
                 // Support basic Markdown formatting (bold text with **)
                 let formattedLine = trimmedLine.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                
+                // Convert URLs to clickable links
+                formattedLine = formattedLine.replace(
+                    /(https?:\/\/[^\s]+)/g,
+                    '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-link">$1</a>'
+                );
+                
                 html += `<p>${formattedLine}</p>\n`;
             }
         }
