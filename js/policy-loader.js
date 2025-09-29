@@ -142,10 +142,21 @@ class PolicyLoader {
                 
                 // Support formatting in bullet points
                 bulletContent = bulletContent.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                
+                // Convert hidden links format [text](url) to clickable links
+                const hasHiddenLinksInBullet = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/.test(bulletContent);
                 bulletContent = bulletContent.replace(
-                    /(https?:\/\/[^\s]+)/g,
-                    '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-link">$1</a>'
+                    /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+                    '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-link">$1</a>'
                 );
+                
+                // Convert standalone URLs to clickable links (only if no hidden links present)
+                if (!hasHiddenLinksInBullet) {
+                    bulletContent = bulletContent.replace(
+                        /(https?:\/\/[^\s]+)/g,
+                        '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-link">$1</a>'
+                    );
+                }
                 
                 html += `<li>${bulletContent}</li>\n`;
                 continue;
@@ -167,6 +178,8 @@ class PolicyLoader {
                                    !trimmedLine.endsWith('.') && 
                                    !trimmedLine.includes('@') && 
                                    !trimmedLine.includes('http') &&
+                                   !trimmedLine.includes('[') &&
+                                   !trimmedLine.includes('](') &&
                                    !isDate; // Not a date
             
             if (isKnownHeadline || (isStandaloneHeading && looksLikeHeading && !isDate)) {
@@ -175,11 +188,20 @@ class PolicyLoader {
                 // Support basic Markdown formatting (bold text with **)
                 let formattedLine = trimmedLine.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
                 
-                // Convert URLs to clickable links
+                // Convert hidden links format [text](url) to clickable links
+                const hasHiddenLinks = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/.test(formattedLine);
                 formattedLine = formattedLine.replace(
-                    /(https?:\/\/[^\s]+)/g,
-                    '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-link">$1</a>'
+                    /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+                    '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-link">$1</a>'
                 );
+                
+                // Convert standalone URLs to clickable links (only if no hidden links present)
+                if (!hasHiddenLinks) {
+                    formattedLine = formattedLine.replace(
+                        /(https?:\/\/[^\s]+)/g,
+                        '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-link">$1</a>'
+                    );
+                }
                 
                 html += `<p>${formattedLine}</p>\n`;
             }

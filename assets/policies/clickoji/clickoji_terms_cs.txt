@@ -49,7 +49,7 @@ Tyto Podmínky používání („Podmínky") upravují vaše používání mobil
 
 8. OCHRANA SOUKROMÍ A DATA
 
-• Podrobnosti naleznete v našich Zásadách ochrany osobních údajů.
+• Podrobnosti naleznete v našich [Zásadách ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs).
 • Herní data se ukládají pouze lokálně ve vašem zařízení.
 • Reklamní data zpracovává Google AdMob dle svých zásad.
 • Uživatelé mladší 16 let mají dodatečnou ochranu soukromí.
@@ -100,6 +100,6 @@ Tyto Podmínky používání („Podmínky") upravují vaše používání mobil
 
 16. ÚPLNÁ DOHODA
 
-• Tyto Podmínky spolu s našimi Zásadami ochrany osobních údajů tvoří celou dohodu mezi vámi a **FairplayX** ohledně používání aplikace Clickoji.
+• Tyto Podmínky spolu s našimi [Zásadami ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs) tvoří celou dohodu mezi vámi a **FairplayX** ohledně používání aplikace Clickoji.
 
 © 2025 **FairplayX**. Všechna práva vyhrazena.

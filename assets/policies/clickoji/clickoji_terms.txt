@@ -49,7 +49,7 @@ These Terms of Service ("Terms") govern your use of the Clickoji mobile applicat
 
 8. PRIVACY & DATA
 
-• Please refer to our Privacy Policy for full details.
+• Please refer to our [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en) for full details.
 • Game data is stored locally on your device.
 • Advertising data is processed by Google AdMob under its own policies.
 • Users under 16 receive additional privacy protections.
@@ -100,6 +100,6 @@ These Terms of Service ("Terms") govern your use of the Clickoji mobile applicat
 
 16. ENTIRE AGREEMENT
 
-• These Terms, together with our Privacy Policy, form the entire agreement between you and **FairplayX** regarding the use of Clickoji.
+• These Terms, together with our [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en), form the entire agreement between you and **FairplayX** regarding the use of Clickoji.
 
 © 2025 **FairplayX**. All rights reserved.
