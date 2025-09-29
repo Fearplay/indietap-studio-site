@@ -1,76 +1,90 @@
-CLICKOJI PRIVACY POLICY
+Privacy Policy
 
-Last updated: January 2025
+**Effective Date:** 2025-09-29
+**Contact:** indietapstudio@gmail.com
 
-IndieTap Studio ("we," "our," or "us") operates the Clickoji mobile application (the "Service").
+1. INTRODUCTION
 
-This Privacy Policy explains how we collect, use, and protect your information when you use our Service.
+**FairplayX** ("we") respects your privacy. This Privacy Policy explains how we handle information in the Clickoji mobile application. The app is free and ad-supported. We do not run our own backend, do not require registration, and do not send marketing emails.
 
-INFORMATION WE COLLECT
+2. DATA WE COLLECT
 
-Personal Information
-- User preferences and app settings
-- Custom content and data you create
-- User interaction patterns and preferences
+**A) Data stored locally on your device**
+• Age category only (over/under 16) – stored as a boolean for ad restrictions.
+• Game progress and settings – scores, achievements, sound/music, theme, language.
 
-Device Information
-- Device type and operating system
-- App usage analytics and performance metrics
-- Crash reports and diagnostic information
+**These data remain only on your device in local Hive storage. We do not receive them.**
 
-HOW WE USE YOUR INFORMATION
+**B) Data collected by third parties (Google AdMob)**
+**To display ads, the Google Mobile Ads SDK may collect and process:**
+• Advertising ID (GAID/IDFA) and basic device info.
+• Ad interaction data (impressions, clicks).
+• Approximate location (country/region inferred from IP/network; no precise GPS).
+• Diagnostics/performance data (app reliability, fraud prevention).
 
-We use the information we collect to:
-- Provide and maintain the Clickoji service
-- Personalize your app experience
-- Improve app functionality and user experience
-- Provide customer support and technical assistance
+**Processed by Google under its own policies:**
+• <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
+• <a href="https://policies.google.com/technologies/ads" target="_blank">https://policies.google.com/technologies/ads</a>
 
-DATA STORAGE AND SECURITY
+3. PURPOSES & LEGAL BASES
 
-- Personal data is primarily stored locally on your device
-- We implement industry-standard security measures
-- Anonymous usage analytics may be collected for app improvement
-- We do not sell or share personal information with third parties
+• Consent (GDPR/UK GDPR) for personalized ads and measurement via Google's User Messaging Platform (UMP).
+• Legitimate interests for security, diagnostics, and fraud prevention.
 
-THIRD-PARTY SERVICES
+4. YOUR CHOICES
 
-Clickoji may integrate with:
-- Apple App Store / Google Play Store (for app distribution)
-- Analytics services (anonymous data only)
-- Cloud backup services (optional, user-controlled)
-- Push notification services
+• Manage consent and ad personalization in Settings → Privacy choices (opens UMP).
+• Reset/limit the Advertising ID in your device settings.
+• California residents: use "Do Not Sell or Share My Personal Information" in Privacy choices.
 
-CHILDREN'S PRIVACY
+5. CHILDREN
 
-Clickoji is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13.
+• The app is not directed to children under 13.
+• We only store an age category.
+• Users under 16 receive restricted ad treatment (non-personalized ads).
+• We do not knowingly collect children's personal information.
 
-YOUR RIGHTS
+6. DATA RETENTION
 
-You have the right to:
-- Access your personal information
-- Update or correct your data
-- Delete your data (by uninstalling the app)
-- Contact us about privacy concerns
+• Local game data: kept only until you uninstall the app. Uninstalling permanently deletes these data.
+• AdMob data: retained by Google according to its policies.
 
-DATA RETENTION
+7. SHARING & TRANSFERS
 
-We retain your information only as long as necessary to provide our services or as required by law.
+• We do not sell your personal information.
+• Limited identifiers (e.g., Advertising ID) may be shared with Google AdMob to serve and measure ads.
+• Google may process these data internationally.
 
-INTERNATIONAL TRANSFERS
+8. SECURITY
 
-Your information may be processed in countries other than your own, but we ensure appropriate safeguards are in place.
+• All ad/network traffic uses HTTPS/TLS.
+• Local game data remain on your device.
+• While we take steps to protect information, no method is 100% secure.
 
-CHANGES TO THIS POLICY
+9. CALIFORNIA PRIVACY (CCPA/CPRA)
 
-We may update this Privacy Policy from time to time. We will notify users of any material changes through the app or our website.
+• We do not sell personal information.
+• We may share Advertising ID with Google AdMob for cross-context advertising.
+• Opt-out: available via Privacy choices in the app or device settings.
+• Your rights: access/know, delete, correct, limit use of sensitive PI (not collected), non-discrimination.
+• Requests: email indietapstudio@gmail.com (response within 45 days).
 
-CONTACT US
+**Categories collected in the last 12 months:**
+• Identifiers (Advertising ID)
+• App activity (ad impressions, clicks)
+• Approximate geolocation (country/region inferred by Google)
+• Diagnostics (performance/fraud-prevention signals)
 
-If you have any questions about this Privacy Policy, please contact us at:
-Email: support@indietapstudio.com
-Website: https://indietapstudio.com
+10. CALOPPA
 
-IndieTap Studio
-Privacy Policy for Clickoji
-Effective Date: January 2025
+• This policy shows an effective date.
+• It is linked from the app (Settings → Privacy Policy) and from the Google Play listing.
+• Do Not Track (DNT): we do not respond to DNT signals (no industry standard). Control ads via device settings and Privacy choices.
+
+11. CHANGES
+
+• We may update this Privacy Policy. The latest version will always be posted with an updated effective date.
+
+12. CONTACT
+
+• If you have questions about this Privacy Policy or our data practices, please contact: indietapstudio@gmail.com
