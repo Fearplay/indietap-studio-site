@@ -23,8 +23,8 @@ Privacy Policy
 • Diagnostics/performance data (app reliability, fraud prevention).
 
 **Processed by Google under its own policies:**
-• <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
-• <a href="https://policies.google.com/technologies/ads" target="_blank">https://policies.google.com/technologies/ads</a>
+• https://policies.google.com/privacy
+• https://policies.google.com/technologies/ads
 
 3. PURPOSES & LEGAL BASES
 

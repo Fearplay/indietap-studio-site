@@ -1,92 +1,105 @@
-CLICKOJI TERMS OF SERVICE
+Terms of Service
 
-Last updated: January 2025
+**Effective Date:** September 29, 2025
+**Contact:** indietapstudio@gmail.com
 
-These Terms of Service ("Terms") govern your use of the Clickoji mobile application ("App") operated by IndieTap Studio ("we," "us," or "our").
+1. ABOUT THESE TERMS
 
-ACCEPTANCE OF TERMS
+These Terms of Service ("Terms") govern your use of the Clickoji mobile application ("App", "Game") developed by **FairplayX** ("we", "us", "our"). By downloading, installing, or using Clickoji, you agree to these Terms.
 
-By downloading, installing, or using Clickoji, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
+2. ACCEPTANCE OF TERMS
 
-DESCRIPTION OF SERVICE
+• You must be at least 16 years old. Users under 16 may play, but they will not see advertisements.
+• By using the App, you fully accept these Terms. If you do not agree, you must not use the App.
+• We may change these Terms at any time. Continued use means you accept the updated version. Major changes will be communicated via app updates.
 
-Clickoji is a mobile application designed to bring joy and utility to your daily routine through innovative features and user-friendly design.
+3. GAME DESCRIPTION
 
-LICENSE TO USE
+• Clickoji is a free-to-play emoji clicking game.
+• It is designed purely for entertainment.
+• It includes optional rewarded video ads.
+• It features offline progress and achievement systems.
 
-We grant you a limited, non-exclusive, non-transferable, revocable license to use Clickoji for personal, non-commercial purposes in accordance with these Terms.
+4. FREE-TO-PLAY MODEL
 
-USER ACCOUNTS
+• The game is completely free and contains no in-app purchases.
+• All rewards and progression are based entirely on gameplay.
+• Ads are displayed through Google AdMob.
+• Watching ads is voluntary and provides bonus rewards.
 
-- You may be required to create an account to access certain features
-- You are responsible for maintaining the confidentiality of your account
-- You agree to provide accurate and complete information
-- You are responsible for all activities under your account
+5. AGE REQUIREMENTS & CHILD SAFETY
 
-USER RESPONSIBILITIES
+• Players must confirm an age category (over/under 16).
+• Users under 16 may play but will receive non-personalized or no ads.
+• The game contains no gambling and no inappropriate content.
+• We only store the age category, not your exact age.
 
-You agree to:
-- Use the App only for its intended purpose
-- Comply with all applicable laws and regulations
-- Respect other users and intellectual property rights
-- Not attempt to reverse engineer or modify the App
-- Not use the App for any illegal or unauthorized purpose
+6. GAME MECHANICS & VIRTUAL ITEMS
 
-CONTENT AND INTELLECTUAL PROPERTY
+• Game points have no real-world value and cannot be exchanged for money or goods.
+• Points are used only to unlock features and bonuses within the game.
+• Achievements and rewards are for gameplay or cosmetic purposes only.
 
-- You retain ownership of content you create through the App
-- IndieTap Studio retains all rights to the App and its original content
-- You grant us a license to use your content as necessary to provide our services
-- You represent that your content does not infringe on third-party rights
+7. USER RESPONSIBILITIES
 
-PROHIBITED USES
+• Use the App only for personal entertainment.
+• Do not hack, modify, or reverse-engineer the App.
+• Do not use bots or automated tools.
+• Ensure your device meets minimum requirements and has an internet connection for ads.
 
-You may not:
-- Use the App for any unlawful purpose
-- Transmit harmful, offensive, or inappropriate content
-- Attempt to gain unauthorized access to our systems
-- Interfere with the App's functionality or other users' experience
-- Violate these Terms or applicable laws
+8. PRIVACY & DATA
 
-PRIVACY AND DATA
+• Please refer to our [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en) for full details.
+• Game data is stored locally on your device.
+• Advertising data is processed by Google AdMob under its own policies.
+• Users under 16 receive additional privacy protections.
 
-Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your information.
+9. ADVERTISING
 
-DISCLAIMERS
+• Ads are provided by Google AdMob and follow Google's policies.
+• We do not control the specific ad content shown.
+• Watching ads is always optional and not required to play.
 
-Clickoji is provided "as is" without warranties of any kind. We do not guarantee that the App will be error-free, secure, or uninterrupted.
+10. PROHIBITED ACTIVITIES
 
-LIMITATION OF LIABILITY
+**You must not:**
+• Use the App for unlawful purposes.
+• Attempt unauthorized access to systems.
+• Reverse engineer, decompile, or modify the App.
+• Use cheats, bots, or automation.
+• Misrepresent your age during verification.
 
-IndieTap Studio shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of Clickoji.
+11. INTELLECTUAL PROPERTY
 
-INDEMNIFICATION
+• The Clickoji app, name, design, and code are owned by **FairplayX**.
+• Emoji graphics use Google Noto Emoji under the SIL Open Font License.
+• Background music and sound effects are properly licensed.
+• You are granted a limited license to use the App as intended.
 
-You agree to indemnify and hold harmless IndieTap Studio from any claims arising from your use of the App or violation of these Terms.
+12. DISCLAIMERS
 
-UPDATES AND MODIFICATIONS
+• The App is provided "as is" without warranties.
+• We do not guarantee uninterrupted or error-free service.
+• We are not liable for loss of data, indirect, or consequential damages.
 
-We reserve the right to:
-- Modify or discontinue Clickoji at any time
-- Update these Terms (continued use constitutes acceptance)
-- Update the App to improve functionality or security
+13. MODIFICATIONS & TERMINATION
 
-TERMINATION
+• We may update, modify, or discontinue features at any time.
+• You may stop using the App at any time by uninstalling it.
+• Uninstalling permanently deletes all local game data.
 
-- You may terminate your use by deleting the App
-- We may terminate your access for violation of these Terms
-- Upon termination, your license to use the App ends immediately
+14. GOVERNING LAW
 
-GOVERNING LAW
+• These Terms are governed by the laws of the European Union and the Czech Republic.
+• Any disputes with users shall be resolved before the competent courts of the Czech Republic.
+• Users outside the EU are also subject to their local consumer protection laws, which remain unaffected.
 
-These Terms shall be governed by and construed in accordance with applicable law, without regard to conflict of law principles.
+15. CONTACT
 
-CONTACT INFORMATION
+• If you have questions about these Terms, please contact: indietapstudio@gmail.com
 
-If you have questions about these Terms, contact us at:
-Email: support@indietapstudio.com
-Website: https://indietapstudio.com
+16. ENTIRE AGREEMENT
 
-IndieTap Studio
-Terms of Service for Clickoji
-Effective Date: January 2025
+• These Terms, together with our [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en), form the entire agreement between you and **FairplayX** regarding the use of Clickoji.
+
+© 2025 **FairplayX**. All rights reserved.

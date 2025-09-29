@@ -1,92 +1,105 @@
-PODMÍNKY SLUŽBY CLICKOJI
+Podmínky používání
 
-Poslední aktualizace: leden 2025
+**Datum účinnosti:** 29. 9. 2025
+**Kontakt:** indietapstudio@gmail.com
 
-Tyto Podmínky služby ("Podmínky") upravují vaše používání mobilní aplikace Clickoji ("Aplikace") provozované společností IndieTap Studio ("my," "nás" nebo "naše").
+1. O TĚCHTO PODMÍNKÁCH
 
-PŘIJETÍ PODMÍNEK
+Tyto Podmínky používání („Podmínky") upravují vaše používání mobilní aplikace Clickoji („Aplikace", „Hra") vyvinuté společností **FairplayX** („my", „nás", „naše"). Stažením, instalací nebo používáním Clickoji souhlasíte s těmito Podmínkami.
 
-Stažením, instalací nebo používáním Clickoji souhlasíte s těmito Podmínkami. Pokud s těmito Podmínkami nesouhlasíte, nepoužívejte prosím Aplikaci.
+2. PŘIJETÍ PODMÍNEK
 
-POPIS SLUŽBY
+• Musíte být starší než 16 let. Uživatelé mladší 16 let mohou hru používat, ale nezobrazují se jim reklamy.
+• Používáním Aplikace přijímáte tyto Podmínky v plném rozsahu. Pokud s nimi nesouhlasíte, nesmíte Aplikaci používat.
+• Podmínky můžeme kdykoli změnit. Pokračováním v používání souhlasíte s novou verzí. O zásadních změnách budete informováni prostřednictvím aktualizací aplikace.
 
-Clickoji je mobilní aplikace navržená k tomu, aby přinesla radost a užitečnost do vaší denní rutiny prostřednictvím inovativních funkcí a uživatelsky přívětivého designu.
+3. POPIS HRY
 
-LICENCE K POUŽÍVÁNÍ
+• Clickoji je bezplatná hra typu „klikání na emoji".
+• Je určena pouze pro zábavu.
+• Obsahuje dobrovolná odměňovaná reklamní videa.
+• Nabízí offline postup a systém úspěchů.
 
-Udělujeme vám omezenou, nevýhradní, nepřenosnou, odvolatelnou licenci k používání Clickoji pro osobní, nekomerční účely v souladu s těmito Podmínkami.
+4. FREE-TO-PLAY MODEL
 
-UŽIVATELSKÉ ÚČTY
+• Hra je zcela zdarma a neobsahuje nákupy v aplikaci.
+• Veškerý postup a odměny jsou založeny pouze na hraní.
+• Reklamy jsou zobrazovány prostřednictvím Google AdMob.
+• Sledování reklam je dobrovolné a přináší bonusové odměny.
 
-- Možná budete muset vytvořit účet pro přístup k určitým funkcím
-- Zodpovídáte za zachování důvěrnosti svého účtu
-- Souhlasíte s poskytnutím přesných a úplných informací
-- Zodpovídáte za všechny aktivity pod svým účtem
+5. VĚKOVÉ POŽADAVKY A BEZPEČNOST DĚTÍ
 
-POVINNOSTI UŽIVATELE
+• Hráči musí potvrdit věkovou kategorii (nad/pod 16 let).
+• Uživatelé mladší 16 let mohou hrát, ale dostávají nepersonalizované nebo žádné reklamy.
+• Hra neobsahuje hazard ani nevhodný obsah.
+• Ukládáme pouze věkovou kategorii, nikoliv přesný věk.
 
-Souhlasíte s tím, že:
-- Budete používat Aplikaci pouze pro zamýšlený účel
-- Budete dodržovat všechny platné zákony a předpisy
-- Budete respektovat ostatní uživatele a práva duševního vlastnictví
-- Nebudete se pokoušet o reverzní inženýrství nebo úpravu Aplikace
-- Nebudete používat Aplikaci pro jakékoli nezákonné nebo neoprávněné účely
+6. HERNÍ MECHANIKY A VIRTUÁLNÍ POLOŽKY
 
-OBSAH A DUŠEVNÍ VLASTNICTVÍ
+• Herní body nemají žádnou reálnou hodnotu a nelze je směnit za peníze ani zboží.
+• Slouží pouze k odemykání funkcí a bonusů ve hře.
+• Úspěchy a odměny mají čistě herní nebo kosmetický charakter.
 
-- Zachováváte si vlastnictví obsahu, který prostřednictvím Aplikace vytvoříte
-- IndieTap Studio si ponechává všechna práva k Aplikaci a jejímu původnímu obsahu
-- Udělujete nám licenci k používání vašeho obsahu, jak je nezbytné pro poskytování našich služeb
-- Prohlašujete, že váš obsah neporušuje práva třetích stran
+7. POVINNOSTI UŽIVATELE
 
-ZAKÁZANÉ POUŽITÍ
+• Aplikaci používejte pouze k osobní zábavě.
+• Je zakázáno hackování, modifikace, reverzní inženýrství nebo používání botů.
+• Udržujte zařízení v technickém stavu, se stabilním připojením k internetu (pro reklamy).
+• Zajistěte, že vaše zařízení splňuje minimální požadavky pro běh hry.
 
-Nesmíte:
-- Používat Aplikaci pro jakýkoli nezákonný účel
-- Přenášet škodlivý, urážlivý nebo nevhodný obsah
-- Pokoušet se získat neoprávněný přístup k našim systémům
-- Zasahovat do funkčnosti Aplikace nebo zkušeností jiných uživatelů
-- Porušovat tyto Podmínky nebo platné zákony
+8. OCHRANA SOUKROMÍ A DATA
 
-SOUKROMÍ A DATA
+• Podrobnosti naleznete v našich [Zásadách ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs).
+• Herní data se ukládají pouze lokálně ve vašem zařízení.
+• Reklamní data zpracovává Google AdMob dle svých zásad.
+• Uživatelé mladší 16 let mají dodatečnou ochranu soukromí.
 
-Vaše soukromí je pro nás důležité. Přečtěte si prosím naše Zásady ochrany osobních údajů, abyste pochopili, jak sbíráme, používáme a chráníme vaše informace.
+9. REKLAMA
 
-ODMÍTNUTÍ ZÁRUK
+• Reklamy poskytuje Google AdMob a řídí se jeho zásadami.
+• Konkrétní obsah reklam neovládáme.
+• Sledování reklam je vždy dobrovolné a není nutné pro hraní.
 
-Clickoji je poskytována "tak, jak je" bez jakýchkoli záruk. Nezaručujeme, že Aplikace bude bez chyb, bezpečná nebo nepřerušovaná.
+10. ZAKÁZANÉ ČINNOSTI
 
-OMEZENÍ ODPOVĚDNOSTI
+**Nesmíte:**
+• používat Aplikaci k nezákonným účelům,
+• pokoušet se o neoprávněný přístup k systémům,
+• reverzně analyzovat, dekompilovat nebo jinak zasahovat do Aplikace,
+• používat cheaty, boty nebo automatizační nástroje,
+• uvádět nepravdivé údaje o věku.
 
-IndieTap Studio nenesou odpovědnost za žádné nepřímé, náhodné, zvláštní, následné nebo trestní škody vyplývající z vašeho používání Clickoji.
+11. DUŠEVNÍ VLASTNICTVÍ
 
-ODŠKODNĚNÍ
+• Clickoji, její název, design a kód jsou vlastnictvím **FairplayX**.
+• Emoji grafika využívá Google Noto Emoji (SIL Open Font License).
+• Zvuky a hudba jsou řádně licencovány.
+• Uživatelům poskytujeme omezenou licenci k používání Aplikace dle těchto Podmínek.
 
-Souhlasíte s tím, že odškodníte a zbavíte IndieTap Studio odpovědnosti za jakékoli nároky vyplývající z vašeho používání Aplikace nebo porušení těchto Podmínek.
+12. VYLOUČENÍ ODPOVĚDNOSTI
 
-AKTUALIZACE A ÚPRAVY
+• Aplikace je poskytována „tak jak je", bez záruk.
+• Nemůžeme garantovat nepřetržitou dostupnost nebo bezchybnost.
+• Neodpovídáme za ztrátu dat, nepřímé nebo následné škody.
 
-Vyhrazujeme si právo:
-- Kdykoliv upravit nebo ukončit Clickoji
-- Aktualizovat tyto Podmínky (pokračující používání znamená přijetí)
-- Aktualizovat Aplikaci za účelem zlepšení funkčnosti nebo bezpečnosti
+13. ZMĚNY A UKONČENÍ SLUŽBY
 
-UKONČENÍ
+• Aplikaci můžeme kdykoli aktualizovat, upravit nebo ukončit.
+• Vy můžete přestat používat kdykoli – stačí aplikaci odinstalovat.
+• Odinstalací se smažou všechna lokální herní data.
 
-- Můžete ukončit své používání smazáním Aplikace
-- Můžeme ukončit váš přístup za porušení těchto Podmínek
-- Po ukončení okamžitě končí vaše licence k používání Aplikace
+14. ROZHODNÉ PRÁVO A PŘÍSLUŠNOST SOUDU
 
-ROZHODNÉ PRÁVO
+• Tyto Podmínky se řídí právem České republiky a Evropské unie.
+• Případné spory s uživateli budou řešeny u příslušných soudů v České republice.
+• Uživatelé mimo EU podléhají také místním zákonům na ochranu spotřebitele, které tím nejsou dotčeny.
 
-Tyto Podmínky se řídí a vykládají v souladu s platným právem, bez ohledu na principy kolize práv.
+15. KONTAKT
 
-KONTAKTNÍ INFORMACE
+• Pokud máte dotazy k těmto Podmínkám, kontaktujte nás: indietapstudio@gmail.com
 
-Máte-li otázky k těmto Podmínkám, kontaktujte nás na:
-Email: support@indietapstudio.com
-Webové stránky: https://indietapstudio.com
+16. ÚPLNÁ DOHODA
 
-IndieTap Studio
-Podmínky služby pro Clickoji
-Datum účinnosti: leden 2025
+• Tyto Podmínky spolu s našimi [Zásadami ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs) tvoří celou dohodu mezi vámi a **FairplayX** ohledně používání aplikace Clickoji.
+
+© 2025 **FairplayX**. Všechna práva vyhrazena.

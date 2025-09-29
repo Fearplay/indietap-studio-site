@@ -687,15 +687,38 @@ body.language-changing [data-key] {
     border-color: #4b5563;
     color: #d1d5db;
 }
-
 [data-theme="dark"] .policy-link:hover {
     background: rgba(167, 139, 250, 0.15);
     border-color: #a78bfa;
     color: #a78bfa;
-    box-shadow: 0 4px 12px rgba(167, 139, 250, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(167, 139, 250, 0.3);
 }
 
-/* App Header for Policy Pages */
+/* Simple text links for policy content */
+.text-link {
+    color: #8b5cf6;
+    text-decoration: underline;
+    text-decoration-color: rgba(139, 92, 246, 0.3);
+    transition: all 0.3s ease;
+}
+
+.text-link:hover {
+    color: #7c3aed;
+    text-decoration-color: #7c3aed;
+}
+
+/* Dark mode styling for text links */
+[data-theme="dark"] .text-link {
+    color: #a78bfa;
+    text-decoration-color: rgba(167, 139, 250, 0.4);
+}
+
+[data-theme="dark"] .text-link:hover {
+    color: #c4b5fd;
+    text-decoration-color: #c4b5fd;
+}
+
 .app-header {
     display: flex;
     align-items: center;
