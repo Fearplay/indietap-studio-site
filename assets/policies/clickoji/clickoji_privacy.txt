@@ -39,9 +39,9 @@ Where consent is refused (or not available), ads—if any—are non-personalized
 
 YOUR CHOICES
 
-• Manage consent & ad personalization in Settings → Privacy choices (opens UMP).
+• Manage consent & ad personalization in Settings → Privacy Options (opens UMP).
 • Reset/limit Advertising ID in your device settings.
-• California residents: use "Do Not Sell or Share My Personal Information" in Privacy choices.
+• California residents: use "Do Not Sell or Share My Personal Information" in Privacy Options.
 
 CHILDREN & TEENS
 
@@ -68,7 +68,7 @@ You have the right to access, rectify, erase, restrict, object (including to pro
 To exercise rights, email **indietapstudio@gmail.com**.
 
 California (CCPA/CPRA)
-We do not sell personal information. We may share Advertising ID with Google AdMob for cross-context behavioral advertising (for users 16+). Opt-out: available via Privacy choices in the App or device settings. Your rights: know/access, delete, correct, limit use of sensitive PI (not collected), opt-out of sale/share, and non-discrimination. Requests: email **indietapstudio@gmail.com** (we respond within 45 days).
+We do not sell personal information. We may share Advertising ID with Google AdMob for cross-context behavioral advertising (for users 16+). Opt-out: available via Privacy Options in the App or device settings. Your rights: know/access, delete, correct, limit use of sensitive PI (not collected), opt-out of sale/share, and non-discrimination. Requests: email **indietapstudio@gmail.com** (we respond within 45 days).
 
 Categories collected in the last 12 months (for users 16+ seeing ads):
 • Identifiers (Advertising ID)
@@ -78,7 +78,7 @@ Categories collected in the last 12 months (for users 16+ seeing ads):
 
 CALOPPA
 
-This policy shows an effective date. It is linked from the App (Settings → Privacy Policy) and from the Google Play listing. Do Not Track (DNT): we do not respond to DNT signals (no industry standard). Control ads via device settings and Privacy choices.
+This policy shows an effective date. It is linked from the App (Settings → About App → Privacy Policy) and from the Google Play listing. Do Not Track (DNT): we do not respond to DNT signals (no industry standard). Control ads via device settings and Privacy Options.
 
 INTERNATIONAL USERS
 

@@ -39,9 +39,9 @@ Pokud je souhlas odmítnut (nebo není k dispozici), reklamy — pokud jsou — 
 
 VAŠE VOLBY
 
-• Spravujte souhlas a personalizaci reklam v Nastavení → Možnosti soukromí (otevře UMP).
+• Spravujte souhlas a personalizaci reklam v Nastavení → Možnosti ochrany soukromí (otevře UMP).
 • Resetujte/omezte Reklamní ID v nastavení vašeho zařízení.
-• Obyvatelé Kalifornie: použijte „Do Not Sell or Share My Personal Information" v Možnostech soukromí.
+• Obyvatelé Kalifornie: použijte „Do Not Sell or Share My Personal Information" v Možnostech ochrany soukromí.
 
 DĚTI A DOSPÍVAJÍCÍ
 
@@ -68,7 +68,7 @@ Máte právo na přístup, opravu, výmaz, omezení, námitku (včetně zpracov�
 Pro uplatnění práv pište na **indietapstudio@gmail.com**.
 
 Kalifornie (CCPA/CPRA)
-Osobní údaje neprodáváme. Můžeme sdílet Reklamní ID s Google AdMob pro cross-context behaviorální reklamu (pro uživatele 16+). Odhlášení: dostupné v možnostech soukromí v Aplikaci nebo v nastavení zařízení. Vaše práva: znát/přístup, smazat, opravit, omezit použití citlivých údajů (neshromažďujeme), opt-out z prodeje/sdílení a nediskriminace. Žádosti: **indietapstudio@gmail.com** (odpovídáme do 45 dnů).
+Osobní údaje neprodáváme. Můžeme sdílet Reklamní ID s Google AdMob pro cross-context behaviorální reklamu (pro uživatele 16+). Odhlášení: dostupné v možnostech ochrany soukromí v Aplikaci nebo v nastavení zařízení. Vaše práva: znát/přístup, smazat, opravit, omezit použití citlivých údajů (neshromažďujeme), opt-out z prodeje/sdílení a nediskriminace. Žádosti: **indietapstudio@gmail.com** (odpovídáme do 45 dnů).
 
 Kategorie shromažďované za posledních 12 měsíců (pro uživatele 16+ se zobrazovanými reklamami):
 • Identifikátory (Reklamní ID)
@@ -78,7 +78,7 @@ Kategorie shromažďované za posledních 12 měsíců (pro uživatele 16+ se zo
 
 CALOPPA
 
-Tato politika uvádí datum účinnosti. Je odkazována z Aplikace (Nastavení → Zásady ochrany osobních údajů) a z výpisu na Google Play. Do Not Track (DNT): nereagujeme na DNT signály (neexistuje průmyslový standard). Reklamy můžete ovládat v nastavení zařízení a v Možnostech soukromí.
+Tato politika uvádí datum účinnosti. Je odkazována z Aplikace (Nastavení → O aplikaci → Zásady ochrany soukromí) a z výpisu na Google Play. Do Not Track (DNT): nereagujeme na DNT signály (neexistuje průmyslový standard). Reklamy můžete ovládat v nastavení zařízení a v Možnostech ochrany soukromí.
 
 MEZINÁRODNÍ UŽIVATELÉ
 
