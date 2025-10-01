@@ -1,105 +1,131 @@
 Podmínky používání
 
-**Datum účinnosti:** 29. 9. 2025
-**Kontakt:** indietapstudio@gmail.com
+Datum účinnosti: 1. října 2025
+Kontakt: **indietapstudio@gmail.com**
+Správce: FairplayX (Juraj Acsay)
 
-1. O TĚCHTO PODMÍNKÁCH
+O těchto podmínkách
 
-Tyto Podmínky používání („Podmínky") upravují vaše používání mobilní aplikace Clickoji („Aplikace", „Hra") vyvinuté společností **FairplayX** („my", „nás", „naše"). Stažením, instalací nebo používáním Clickoji souhlasíte s těmito Podmínkami.
+Tyto Podmínky upravují používání mobilní aplikace Clickoji („Aplikace", „Hra").
+Stažením, instalací nebo používáním Clickoji souhlasíte s těmito Podmínkami a se [Zásadami ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs).
+Nesouhlasíte-li, Aplikaci nepoužívejte.
 
-2. PŘIJETÍ PODMÍNEK
+Kdo může Aplikaci používat
 
-• Musíte být starší než 16 let. Uživatelé mladší 16 let mohou hru používat, ale nezobrazují se jim reklamy.
-• Používáním Aplikace přijímáte tyto Podmínky v plném rozsahu. Pokud s nimi nesouhlasíte, nesmíte Aplikaci používat.
-• Podmínky můžeme kdykoli změnit. Pokračováním v používání souhlasíte s novou verzí. O zásadních změnách budete informováni prostřednictvím aktualizací aplikace.
+• Aplikace je určena uživatelům 13+.
+• Mladší 16 let: mohou hrát, ale nezobrazují se jim reklamy (neinicializujeme požadavky AdMob).
+• 16+: mohou vidět reklamy; personalizované pouze s platným souhlasem, pokud je dostupný.
+• Musíte uvádět pravdivé a přesné informace o svém věku a nesmíte svůj věk zkreslovat.
+• Ukládáme pouze boolean nad/pod 16 pro uplatnění pravidel reklam.
 
-3. POPIS HRY
+Co je to za hru
 
-• Clickoji je bezplatná hra typu „klikání na emoji".
-• Je určena pouze pro zábavu.
-• Obsahuje dobrovolná odměňovaná reklamní videa.
-• Nabízí offline postup a systém úspěchů.
+• Free-to-play „klikací" hra s emotikony pro zábavu.
+• Offline postup a úspěchy.
+• Volitelné odměňované video reklamy (sledování je dobrovolné a poskytuje herní odměny).
+• Žádné nákupy v aplikaci; postup se získává jen hraním.
 
-4. FREE-TO-PLAY MODEL
+Soukromí a data
 
-• Hra je zcela zdarma a neobsahuje nákupy v aplikaci.
-• Veškerý postup a odměny jsou založeny pouze na hraní.
-• Reklamy jsou zobrazovány prostřednictvím Google AdMob.
-• Sledování reklam je dobrovolné a přináší bonusové odměny.
+• Nemáme vlastní backend, nevyžadujeme registraci a nezasíláme marketingové e-maily.
+• Neshromažďujeme ani neukládáme vaše osobní údaje na naše servery.
+• Herní data a věková kategorie se ukládají lokálně ve vašem zařízení.
+• Data související s reklamou pro způsobilé uživatele (16+) může zpracovávat Google AdMob dle svých zásad a vašich voleb souhlasu (viz [Zásady ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs)).
 
-5. VĚKOVÉ POŽADAVKY A BEZPEČNOST DĚTÍ
+Vaše povinnosti
 
-• Hráči musí potvrdit věkovou kategorii (nad/pod 16 let).
-• Uživatelé mladší 16 let mohou hrát, ale dostávají nepersonalizované nebo žádné reklamy.
-• Hra neobsahuje hazard ani nevhodný obsah.
-• Ukládáme pouze věkovou kategorii, nikoliv přesný věk.
+• Aplikaci používejte pro osobní, nekomerční zábavu.
+• Zajistěte, že vaše zařízení splňuje požadavky a má internet pro načítání reklam (pokud jste způsobilí).
+• Nehackujte, neupravujte, neprovádějte reverse engineering, nedezassemblujte a nezískávejte zdrojový kód (kromě zákonem povolených výjimek).
+• Nepoužívejte boty, cheaty, exploity ani automatizaci; nezasahujte do zabezpečení ani doručování reklam.
 
-6. HERNÍ MECHANIKY A VIRTUÁLNÍ POLOŽKY
+Zakázané činnosti
 
-• Herní body nemají žádnou reálnou hodnotu a nelze je směnit za peníze ani zboží.
-• Slouží pouze k odemykání funkcí a bonusů ve hře.
-• Úspěchy a odměny mají čistě herní nebo kosmetický charakter.
+• Používání Aplikace v rozporu se zákonem.
+• Pokusy o neoprávněný přístup k systémům nebo sítím.
+• Reverse engineering, dekompilace či modifikace Aplikace.
+• Používání cheatů, botů, exploitů nebo automatizace.
+• Zkreslování věku nebo obcházení ověření věku, souhlasu či pravidel způsobilosti pro reklamy.
 
-7. POVINNOSTI UŽIVATELE
+Důsledky porušení
 
-• Aplikaci používejte pouze k osobní zábavě.
-• Je zakázáno hackování, modifikace, reverzní inženýrství nebo používání botů.
-• Udržujte zařízení v technickém stavu, se stabilním připojením k internetu (pro reklamy).
-• Zajistěte, že vaše zařízení splňuje minimální požadavky pro běh hry.
+Můžeme omezit nebo deaktivovat funkce (včetně reklam a odměn), pozastavit či ukončit přístup nebo přijmout jiná přiměřená opatření, pokud porušíte tyto Podmínky, včetně nepravdivého uvedení věku.
 
-8. OCHRANA SOUKROMÍ A DATA
+Virtuální položky a balanc
 
-• Podrobnosti naleznete v našich [Zásadách ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs).
-• Herní data se ukládají pouze lokálně ve vašem zařízení.
-• Reklamní data zpracovává Google AdMob dle svých zásad.
-• Uživatelé mladší 16 let mají dodatečnou ochranu soukromí.
+• Body, bonusy a úspěchy nemají žádnou peněžní hodnotu, nejsou převoditelné a nelze je směnit za peníze ani zboží.
+• Herní prvky můžeme kdykoli rebalanceovat nebo měnit.
 
-9. REKLAMA
+Reklama
 
-• Reklamy poskytuje Google AdMob a řídí se jeho zásadami.
-• Konkrétní obsah reklam neovládáme.
-• Sledování reklam je vždy dobrovolné a není nutné pro hraní.
+• Reklamy (pro uživatele 16+) poskytuje Google AdMob dle zásad Google.
+• Nekontrolujeme konkrétní obsah jednotlivých reklam.
+• Reklamy nejsou nikdy povinné ke hraní.
+• Souhlas/personalizaci spravujte v Nastavení → Možnosti soukromí a v nastavení zařízení.
 
-10. ZAKÁZANÉ ČINNOSTI
+Duševní vlastnictví
 
-**Nesmíte:**
-• používat Aplikaci k nezákonným účelům,
-• pokoušet se o neoprávněný přístup k systémům,
-• reverzně analyzovat, dekompilovat nebo jinak zasahovat do Aplikace,
-• používat cheaty, boty nebo automatizační nástroje,
-• uvádět nepravdivé údaje o věku.
+• Aplikace, její kód, design a název patří FairplayX.
+• Emoji grafika využívá Google Noto Emoji podle licence SIL Open Font License (OFL).
+• Hudba a zvukové efekty jsou řádně licencované.
+• Získáváte omezenou, nevýhradní, nepřevoditelnou a odvolatelnou licenci k užití Aplikace k zamýšlenému účelu.
 
-11. DUŠEVNÍ VLASTNICTVÍ
+Služby třetích stran
 
-• Clickoji, její název, design a kód jsou vlastnictvím **FairplayX**.
-• Emoji grafika využívá Google Noto Emoji (SIL Open Font License).
-• Zvuky a hudba jsou řádně licencovány.
-• Uživatelům poskytujeme omezenou licenci k používání Aplikace dle těchto Podmínek.
+• Aplikace může integrovat služby třetích stran (např. Google AdMob/UMP).
+• Jejich použití se řídí jejich vlastními podmínkami a zásadami soukromí.
+• Neodpovídáme za obsah ani služby třetích stran.
 
-12. VYLOUČENÍ ODPOVĚDNOSTI
+Vyloučení záruk
 
-• Aplikace je poskytována „tak jak je", bez záruk.
-• Nemůžeme garantovat nepřetržitou dostupnost nebo bezchybnost.
-• Neodpovídáme za ztrátu dat, nepřímé nebo následné škody.
+• Aplikace je poskytována „tak jak je" a „jak je dostupná", bez jakýchkoli záruk (včetně záruk obchodovatelnosti, vhodnosti pro konkrétní účel a neporušování práv).
+• Negarantujeme nepřetržitý, bezchybný ani bezpečný provoz.
 
-13. ZMĚNY A UKONČENÍ SLUŽBY
+Omezení odpovědnosti
 
-• Aplikaci můžeme kdykoli aktualizovat, upravit nebo ukončit.
-• Vy můžete přestat používat kdykoli – stačí aplikaci odinstalovat.
-• Odinstalací se smažou všechna lokální herní data.
+• V maximálním rozsahu dle práva neneseme odpovědnost za nepřímé, náhodné, zvláštní, následné, sankční či exemplární škody (včetně ztráty dat, zisku či dobré pověsti).
+• Naše celková odpovědnost nepřesáhne částku, kterou jste nám zaplatili za používání Aplikace (typicky 0 €).
 
-14. ROZHODNÉ PRÁVO A PŘÍSLUŠNOST SOUDU
+Odškodnění
 
-• Tyto Podmínky se řídí právem České republiky a Evropské unie.
-• Případné spory s uživateli budou řešeny u příslušných soudů v České republice.
-• Uživatelé mimo EU podléhají také místním zákonům na ochranu spotřebitele, které tím nejsou dotčeny.
+Zavazujete se odškodnit a krýt FairplayX a přidružené subjekty proti nárokům a nákladům vyplývajícím z porušení těchto Podmínek, nezákonného užití nebo porušení práv třetích osob.
 
-15. KONTAKT
+Změny, pozastavení, ukončení
 
-• Pokud máte dotazy k těmto Podmínkám, kontaktujte nás: indietapstudio@gmail.com
+• Funkce můžeme kdykoli aktualizovat, měnit nebo ukončit.
+• Přístup můžeme pozastavit/ukončit při porušení, z právních, bezpečnostních či provozních důvodů.
+• Aplikaci můžete kdykoli přestat používat odinstalací; odinstalace trvale smaže lokální herní data.
 
-16. ÚPLNÁ DOHODA
+Rozhodné právo a příslušnost
 
-• Tyto Podmínky spolu s našimi [Zásadami ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs) tvoří celou dohodu mezi vámi a **FairplayX** ohledně používání aplikace Clickoji.
+• Řídí se právem České republiky a příslušným právem Evropské unie.
+• Spory budou řešit příslušné soudy v České republice.
+• Mimo EU/UK zůstávají vaše kogentní spotřebitelská práva nedotčena.
 
-© 2025 **FairplayX**. Všechna práva vyhrazena.
+Spotřebitelská práva (EHP/UK)
+
+Nic zde neomezuje vaše neodvolatelná spotřebitelská práva dle kogentního práva EHP/UK; v případě rozporu tato práva mají přednost.
+
+Export a sankce
+
+Nenacházíte se v zemi pod komplexními sankcemi a nejste zakázanou osobou; budete dodržovat příslušné předpisy o exportu/sankcích.
+
+Oddělitelnost a vzdání se práva
+
+• Neplatnost/nevymahatelnost některého ustanovení neovlivní platnost ostatních.
+• Naše neprosazení práva nepředstavuje vzdání se tohoto práva.
+
+Aktualizace Podmínek
+
+Tyto Podmínky můžeme upravovat; aktualizovaná verze ponese nové datum účinnosti.
+Další používání po účinnosti změn znamená souhlas s upravenými Podmínkami.
+
+Kontakt
+
+Dotazy: **indietapstudio@gmail.com**
+
+Celá dohoda
+
+Tyto Podmínky, [Zásady ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs) a případná oznámení v aplikaci tvoří úplnou dohodu mezi vámi a FairplayX ohledně Clickoji.
+
+© 2025 FairplayX. Všechna práva vyhrazena.

@@ -1,90 +1,93 @@
 Privacy Policy
 
-**Effective Date:** 2025-09-29
-**Contact:** indietapstudio@gmail.com
+Effective Date: October 1, 2025
+Contact: **indietapstudio@gmail.com**
+Controller: FairplayX (Juraj Acsay)
 
-1. INTRODUCTION
+INTRODUCTION
 
-**FairplayX** ("we") respects your privacy. This Privacy Policy explains how we handle information in the Clickoji mobile application. The app is free and ad-supported. We do not run our own backend, do not require registration, and do not send marketing emails.
+FairplayX ("we") respects your privacy. This Privacy Policy explains how information is handled in the Clickoji mobile application ("App"). The App is free and ad-supported. We do not run our own backend, do not require registration, and do not send marketing emails. We do not collect or store your personal data on our servers. Any advertising-related data, where applicable, is processed by Google AdMob under its own policies.
 
-2. DATA WE COLLECT
+Audience: We design Clickoji for users 13+. Users under 16 will not see any ads. Users 16+ may see ads (personalized only with consent).
 
-**A) Data stored locally on your device**
+DATA WE COLLECT
+
+A) Data stored locally on your device
 • Age category only (over/under 16) – stored as a boolean for ad restrictions.
-• Game progress and settings – scores, achievements, sound/music, theme, language.
+• Game progress and settings – e.g., scores, achievements, sound/music, theme, language.
 
-**These data remain only on your device in local Hive storage. We do not receive them.**
+These data remain only on your device in local Hive storage. We do not receive or access them.
 
-**B) Data collected by third parties (Google AdMob)**
-**To display ads, the Google Mobile Ads SDK may collect and process:**
-• Advertising ID (GAID/IDFA) and basic device info.
-• Ad interaction data (impressions, clicks).
-• Approximate location (country/region inferred from IP/network; no precise GPS).
-• Diagnostics/performance data (app reliability, fraud prevention).
+B) Data collected by third parties (Google AdMob) — shown only to users 16+
+To display ads, the Google Mobile Ads SDK may collect and process:
+• Advertising ID (GAID/IDFA) and basic device info
+• Ad interaction data (impressions, clicks)
+• Approximate location (country/region inferred from IP/network; no precise GPS)
+• Diagnostics/performance data (app reliability, fraud prevention)
 
-**Processed by Google under its own policies:**
-• https://policies.google.com/privacy
-• https://policies.google.com/technologies/ads
+Ads are provided by Google AdMob (Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; for users in the EEA/UK: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, D04 E5W5, Ireland). Google acts as an independent controller for the purposes of ad delivery and measurement. Processing is governed by Google's policies: https://policies.google.com/privacy and https://policies.google.com/technologies/ads
 
-3. PURPOSES & LEGAL BASES
+For users under 16, we do not show ads and therefore do not initialize AdMob ad requests for that user group.
 
-• Consent (GDPR/UK GDPR) for personalized ads and measurement via Google's User Messaging Platform (UMP).
-• Legitimate interests for security, diagnostics, and fraud prevention.
+PURPOSES & LEGAL BASES (GDPR/UK GDPR)
 
-4. YOUR CHOICES
+• Consent (Art. 6(1)(a)) for personalized ads and measurement via Google's User Messaging Platform (UMP) where available.
+• Legitimate interests (Art. 6(1)(f)) for security, diagnostics, and fraud prevention (limited to what is necessary).
+• Age gating: We store only a boolean (> / < 16) to apply ad restrictions and compliance rules.
 
-• Manage consent and ad personalization in Settings → Privacy choices (opens UMP).
-• Reset/limit the Advertising ID in your device settings.
+Where consent is refused (or not available), ads—if any—are non-personalized and/or disabled according to your age category (under 16 = no ads).
+
+YOUR CHOICES
+
+• Manage consent & ad personalization in Settings → Privacy choices (opens UMP).
+• Reset/limit Advertising ID in your device settings.
 • California residents: use "Do Not Sell or Share My Personal Information" in Privacy choices.
 
-5. CHILDREN
+CHILDREN & TEENS
 
-• The app is not directed to children under 13.
-• We only store an age category.
-• Users under 16 receive restricted ad treatment (non-personalized ads).
-• We do not knowingly collect children's personal information.
+The App is not directed to children under 13 (COPPA). We do not knowingly collect children's personal information. We store only an age category (boolean). Under 16: no ads. If you believe a child under 13 used the App and provided information, contact us and we will delete any such information that we can access.
 
-6. DATA RETENTION
+DATA RETENTION
 
-• Local game data: kept only until you uninstall the app. Uninstalling permanently deletes these data.
-• AdMob data: retained by Google according to its policies.
+• Local game data: kept only on your device until you uninstall the App. Uninstalling permanently deletes these data.
+• AdMob data: retained by Google according to its policies. We do not retain advertising data on our servers.
 
-7. SHARING & TRANSFERS
+SHARING & TRANSFERS
 
-• We do not sell your personal information.
-• Limited identifiers (e.g., Advertising ID) may be shared with Google AdMob to serve and measure ads.
-• Google may process these data internationally.
+We do not sell your personal information. Limited identifiers (e.g., Advertising ID) may be shared with Google AdMob to serve and measure ads (only for users 16+). Ads are served by Google AdMob (Google LLC / Google Ireland Limited – see above); Google acts as an independent controller and may process personal data in the United States and other countries in line with its policies and applicable data transfer safeguards (e.g., EU Standard Contractual Clauses).
 
-8. SECURITY
+SECURITY
 
-• All ad/network traffic uses HTTPS/TLS.
-• Local game data remain on your device.
-• While we take steps to protect information, no method is 100% secure.
+All ad/network traffic uses HTTPS/TLS. Local game data remain on your device. We take steps to protect information, but no method is 100% secure.
 
-9. CALIFORNIA PRIVACY (CCPA/CPRA)
+YOUR PRIVACY RIGHTS
 
-• We do not sell personal information.
-• We may share Advertising ID with Google AdMob for cross-context advertising.
-• Opt-out: available via Privacy choices in the app or device settings.
-• Your rights: access/know, delete, correct, limit use of sensitive PI (not collected), non-discrimination.
-• Requests: email indietapstudio@gmail.com (response within 45 days).
+EEA/UK (GDPR/UK GDPR)
+You have the right to access, rectify, erase, restrict, object (including to processing based on legitimate interests), and data portability, and to withdraw consent at any time (does not affect prior lawful processing). You also have the right to lodge a complaint with your local supervisory authority. In the Czech Republic: Úřad pro ochranu osobních údajů (ÚOOÚ).
 
-**Categories collected in the last 12 months:**
+To exercise rights, email **indietapstudio@gmail.com**.
+
+California (CCPA/CPRA)
+We do not sell personal information. We may share Advertising ID with Google AdMob for cross-context behavioral advertising (for users 16+). Opt-out: available via Privacy choices in the App or device settings. Your rights: know/access, delete, correct, limit use of sensitive PI (not collected), opt-out of sale/share, and non-discrimination. Requests: email **indietapstudio@gmail.com** (we respond within 45 days).
+
+Categories collected in the last 12 months (for users 16+ seeing ads):
 • Identifiers (Advertising ID)
 • App activity (ad impressions, clicks)
 • Approximate geolocation (country/region inferred by Google)
 • Diagnostics (performance/fraud-prevention signals)
 
-10. CALOPPA
+CALOPPA
 
-• This policy shows an effective date.
-• It is linked from the app (Settings → Privacy Policy) and from the Google Play listing.
-• Do Not Track (DNT): we do not respond to DNT signals (no industry standard). Control ads via device settings and Privacy choices.
+This policy shows an effective date. It is linked from the App (Settings → Privacy Policy) and from the Google Play listing. Do Not Track (DNT): we do not respond to DNT signals (no industry standard). Control ads via device settings and Privacy choices.
 
-11. CHANGES
+INTERNATIONAL USERS
 
-• We may update this Privacy Policy. The latest version will always be posted with an updated effective date.
+Your data (if processed by Google AdMob) may be transferred to and processed in countries outside your place of residence. Ads are served by Google AdMob (Google LLC / Google Ireland Limited – see above). Google acts as an independent controller and may process personal data in the United States and other countries in accordance with its policies and applicable data transfer safeguards (e.g., EU Standard Contractual Clauses).
 
-12. CONTACT
+CHANGES
 
-• If you have questions about this Privacy Policy or our data practices, please contact: indietapstudio@gmail.com
+We may update this Privacy Policy. The latest version will always be posted with an updated effective date.
+
+CONTACT
+
+If you have questions about this Privacy Policy or our data practices, please contact: **indietapstudio@gmail.com**

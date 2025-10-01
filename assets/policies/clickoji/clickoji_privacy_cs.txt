@@ -1,90 +1,93 @@
 Zásady ochrany osobních údajů
 
-**Datum účinnosti:** 29. 9. 2025
-**Kontakt:** indietapstudio@gmail.com
+Datum účinnosti: 1. října 2025
+Kontakt: **indietapstudio@gmail.com**
+Správce: FairplayX (Juraj Acsay)
 
-1. ÚVOD
+ÚVOD
 
-**FairplayX** („my") respektuje vaše soukromí. Tyto Zásady ochrany osobních údajů vysvětlují, jak nakládáme s informacemi v mobilní aplikaci Clickoji. Aplikace je zdarma a podporovaná reklamou. Nemáme vlastní backend, nevyžadujeme registraci a nezasíláme marketingové e-maily.
+FairplayX („my") respektuje vaše soukromí. Tyto Zásady ochrany osobních údajů vysvětlují, jak se nakládá s informacemi v mobilní aplikaci Clickoji („Aplikace"). Aplikace je zdarma a financovaná z reklam. Nemáme vlastní backend, nevyžadujeme registraci a nezasíláme marketingové e-maily. Neshromažďujeme ani neukládáme vaše osobní údaje na naše servery. Jakákoli data související s reklamou, pokud se zpracovávají, zpracovává Google AdMob podle svých vlastních zásad.
 
-2. JAKÁ DATA SHROMAŽĎUJEME
+Cílové publikum: Clickoji je určena uživatelům 13+. Uživatelům mladším 16 let se reklamy nezobrazují. Uživatelům 16+ se mohou zobrazovat reklamy (personalizované pouze s uděleným souhlasem).
 
-**A) Data uložená lokálně ve vašem zařízení**
-• Pouze věková kategorie (nad/pod 16 let) – ukládá se jako logická hodnota pro nastavení omezení reklam.
-• Herní postup a nastavení – skóre, úspěchy, zvuk/hudba, téma, jazyk.
+DATA, KTERÁ SHROMAŽĎUJEME
 
-**Tato data zůstávají pouze ve vašem zařízení v místním úložišti Hive. Nedostáváme je my ani žádná jiná třetí strana.**
+A) Data uložená lokálně ve vašem zařízení
+• Věková kategorie (nad/pod 16) – ukládá se jako boolean pro omezení reklam.
+• Herní postup a nastavení – např. skóre, úspěchy, zvuk/hudba, motiv, jazyk.
 
-**B) Data shromažďovaná třetími stranami (Google AdMob)**
-**Pro zobrazení reklam může sada Google Mobile Ads SDK shromažďovat a zpracovávat:**
-• Reklamní ID (GAID/IDFA) a základní informace o zařízení.
-• Data o interakci s reklamou (zobrazení, kliknutí).
-• Přibližnou polohu (země/region odvozené z IP sítě; nikoli přesná GPS).
-• Diagnostická/výkonnostní data (spolehlivost aplikace, prevence podvodů).
+Tato data zůstávají pouze ve vašem zařízení v lokálním úložišti Hive. Tato data neobdržíme ani k nim nemáme přístup.
 
-**Tato data zpracovává Google podle svých zásad:**
-• https://policies.google.com/privacy
-• https://policies.google.com/technologies/ads
+B) Data shromažďovaná třetí stranou (Google AdMob) — zobrazována pouze uživatelům 16+
+Aby bylo možné zobrazovat reklamy, může Google Mobile Ads SDK shromažďovat a zpracovávat:
+• Reklamní identifikátor (GAID/IDFA) a základní informace o zařízení
+• Data o interakcích s reklamami (zobrazení, kliknutí)
+• Přibližnou polohu (země/region odvozené z IP/sítě; bez přesné GPS)
+• Diagnostická/výkonnostní data (spolehlivost aplikace, prevence podvodů)
 
-3. ÚČELY A PRÁVNÍ ZÁKLADY
+Reklamy poskytuje Google AdMob (Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; pro uživatele v EHP/UK: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, D04 E5W5, Irsko). Google jedná jako nezávislý správce pro účely doručování a měření reklam. Zpracování se řídí zásadami Google: https://policies.google.com/privacy a https://policies.google.com/technologies/ads
 
-• Souhlas (GDPR/UK GDPR) pro personalizovanou reklamu a měření prostřednictvím User Messaging Platform (UMP) od Googlu.
-• Oprávněný zájem pro účely bezpečnosti, diagnostiky a prevence podvodů.
+Uživatelům mladším 16 let reklamy nezobrazujeme, a proto pro tuto skupinu neinicializujeme požadavky na reklamy AdMob.
 
-4. VAŠE VOLBY
+ÚČELY A PRÁVNÍ ZÁKLADY (GDPR/UK GDPR)
 
-• Spravujte souhlas a personalizaci reklam v Nastavení → Možnosti ochrany soukromí (otevře UMP).
-• V nastavení zařízení můžete resetovat nebo omezit reklamní ID.
-• Obyvatelé Kalifornie mohou využít volbu „Do Not Sell or Share My Personal Information" v Možnostech ochrany soukromí.
+• Souhlas (čl. 6 odst. 1 písm. a)) pro personalizované reklamy a měření prostřednictvím Google User Messaging Platform (UMP), kde je k dispozici.
+• Oprávněné zájmy (čl. 6 odst. 1 písm. f)) pro bezpečnost, diagnostiku a prevenci podvodů (v nezbytném rozsahu).
+• Věkové omezení: ukládáme pouze boolean (> / < 16) pro uplatnění omezení reklam a souladu.
 
-5. DĚTI
+Pokud je souhlas odmítnut (nebo není k dispozici), reklamy — pokud jsou — jsou nepersonalizované a/nebo jsou vypnuty podle vaší věkové kategorie (pod 16 = žádné reklamy).
 
-• Aplikace není určena dětem mladším 13 let.
-• Ukládáme pouze věkovou kategorii.
-• Uživatelé mladší 16 let dostávají omezenou reklamu (nepersonalizovanou).
-• Vědomě neshromažďujeme osobní údaje dětí.
+VAŠE VOLBY
 
-6. DOBA UCHOVÁNÍ DAT
+• Spravujte souhlas a personalizaci reklam v Nastavení → Možnosti soukromí (otevře UMP).
+• Resetujte/omezte Reklamní ID v nastavení vašeho zařízení.
+• Obyvatelé Kalifornie: použijte „Do Not Sell or Share My Personal Information" v Možnostech soukromí.
 
-• Lokální herní data: zůstávají pouze do doby, než aplikaci odinstalujete. Odinstalací se tato data trvale smažou.
-• Data AdMob: uchovává Google podle svých zásad.
+DĚTI A DOSPÍVAJÍCÍ
 
-7. SDÍLENÍ A PŘENOSY
+Aplikace není určena dětem mladším 13 let (COPPA). Vědomě neshromažďujeme osobní údaje dětí. Ukládáme pouze věkovou kategorii (boolean). Pod 16 let: žádné reklamy. Pokud se domníváte, že dítě mladší 13 let Aplikaci používalo a poskytlo informace, kontaktujte nás a veškeré takové informace, k nimž máme přístup, vymažeme.
 
-• Vaše osobní údaje neprodáváme.
-• Omezené identifikátory (např. reklamní ID) mohou být sdíleny s Google AdMob pro účely zobrazování a měření reklam.
-• Google může tato data zpracovávat i mezinárodně.
+DOBA UCHOVÁNÍ
 
-8. ZABEZPEČENÍ
+• Lokální herní data: zůstávají pouze ve vašem zařízení do odinstalace Aplikace. Odinstalací se tato data trvale smažou.
+• Data AdMob: uchovává Google podle svých zásad. Reklamní data na našich serverech neuchováváme.
 
-• Veškerá síťová komunikace a reklamy využívají HTTPS/TLS.
-• Lokální herní data zůstávají ve vašem zařízení.
-• Přestože podnikáme kroky k ochraně dat, žádná metoda přenosu nebo ukládání není 100% bezpečná.
+SDÍLENÍ A PŘENOSY
 
-9. KALIFORNSKÉ SOUKROMÍ (CCPA/CPRA)
+Vaše osobní údaje neprodáváme. Omezené identifikátory (např. Reklamní ID) mohou být sdíleny s Google AdMob za účelem doručování a měření reklam (pouze pro uživatele 16+). Reklamy zajišťuje Google AdMob (Google LLC / Google Ireland Limited – viz výše); Google jedná jako nezávislý správce a může zpracovávat osobní údaje ve Spojených státech amerických a v dalších zemích v souladu se svými zásadami a příslušnými zárukami pro předávání dat (např. standardní smluvní doložky EU).
 
-• Osobní údaje neprodáváme.
-• Reklamní ID může být sdíleno s Google AdMob pro tzv. cross-context advertising.
-• Opt-out: dostupné přes Možnosti ochrany soukromí v aplikaci nebo nastavení zařízení.
-• Vaše práva: přístup/znalost, výmaz, oprava, omezení použití citlivých údajů (neshromažďujeme), nediskriminace.
-• Žádosti: e-mailem na indietapstudio@gmail.com (odpověď do 45 dnů).
+ZABEZPEČENÍ
 
-**Kategorie shromažďovaných údajů za posledních 12 měsíců:**
-• Identifikátory (reklamní ID)
-• Aktivita v aplikaci (zobrazení a kliknutí na reklamy)
+Veškerý reklamní/síťový provoz využívá HTTPS/TLS. Lokální herní data zůstávají ve vašem zařízení. Přijímáme opatření k ochraně informací, avšak žádná metoda není 100% bezpečná.
+
+VAŠE PRÁVA NA SOUKROMÍ
+
+EHP/UK (GDPR/UK GDPR)
+Máte právo na přístup, opravu, výmaz, omezení, námitku (včetně zpracování na základě oprávněných zájmů), přenositelnost údajů a odvolání souhlasu kdykoli (bez vlivu na zákonnost zpracování před odvoláním). Máte také právo podat stížnost u místního dozorového úřadu. V České republice: Úřad pro ochranu osobních údajů (ÚOOÚ).
+
+Pro uplatnění práv pište na **indietapstudio@gmail.com**.
+
+Kalifornie (CCPA/CPRA)
+Osobní údaje neprodáváme. Můžeme sdílet Reklamní ID s Google AdMob pro cross-context behaviorální reklamu (pro uživatele 16+). Odhlášení: dostupné v možnostech soukromí v Aplikaci nebo v nastavení zařízení. Vaše práva: znát/přístup, smazat, opravit, omezit použití citlivých údajů (neshromažďujeme), opt-out z prodeje/sdílení a nediskriminace. Žádosti: **indietapstudio@gmail.com** (odpovídáme do 45 dnů).
+
+Kategorie shromažďované za posledních 12 měsíců (pro uživatele 16+ se zobrazovanými reklamami):
+• Identifikátory (Reklamní ID)
+• Aktivita v aplikaci (zobrazení reklam, kliknutí)
 • Přibližná geolokace (země/region odvozené Googlem)
-• Diagnostika (výkon/prevence podvodů)
+• Diagnostika (signály výkonu/prevence podvodů)
 
-10. CALOPPA
+CALOPPA
 
-• Tyto zásady uvádějí datum účinnosti.
-• Jsou dostupné z aplikace (Nastavení → Zásady ochrany soukromí) a záznamu v Google Play.
-• Do Not Track (DNT): nereagujeme na signály DNT (neexistuje průmyslový standard). Reklamy můžete ovládat v nastavení zařízení a v Možnostech ochrany soukromí.
+Tato politika uvádí datum účinnosti. Je odkazována z Aplikace (Nastavení → Zásady ochrany osobních údajů) a z výpisu na Google Play. Do Not Track (DNT): nereagujeme na DNT signály (neexistuje průmyslový standard). Reklamy můžete ovládat v nastavení zařízení a v Možnostech soukromí.
 
-11. ZMĚNY
+MEZINÁRODNÍ UŽIVATELÉ
 
-• Tyto zásady můžeme čas od času aktualizovat. Nejnovější verze bude vždy zveřejněna s aktualizovaným datem účinnosti.
+Vaše data (pokud je zpracovává Google AdMob) mohou být předávána a zpracovávána v zemích mimo vaše bydliště. Reklamy zajišťuje Google AdMob (Google LLC / Google Ireland Limited – viz výše). Google jedná jako nezávislý správce a může zpracovávat osobní údaje v USA a dalších zemích v souladu se svými zásadami a příslušnými zárukami přenosu (např. standardní smluvní doložky EU).
 
-12. KONTAKT
+ZMĚNY
 
-• Pokud máte dotazy k těmto Zásadám nebo k našemu nakládání s daty, kontaktujte nás: indietapstudio@gmail.com
+Tyto Zásady můžeme aktualizovat. Nejnovější verze bude vždy zveřejněna s aktualizovaným datem účinnosti.
+
+KONTAKT
+
+Máte-li dotazy k těmto Zásadám nebo k našim postupům při zpracování dat, kontaktujte nás: **indietapstudio@gmail.com**

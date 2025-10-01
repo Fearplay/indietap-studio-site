@@ -1,105 +1,131 @@
 Terms of Service
 
-**Effective Date:** September 29, 2025
-**Contact:** indietapstudio@gmail.com
+Effective Date: October 1, 2025
+Contact: **indietapstudio@gmail.com**
+Controller: FairplayX (Juraj Acsay)
 
-1. ABOUT THESE TERMS
+About These Terms
 
-These Terms of Service ("Terms") govern your use of the Clickoji mobile application ("App", "Game") developed by **FairplayX** ("we", "us", "our"). By downloading, installing, or using Clickoji, you agree to these Terms.
+These Terms govern your use of the Clickoji mobile application ("App", "Game").
+By downloading, installing, or using Clickoji, you agree to these Terms and our [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en).
+If you do not agree, do not use the App.
 
-2. ACCEPTANCE OF TERMS
+Who Can Use the App
 
-• You must be at least 16 years old. Users under 16 may play, but they will not see advertisements.
-• By using the App, you fully accept these Terms. If you do not agree, you must not use the App.
-• We may change these Terms at any time. Continued use means you accept the updated version. Major changes will be communicated via app updates.
+• Designed for users 13+.
+• Under 16: may play, but no ads are shown (we do not initialize AdMob requests).
+• 16+: may see ads; personalized ads only with valid consent where available.
+• You must provide truthful and accurate age information and must not misrepresent your age.
+• We store only an over/under-16 boolean to apply ad rules.
 
-3. GAME DESCRIPTION
+What the Game Is
 
-• Clickoji is a free-to-play emoji clicking game.
-• It is designed purely for entertainment.
-• It includes optional rewarded video ads.
-• It features offline progress and achievement systems.
+• Free-to-play emoji clicking game for entertainment.
+• Offline progress and achievements.
+• Optional rewarded video ads (watching ads is voluntary and grants in-game rewards).
+• No in-app purchases; all progression is earned via gameplay.
 
-4. FREE-TO-PLAY MODEL
+Privacy & Data
 
-• The game is completely free and contains no in-app purchases.
-• All rewards and progression are based entirely on gameplay.
-• Ads are displayed through Google AdMob.
-• Watching ads is voluntary and provides bonus rewards.
+• We do not run our own backend, do not require registration, and do not send marketing emails.
+• We do not collect or store your personal data on our servers.
+• Game data and your age category are stored locally on your device.
+• Advertising-related data for eligible users (16+) may be processed by Google AdMob under its own policies and your consent choices (see [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en)).
 
-5. AGE REQUIREMENTS & CHILD SAFETY
+Your Responsibilities
 
-• Players must confirm an age category (over/under 16).
-• Users under 16 may play but will receive non-personalized or no ads.
-• The game contains no gambling and no inappropriate content.
-• We only store the age category, not your exact age.
+• Use the App for personal, non-commercial entertainment.
+• Ensure your device meets requirements and has internet access to load ads (if eligible).
+• Do not hack, modify, reverse-engineer, decompile, or extract source code (except where allowed by law).
+• Do not use bots, cheats, exploits, or automation; do not interfere with security or ad delivery.
 
-6. GAME MECHANICS & VIRTUAL ITEMS
+Prohibited Activities
 
-• Game points have no real-world value and cannot be exchanged for money or goods.
-• Points are used only to unlock features and bonuses within the game.
-• Achievements and rewards are for gameplay or cosmetic purposes only.
+• Using the App for unlawful purposes.
+• Attempting unauthorized access to systems or networks.
+• Reverse engineering, decompiling, or modifying the App.
+• Using cheats, bots, exploits, or automation.
+• Misrepresenting your age or attempting to bypass age-gating, consent, or ad-eligibility rules.
 
-7. USER RESPONSIBILITIES
+Consequences for Violations
 
-• Use the App only for personal entertainment.
-• Do not hack, modify, or reverse-engineer the App.
-• Do not use bots or automated tools.
-• Ensure your device meets minimum requirements and has an internet connection for ads.
+We may restrict or disable features (including ads and rewards), suspend or terminate access, or take other reasonable measures if you violate these Terms, including age misrepresentation.
 
-8. PRIVACY & DATA
+Virtual Items & Balance
 
-• Please refer to our [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en) for full details.
-• Game data is stored locally on your device.
-• Advertising data is processed by Google AdMob under its own policies.
-• Users under 16 receive additional privacy protections.
+• Points, bonuses, and achievements have no real-world monetary value, are non-transferable, and cannot be exchanged for money or goods.
+• We may rebalance or change gameplay features at any time.
 
-9. ADVERTISING
+Advertising
 
-• Ads are provided by Google AdMob and follow Google's policies.
-• We do not control the specific ad content shown.
-• Watching ads is always optional and not required to play.
+• Ads (for users 16+) are provided by Google AdMob under Google policies.
+• We do not control specific ad content.
+• Ads are never required to play.
+• Manage consent/personalization in Settings → Privacy choices and in device settings.
 
-10. PROHIBITED ACTIVITIES
+Intellectual Property
 
-**You must not:**
-• Use the App for unlawful purposes.
-• Attempt unauthorized access to systems.
-• Reverse engineer, decompile, or modify the App.
-• Use cheats, bots, or automation.
-• Misrepresent your age during verification.
+• The App, its code, design, and name are owned by FairplayX.
+• Emoji graphics use Google Noto Emoji under the SIL Open Font License (OFL).
+• Music and sound effects are properly licensed.
+• You receive a limited, non-exclusive, non-transferable, revocable license to use the App as intended.
 
-11. INTELLECTUAL PROPERTY
+Third-Party Services
 
-• The Clickoji app, name, design, and code are owned by **FairplayX**.
-• Emoji graphics use Google Noto Emoji under the SIL Open Font License.
-• Background music and sound effects are properly licensed.
-• You are granted a limited license to use the App as intended.
+• The App may integrate third-party services (e.g., Google AdMob/UMP).
+• Your use of those services is subject to their terms and privacy policies.
+• We are not responsible for third-party services or content.
 
-12. DISCLAIMERS
+Disclaimers
 
-• The App is provided "as is" without warranties.
-• We do not guarantee uninterrupted or error-free service.
-• We are not liable for loss of data, indirect, or consequential damages.
+• The App is provided "as is" and "as available" without warranties of any kind (including merchantability, fitness for a particular purpose, and non-infringement).
+• We do not guarantee uninterrupted, error-free, or secure operation.
 
-13. MODIFICATIONS & TERMINATION
+Limitation of Liability
+
+• To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential, punitive, or exemplary damages (including loss of data, profits, or goodwill).
+• Our total liability will not exceed the amount you paid us to use the App (typically €0).
+
+Indemnity
+
+You agree to defend, indemnify, and hold harmless FairplayX and affiliates from claims and expenses arising from your breach of these Terms, unlawful use, or violation of third-party rights.
+
+Changes, Suspension, Termination
 
 • We may update, modify, or discontinue features at any time.
-• You may stop using the App at any time by uninstalling it.
-• Uninstalling permanently deletes all local game data.
+• We may suspend/terminate access for violations, legal, security, or operational reasons.
+• You may stop using the App anytime by uninstalling it; uninstalling permanently deletes local game data.
 
-14. GOVERNING LAW
+Governing Law & Venue
 
-• These Terms are governed by the laws of the European Union and the Czech Republic.
-• Any disputes with users shall be resolved before the competent courts of the Czech Republic.
-• Users outside the EU are also subject to their local consumer protection laws, which remain unaffected.
+• Governed by the laws of the Czech Republic and applicable European Union law.
+• Disputes will be resolved by the competent courts in the Czech Republic.
+• Outside the EU/UK, your mandatory local consumer protections remain unaffected.
 
-15. CONTACT
+Consumer Rights (EEA/UK)
 
-• If you have questions about these Terms, please contact: indietapstudio@gmail.com
+Nothing here limits your non-waivable consumer rights under mandatory EEA/UK law; those rights prevail in case of conflict.
 
-16. ENTIRE AGREEMENT
+Export & Sanctions Compliance
 
-• These Terms, together with our [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en), form the entire agreement between you and **FairplayX** regarding the use of Clickoji.
+You are not in a comprehensively sanctioned country and are not a prohibited party; you will comply with applicable export/sanctions laws.
 
-© 2025 **FairplayX**. All rights reserved.
+Severability & Waiver
+
+• If any provision is invalid or unenforceable, the rest remain in effect.
+• Our failure to enforce a provision is not a waiver.
+
+Updates to These Terms
+
+We may revise these Terms; the updated version will carry an updated Effective Date.
+Continued use after changes take effect constitutes acceptance.
+
+Contact
+
+Questions: **indietapstudio@gmail.com**
+
+Entire Agreement
+
+These Terms, the [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en), and any in-app notices form the entire agreement between you and FairplayX regarding Clickoji.
+
+© 2025 FairplayX. All rights reserved.
