@@ -24,13 +24,19 @@
       "subtitle": "Jak chráníme vaše data o vztahu"
     },
     "clickoji": {
-      "category": "Již brzy",
-      "description": "Vzrušující nová aplikace je na cestě! Zůstaňte naladěni na něco úžasného, co přinese radost do vaší každodenní rutiny.",
-      "comingSoon": " Již brzy",
+      "category": "Klikací hra • Casual",
+      "description": "Klikej, sbírej emoji a odemykej bonusy! Zábavná idle klikací hra, kde tě každé kliknutí přibližuje k novým úspěchům. Ideální pro krátké přestávky i dlouhé herní sezení.",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
       "privacy": "Ochrana soukromí",
       "terms": "Podmínky použití",
       "subtitle": "Jak chráníme vaše data a soukromí",
       "termsSubtitle": "Podmínky a pravidla pro používání naší aplikace"
+    },
+    "brickbybrick": {
+      "category": "Již brzy",
+      "description": "Vybuduj své impérium cihlu po cihle! Spravuj zdroje, rozšiřuj své podnikání a staň se ultimátním magnátem v této strategické idle hře.",
+      "comingSoon": "🚀 Již brzy"
     }
   },
   "about": {

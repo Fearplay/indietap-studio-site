@@ -24,13 +24,19 @@
       "subtitle": "How we protect your relationship data"
     },
     "clickoji": {
-      "category": "Coming Very Soon",
-      "description": "An exciting new app is on its way! Stay tuned for something amazing that will bring joy to your daily routine.",
-      "comingSoon": "🚀 Coming Very Soon",
+      "category": "Clicker Game • Casual",
+      "description": "Tap, collect emojis, and unlock bonuses! A fun idle clicker game where every tap brings you closer to new achievements. Perfect for quick breaks or long sessions.",
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "subtitle": "How we protect your data and privacy",
       "termsSubtitle": "Terms and conditions for using our app"
+    },
+    "brickbybrick": {
+      "category": "Coming Soon",
+      "description": "Build your empire brick by brick! Manage resources, expand your business, and become the ultimate tycoon in this strategic idle game.",
+      "comingSoon": "🚀 Coming Soon"
     }
   },
   "about": {
