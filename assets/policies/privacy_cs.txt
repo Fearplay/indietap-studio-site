@@ -1,13 +1,14 @@
 Zásady ochrany osobních údajů
 
-Datum účinnosti: 28. května 2025
+Datum účinnosti: 1. října 2025
+Poslední aktualizace: 14. prosince 2025
 
 Kontakt: **indietapstudio@gmail.com**
 Správce: IndieTapStudio (Juraj Acsay)
 
 ÚVOD
 
-Tato webová stránka (dále jen „Web") je provozována společností IndieTap Studio.
+Tato webová stránka (dále jen „Web") je provozována vývojáři IndieTapStudio.
 Ochrana soukromí návštěvníků je pro nás důležitá a proto tento dokument vysvětluje, jakým způsobem Web nakládá s informacemi.
 
 Shromažďování osobních údajů
