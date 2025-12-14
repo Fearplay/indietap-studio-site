@@ -33,6 +33,17 @@
       "subtitle": "How we protect your data and privacy",
       "termsSubtitle": "Terms and conditions for using our app"
     },
+    "dontclickthebutton": {
+      "category": "Coming Soon",
+      "description": "Whatever you do, don't click the button! A simple yet addictive game that tests your willpower and curiosity. Can you resist?",
+      "comingSoon": "🚀 Coming Soon",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "subtitle": "How we protect your data and privacy",
+      "termsSubtitle": "Terms and conditions for using our app",
+      "termsTitle": "Don't Click The Button Terms of Service",
+      "privacyTitle": "Don't Click The Button Privacy Policy"
+    },
     "brickbybrick": {
       "category": "Coming Soon",
       "description": "Build your empire brick by brick! Manage resources, expand your business, and become the ultimate tycoon in this strategic idle game.",
@@ -66,7 +77,7 @@
   "footer": {
     "tagline": "Creating amazing mobile experiences",
     "company": "Company",
-    "about": "About Us", 
+    "about": "About Us",
     "contact": "Contact",
     "legal": "Legal",
     "privacy": "Privacy Policy",
@@ -86,10 +97,11 @@
   },
   "privacy": {
     "title": "Privacy Policy",
+    "subtitle": "How we protect your data and privacy",
     "loading": "Loading privacy policy..."
   },
   "terms": {
-    "title": "Terms of Service", 
+    "title": "Terms of Service",
     "loading": "Loading terms of service..."
   },
   "404": {

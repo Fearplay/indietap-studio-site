@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
         // Prevent flash of unstyled content and language flash - improved version
-        (function() {
+        (function () {
             // Theme logic: Check localStorage first, then system preference
             let theme = localStorage.getItem('theme');
             if (!theme) {
@@ -21,12 +21,12 @@
                 // Save the detected preference to localStorage
                 localStorage.setItem('theme', theme);
             }
-            
+
             // Language logic: Check URL parameter first, then localStorage, then default
             const urlParams = new URLSearchParams(window.location.search);
             const urlLang = urlParams.get('lang');
             let language;
-            
+
             if (urlLang && (urlLang === 'en' || urlLang === 'cs')) {
                 // Valid language in URL, use it and save to localStorage
                 language = urlLang;
@@ -36,7 +36,7 @@
                 language = localStorage.getItem('language') || 'en';
             }
             const html = document.documentElement;
-            
+
             // Apply theme immediately to html element
             if (theme === 'dark') {
                 html.setAttribute('data-theme', 'dark');
@@ -45,14 +45,14 @@
                 html.removeAttribute('data-theme');
                 html.classList.remove('dark-theme');
             }
-            
+
             // Apply language immediately to prevent flash
             html.setAttribute('lang', language);
-            
+
             // Store language for later use
             window._initialLanguage = language;
             window._initialTheme = theme;
-            
+
             // When body is available, also apply theme and loading state
             function applyBodyTheme() {
                 if (document.body) {
@@ -60,7 +60,7 @@
                         document.body.setAttribute('data-theme', 'dark');
                     }
                     document.body.classList.add('loading');
-                    
+
                     // Keep loading state until translations are applied
                     // This will be removed by localization.js after translations are loaded
                 } else {
@@ -68,7 +68,7 @@
                     setTimeout(applyBodyTheme, 1);
                 }
             }
-            
+
             applyBodyTheme();
         })();
     </script>
@@ -89,7 +89,7 @@
                     <a href="index.html" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
                 </nav>
-                
+
                 <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
                     <span></span>
                     <span></span>
@@ -113,42 +113,54 @@
         <div class="container">
             <div class="about-hero">
                 <h1 data-key="about.title">About Us</h1>
-                <p class="about-subtitle" data-key="about.subtitle">Two passionate developers building the apps we always dreamed of using</p>
+                <p class="about-subtitle" data-key="about.subtitle">Two passionate developers building the apps we
+                    always dreamed of using</p>
             </div>
-            
+
             <div class="about-content">
                 <div class="about-text">
                     <div class="about-block">
                         <h2 data-key="about.story">Our Story</h2>
-                        <p data-key="about.description">We are two passionate developers who love creating apps and games. Our journey began with a shared dream - to build the kind of software we always wanted to use as kids. Every line of code we write is fueled by the same excitement and curiosity that made us fall in love with technology in the first place.</p>
+                        <p data-key="about.description">We are two passionate developers who love creating apps and
+                            games. Our journey began with a shared dream - to build the kind of software we always
+                            wanted to use as kids. Every line of code we write is fueled by the same excitement and
+                            curiosity that made us fall in love with technology in the first place.</p>
                     </div>
-                    
+
                     <div class="about-block">
                         <h2 data-key="about.missionTitle">Our Mission</h2>
-                        <p data-key="about.missionText">Our mission is simple: create apps that bring joy, solve problems, and make everyday life a little bit better. From relationship tools that help couples celebrate their journey together, to utility apps that simplify daily tasks - we pour our hearts into every project.</p>
+                        <p data-key="about.missionText">Our mission is simple: create apps that bring joy, solve
+                            problems, and make everyday life a little bit better. From relationship tools that help
+                            couples celebrate their journey together, to utility apps that simplify daily tasks - we
+                            pour our hearts into every project.</p>
                     </div>
-                    
+
                     <div class="about-block">
                         <h2 data-key="about.passionTitle">What Drives Us</h2>
-                        <p data-key="about.passionText">What drives us is the memory of being young dreamers, imagining the amazing apps we wished existed. Now, we have the skills and passion to make those dreams a reality, not just for us, but for everyone who uses our creations.</p>
+                        <p data-key="about.passionText">What drives us is the memory of being young dreamers, imagining
+                            the amazing apps we wished existed. Now, we have the skills and passion to make those dreams
+                            a reality, not just for us, but for everyone who uses our creations.</p>
                     </div>
                 </div>
-                
+
                 <div class="about-illustration">
                     <div class="developer-showcase">
                         <div class="dev-card">
                             <div class="dev-avatar">
                                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                                    <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
                             <h3>Fearplay</h3>
                         </div>
-                        
+
                         <div class="dev-card">
                             <div class="dev-avatar">
                                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                                        fill="currentColor" />
                                 </svg>
                             </div>
                             <h3>SkynetCZ</h3>
@@ -167,7 +179,7 @@
                     <h3>IndieTap Studio</h3>
                     <p data-key="footer.tagline">Creating amazing mobile experiences</p>
                 </div>
-                
+
                 <div class="footer-links">
                     <div class="footer-section">
                         <h4 data-key="footer.company">Company</h4>
@@ -176,15 +188,15 @@
                             <li><a href="contact.html" data-key="footer.contact">Contact</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h4 data-key="footer.legal">Legal</h4>
                         <ul>
                             <li><a href="privacy.html" data-key="footer.privacy">Privacy Policy</a></li>
-                            <li><a href="terms.html" data-key="footer.terms">Terms of Service</a></li>
+                            <!-- <li><a href="terms.html" data-key="footer.terms">Terms of Service</a></li> -->
                         </ul>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h4 data-key="footer.preferences">Preferences</h4>
                         <div class="footer-controls">
@@ -205,7 +217,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <div class="footer-copyright">
                     <p data-key="footer.rights">&copy; 2025 IndieTap Studio. All rights reserved.</p>

@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-key="site.title">IndieTap Studio</title>
-    <link rel="icon" type="image/png" href="assets/icons/clickoji_icon.png">
+    <link rel="icon" type="image/png" href="assets/icons/do_not_click_the_button.png">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
         // Prevent flash of unstyled content and language flash - improved version
-        (function() {
+        (function () {
             // Theme logic: Check localStorage first, then system preference
             let theme = localStorage.getItem('theme');
             if (!theme) {
@@ -21,12 +21,12 @@
                 // Save the detected preference to localStorage
                 localStorage.setItem('theme', theme);
             }
-            
+
             // Language logic: Check URL parameter first, then localStorage, then default
             const urlParams = new URLSearchParams(window.location.search);
             const urlLang = urlParams.get('lang');
             let language;
-            
+
             if (urlLang && (urlLang === 'en' || urlLang === 'cs')) {
                 // Valid language in URL, use it and save to localStorage
                 language = urlLang;
@@ -36,7 +36,7 @@
                 language = localStorage.getItem('language') || 'en';
             }
             const html = document.documentElement;
-            
+
             // Apply theme immediately to html element
             if (theme === 'dark') {
                 html.setAttribute('data-theme', 'dark');
@@ -45,14 +45,14 @@
                 html.removeAttribute('data-theme');
                 html.classList.remove('dark-theme');
             }
-            
+
             // Apply language immediately to prevent flash
             html.setAttribute('lang', language);
-            
+
             // Store language for later use
             window._initialLanguage = language;
             window._initialTheme = theme;
-            
+
             // When body is available, also apply theme and loading state
             function applyBodyTheme() {
                 if (document.body) {
@@ -60,7 +60,7 @@
                         document.body.setAttribute('data-theme', 'dark');
                     }
                     document.body.classList.add('loading');
-                    
+
                     // Keep loading state until translations are applied
                     // This will be removed by localization.js after translations are loaded
                 } else {
@@ -68,99 +68,10 @@
                     setTimeout(applyBodyTheme, 1);
                 }
             }
-            
+
             applyBodyTheme();
         })();
     </script>
-    <style>
-        .policy-content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 100px 20px 80px;
-            line-height: 1.8;
-            color: var(--text-primary);
-            background: var(--bg-primary);
-            min-height: 100vh;
-        }
-        .policy-content h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-            text-align: center;
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .policy-content .last-updated {
-            text-align: center;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-bottom: 3rem;
-            font-style: italic;
-        }
-        .policy-content h2 {
-            font-size: 1.75rem;
-            font-weight: 600;
-            margin: 3rem 0 1.5rem 0;
-            color: var(--accent-primary);
-            position: relative;
-            padding-bottom: 0.5rem;
-        }
-        .policy-content h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 3px;
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-            border-radius: 2px;
-        }
-        .policy-content p {
-            margin-bottom: 1.8rem;
-            color: var(--text-tertiary);
-            font-weight: 400;
-            font-size: 1.05rem;
-            text-align: justify;
-        }
-        .policy-content ul {
-            margin-bottom: 2rem;
-            padding-left: 2.5rem;
-        }
-        .policy-content li {
-            margin-bottom: 0.8rem;
-            color: var(--text-tertiary);
-            font-size: 1.05rem;
-            line-height: 1.7;
-        }
-        .policy-content li::marker {
-            color: var(--accent-primary);
-        }
-        
-        /* Mobile responsive improvements */
-        @media (max-width: 768px) {
-            .policy-content {
-                padding: 90px 15px 60px;
-                max-width: 100%;
-            }
-            .policy-content h1 {
-                font-size: 2.2rem;
-            }
-            .policy-content h2 {
-                font-size: 1.4rem;
-                margin: 2rem 0 1rem 0;
-            }
-            .policy-content p {
-                font-size: 1rem;
-                text-align: left;
-            }
-            .policy-content li {
-                font-size: 1rem;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -175,10 +86,10 @@
                 </div>
                 <nav class="navigation">
                     <a href="about.html" class="nav-link" data-key="navigation.about">About</a>
-                    <a href="index.html" class="nav-link" data-key="navigation.apps">Apps & Games</a>
+                    <a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
                 </nav>
-                
+
                 <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
                     <span></span>
                     <span></span>
@@ -197,11 +108,28 @@
         </ul>
     </div>
 
-    <!-- Terms of Service Section -->
-    <div class="policy-content" id="policy-content">
-        <h1 data-key="terms.title">Terms of Service</h1>
-        <p data-key="terms.loading">Loading terms of service...</p>
-    </div>
+    <!-- Privacy Policy Content -->
+    <section class="privacy-terms">
+        <div class="container">
+            <div class="app-header">
+                <img src="assets/icons/do_not_click_the_button.png" alt="Don't Click The Button"
+                    style="width: 80px; height: 80px; border-radius: 20px;">
+                <div>
+                    <h1 data-key="apps.dontclickthebutton.privacyTitle">Don't Click The Button Privacy Policy</h1>
+                    <p class="app-subtitle" data-key="apps.dontclickthebutton.subtitle">How we protect your data and
+                        privacy</p>
+                </div>
+            </div>
+
+            <div class="policy-content">
+                <div id="privacy-content"
+                    data-policy-path="assets/policies/dontclickthebutton/dontclickthebutton_privacy.txt"
+                    data-policy-path-cs="assets/policies/dontclickthebutton/dontclickthebutton_privacy_cs.txt">
+                    <p data-key="privacy.loading">Loading privacy policy...</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -211,7 +139,7 @@
                     <h3>IndieTap Studio</h3>
                     <p data-key="footer.tagline">Creating amazing mobile experiences</p>
                 </div>
-                
+
                 <div class="footer-links">
                     <div class="footer-section">
                         <h4 data-key="footer.company">Company</h4>
@@ -220,15 +148,15 @@
                             <li><a href="contact.html" data-key="footer.contact">Contact</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h4 data-key="footer.legal">Legal</h4>
                         <ul>
                             <li><a href="privacy.html" data-key="footer.privacy">Privacy Policy</a></li>
-                            <li><a href="terms.html" data-key="footer.terms">Terms of Service</a></li>
+                            <!-- <li><a href="terms.html" data-key="footer.terms">Terms of Service</a></li> -->
                         </ul>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h4 data-key="footer.preferences">Preferences</h4>
                         <div class="footer-controls">
@@ -249,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <div class="footer-copyright">
                     <p data-key="footer.rights">&copy; 2025 IndieTap Studio. All rights reserved.</p>
@@ -260,68 +188,7 @@
 
     <script src="js/localization.js"></script>
     <script src="js/script.js"></script>
-    <script>
-        // Load terms of service content based on current language
-        function loadTermsOfService() {
-            const currentLang = localStorage.getItem('language') || 'en';
-            const fileName = currentLang === 'cs' ? 'terms_cs.txt' : 'terms.txt';
-            
-            fetch(`assets/policies/${fileName}`)
-                .then(response => response.text())
-                .then(text => {
-                const content = document.getElementById('policy-content');
-                const lines = text.split('\n');
-                let html = '';
-                
-                // Add last updated info
-                const currentLang = localStorage.getItem('language') || 'en';
-                const lastUpdated = currentLang === 'cs' ? 'Poslední aktualizace: 18. ledna 2025' : 'Last updated: January 18, 2025';
-                html += `<h1>${currentLang === 'cs' ? 'Podmínky použití' : 'Terms of Service'}</h1>`;
-                html += `<div class="last-updated">${lastUpdated}</div>`;
-                
-                for (let line of lines) {
-                    line = line.trim();
-                    if (line === '') {
-                        continue;
-                    } else if (line.startsWith('Terms of Service for IndieTap Studio Apps') || line.startsWith('Podmínky použití')) {
-                        // Skip title line as we already added it
-                        continue;
-                    } else if (line.startsWith('Poslední aktualizace:') || line.startsWith('Last updated:')) {
-                        // Skip date line as we already added it
-                        continue;
-                    } else if (line.match(/^[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ][a-záčďéěíňóřšťúůýžA-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ\s]+$/) && !line.includes(':') && !line.includes('•') && line.length < 60) {
-                        html += `<h2>${line}</h2>`;
-                    } else if (line.startsWith('•')) {
-                        if (!html.includes('<ul>') || html.lastIndexOf('</ul>') > html.lastIndexOf('<ul>')) {
-                            html += '<ul>';
-                        }
-                        html += `<li>${line.substring(1).trim()}</li>`;
-                    } else {
-                        if (html.includes('<ul>') && html.lastIndexOf('</ul>') < html.lastIndexOf('<ul>')) {
-                            html += '</ul>';
-                        }
-                        html += `<p>${line}</p>`;
-                    }
-                }
-                
-                if (html.includes('<ul>') && html.lastIndexOf('</ul>') < html.lastIndexOf('<ul>')) {
-                    html += '</ul>';
-                }
-                
-                content.innerHTML = html;
-            })
-            .catch(error => {
-                console.error('Error loading terms of service:', error);
-                document.getElementById('policy-content').innerHTML = '<h1>Terms of Service</h1><p>Error loading terms of service. Please contact us for more information.</p>';
-            });
-        }
-        
-        // Load policy when page loads
-        loadTermsOfService();
-        
-        // Reload policy when language changes
-        window.addEventListener('languageChanged', loadTermsOfService);
-    </script>
+    <script src="js/policy-loader.js"></script>
 </body>
 
 </html>

@@ -1,59 +1,47 @@
-Zásady ochrany osobních údajů pro aplikace IndieTap Studio
+Zásady ochrany osobních údajů
 
-Poslední aktualizace: 18. ledna 2025
+Datum účinnosti: 28. května 2025
 
-Ve společnosti IndieTap Studio se zavazujeme chránit vaše soukromí a zajišťovat transparentnost ohledně toho, jak zacházíme s vašimi daty. Tyto zásady ochrany osobních údajů vysvětlují naše postupy týkající se shromažďování, používání a ochrany vašich osobních informací při používání našich mobilních aplikací.
+Kontakt: **indietapstudio@gmail.com**
+Správce: IndieTapStudio (Juraj Acsay)
 
-Informace, které shromažďujeme
+ÚVOD
 
-Shromažďujeme pouze nezbytně nutná data pro poskytnutí nejlepšího možného zážitku:
+Tato webová stránka (dále jen „Web") je provozována společností IndieTap Studio.
+Ochrana soukromí návštěvníků je pro nás důležitá a proto tento dokument vysvětluje, jakým způsobem Web nakládá s informacemi.
 
-• Analytické údaje o používání: Shromažďujeme anonymní statistiky používání, abychom pochopili, jak se naše aplikace používají, a zlepšili jejich funkcionalitu. To zahrnuje interakce s aplikacemi, používání funkcí a metriky výkonu.
+Shromažďování osobních údajů
 
-• Zprávy o chybách: Když se naše aplikace zhroutí, automaticky shromažďujeme protokoly selhání, které nám pomáhají identifikovat a opravit chyby. Tyto zprávy neobsahují osobní informace.
+Web aktivně neshromažďuje, neukládá ani nezpracovává žádné osobní údaje návštěvníků.
 
-• Informace o zařízení: Můžeme shromažďovat základní informace o zařízení, jako je typ zařízení, verze operačního systému a verze aplikace, abychom zajistili kompatibilitu a optimalizovali výkon.
+Web:
 
-• Místní data: Některé z našich aplikací ukládají data lokálně na vašem zařízení (například Couplefy ukládá data o milnících vašeho vztahu). Tato data zůstávají na vašem zařízení a nepřenášejí se na naše servery, pokud si explicitně nevyberete jejich zálohování.
+• nepoužívá cookies ani obdobné technologie,
+• nepoužívá analytické, marketingové ani sledovací nástroje,
+• nevyžaduje registraci ani zadávání osobních údajů.
 
-Jak používáme vaše data
+IP adresy a serverové zpracování
 
-Shromážděné informace používáme k:
-• Zlepšování funkcionality aplikací a uživatelského zážitku
-• Opravování chyb a technických problémů
-• Analýze vzorců používání pro vývoj nových funkcí
-• Zajištění kompatibility aplikací napříč různými zařízeními
+IP adresy návštěvníků nejsou námi ukládány, analyzovány ani dále zpracovávány.
 
-Ochrana a bezpečnost dat
+IP adresa může být technicky zpracována poskytovatelem hostingu (WEDOS) výhradně za účelem doručení obsahu, zajištění bezpečnosti a provozu Webu. Toto zpracování probíhá v souladu s právními předpisy a zásadami poskytovatele hostingu.
 
-• Používáme šifrování podle průmyslových standardů k ochraně vašich dat
-• Vaše osobní data nikdy neprodáváme třetím stranám
-• Implementujeme vhodná bezpečnostní opatření k prevenci neoprávněného přístupu
-• Místní data uložená našimi aplikacemi zůstávají na vašem zařízení pod vaší kontrolou
+Externí služby – Google Fonts
 
-Služby třetích stran
+Web využívá externí písma Google Fonts, která jsou načítána ze serverů společnosti Google LLC.
 
-Naše aplikace mohou využívat služby třetích stran (jako jsou služby Google Play, služby Apple App Store), které mají své vlastní zásady ochrany osobních údajů. Doporučujeme vám také přečíst jejich zásady ochrany osobních údajů.
+Při načítání těchto písem může dojít ke zpracování IP adresy návštěvníka touto třetí stranou v souladu s jejími vlastními zásadami ochrany osobních údajů:
+https://policies.google.com/privacy
 
-Vaše práva
+Děti
 
-Máte právo:
-• Požádat o vymazání jakýchkoli dat, která jsme o vás shromáždili
-• Získat přístup k informacím o tom, jaká data jsme shromáždili
-• Odhlásit se ze shromažďování analytických dat prostřednictvím nastavení vašeho zařízení
-• Vymazat místní data aplikace odinstalováním aplikace nebo vymazáním dat aplikace
+Web není zaměřen na shromažďování údajů dětí a vědomě neshromažďuje žádné osobní údaje osob mladších 13 let.
 
-Soukromí dětí
+Změny zásad
 
-Naše aplikace nejsou určeny pro děti mladší 13 let. Vědomě neshromažďujeme osobní informace od dětí mladších 13 let.
+Tyto zásady mohou být v budoucnu aktualizovány. Aktuální verze je vždy dostupná na této stránce.
 
-Změny těchto zásad
+Kontakt
 
-Tyto zásady ochrany osobních údajů můžeme čas od času aktualizovat. O významných změnách budeme uživatele informovat prostřednictvím aktualizací aplikací nebo jinými vhodnými prostředky.
-
-Kontaktujte nás
-
-Pokud máte jakékoli otázky k těmto zásadám ochrany osobních údajů nebo našim postupům při práci s daty, kontaktujte nás prosím na:
-Email: indietapstudio@gmail.com
-
-Tyto zásady se vztahují na všechny aplikace IndieTap Studio včetně Couplefy a dalších aplikací v našem portfoliu.
+V případě dotazů týkajících se ochrany soukromí nás můžete kontaktovat na e-mailu:
+indietapstudio@gmail.com
