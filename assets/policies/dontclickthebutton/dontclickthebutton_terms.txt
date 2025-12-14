@@ -1,13 +1,13 @@
 Terms of Service
 
-Effective Date: October 1, 2025
+Effective Date: December 14, 2025
 Contact: **indietapstudio@gmail.com**
 Controller: IndieTapStudio (Juraj Acsay)
 
 About These Terms
 
-These Terms govern your use of the Clickoji mobile application ("App", "Game").
-By downloading, installing, or using Clickoji, you agree to these Terms and our [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en).
+These Terms govern your use of the Don't Click The Button mobile application ("App", "Game").
+By downloading, installing, or using Don't Click The Button, you agree to these Terms and our [Privacy Policy](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=en).
 If you do not agree, do not use the App.
 
 Who Can Use the App
@@ -20,7 +20,7 @@ Who Can Use the App
 
 What the Game Is
 
-• Free-to-play emoji clicking game for entertainment.
+• Free-to-play game for entertainment.
 • Offline progress and achievements.
 • Optional rewarded video ads (watching ads is voluntary and grants in-game rewards).
 • No in-app purchases; all progression is earned via gameplay.
@@ -30,7 +30,7 @@ Privacy & Data
 • We do not run our own backend, do not require registration, and do not send marketing emails.
 • We do not collect or store your personal data on our servers.
 • Game data and your age category are stored locally on your device.
-• Advertising-related data for eligible users (16+) may be processed by Google AdMob under its own policies and your consent choices (see [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en)).
+• Advertising-related data for eligible users (16+) may be processed by Google AdMob under its own policies and your consent choices (see [Privacy Policy](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=en)).
 
 Your Responsibilities
 
@@ -66,7 +66,6 @@ Advertising
 Intellectual Property
 
 • The App, its code, design, and name are owned by IndieTapStudio.
-• Emoji graphics use Google Noto Emoji under the SIL Open Font License (OFL).
 • Music and sound effects are properly licensed.
 • You receive a limited, non-exclusive, non-transferable, revocable license to use the App as intended.
 
@@ -126,6 +125,6 @@ Questions: **indietapstudio@gmail.com**
 
 Entire Agreement
 
-These Terms, the [Privacy Policy](https://indietapstudio.eu/clickoji-privacy.html?lang=en), and any in-app notices form the entire agreement between you and IndieTapStudio regarding Clickoji.
+These Terms, the [Privacy Policy](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=en), and any in-app notices form the entire agreement between you and IndieTapStudio regarding Don't Click The Button.
 
 © 2025 IndieTapStudio. All rights reserved.

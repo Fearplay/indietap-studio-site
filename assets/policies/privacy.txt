@@ -1,59 +1,48 @@
-Privacy Policy for IndieTap Studio Apps
+Privacy Policy
 
-Last updated: January 18, 2025
+Effective Date: October 1, 2025
+Last Updated: December 14, 2025
 
-At IndieTap Studio, we are committed to protecting your privacy and ensuring transparency about how we handle your data. This privacy policy explains our practices regarding the collection, use, and protection of your personal information when you use our mobile applications.
+Contact: **indietapstudio@gmail.com**
+Controller: IndieTapStudio (Juraj Acsay)
 
-Information We Collect
+INTRODUCTION
 
-We collect only the minimum necessary data to provide you with the best possible experience:
+This website (the "Website") is operated by IndieTapStudio developers.
+Your privacy is important to us, and this Privacy Policy explains how information is handled when you visit the Website.
 
-• Usage Analytics: We collect anonymous usage statistics to understand how our apps are used and to improve functionality. This includes app interactions, feature usage, and performance metrics.
+Personal data collection
 
-• Crash Reports: When our apps crash, we automatically collect crash logs that help us identify and fix bugs. These reports do not contain personal information.
+The Website does not actively collect, store, or process any personal data of visitors.
 
-• Device Information: We may collect basic device information such as device type, operating system version, and app version to ensure compatibility and optimize performance.
+The Website:
 
-• Local Data: Some of our apps store data locally on your device (such as Couplefy storing your relationship milestone dates). This data remains on your device and is not transmitted to our servers unless you explicitly choose to back it up.
+• does not use cookies or similar technologies,
+• does not use analytics, marketing, or tracking tools,
+• does not require registration or the submission of personal information.
 
-How We Use Your Data
+IP addresses and server processing
 
-We use collected information to:
-• Improve app functionality and user experience
-• Fix bugs and technical issues
-• Analyze usage patterns to develop new features
-• Ensure app compatibility across different devices
+IP addresses of visitors are not stored, analyzed, or further processed by us.
 
-Data Protection and Security
+An IP address may be technically processed by the hosting provider (WEDOS) solely for the purpose of content delivery, security, and proper operation of the Website. Such processing is performed in accordance with applicable laws and the hosting provider's privacy practices.
 
-• We use industry-standard encryption to protect your data
-• Your personal data is never sold to third parties
-• We implement appropriate security measures to prevent unauthorized access
-• Local data stored by our apps remains on your device under your control
+Third-party services – Google Fonts
 
-Third-Party Services
+The Website uses Google Fonts, which are loaded from servers operated by Google LLC.
 
-Our apps may use third-party services (such as Google Play Services, Apple App Store services) that have their own privacy policies. We encourage you to review their privacy policies as well.
+When loading these fonts, the visitor's IP address may be processed by Google in accordance with its own privacy policy:
+https://policies.google.com/privacy
 
-Your Rights
+Children
 
-You have the right to:
-• Request deletion of any data we have collected about you
-• Access information about what data we have collected
-• Opt out of analytics data collection through your device settings
-• Delete local app data by uninstalling the app or clearing app data
+The Website is not intended to collect data from children and does not knowingly collect personal data from children under the age of 13.
 
-Children's Privacy
+Changes
 
-Our apps are not intended for children under 13. We do not knowingly collect personal information from children under 13.
+This Privacy Policy may be updated in the future. The current version will always be available on this page.
 
-Changes to This Policy
+Contact
 
-We may update this privacy policy from time to time. We will notify users of any significant changes through app updates or other appropriate means.
-
-Contact Us
-
-If you have any questions about this privacy policy or our data practices, please contact us at:
-Email: indietapstudio@gmail.com
-
-This policy applies to all IndieTap Studio applications including Couplefy and other apps in our portfolio.
+If you have any questions regarding this Privacy Policy, please contact us at:
+indietapstudio@gmail.com

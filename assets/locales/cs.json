@@ -33,6 +33,17 @@
       "subtitle": "Jak chráníme vaše data a soukromí",
       "termsSubtitle": "Podmínky a pravidla pro používání naší aplikace"
     },
+    "dontclickthebutton": {
+      "category": "Již brzy",
+      "description": "Ať děláš cokoliv, neklikej na to tlačítko! Jednoduchá, ale návyková hra, která testuje tvou vůli a zvědavost. Odolás?",
+      "comingSoon": "🚀 Již brzy",
+      "privacy": "Ochrana soukromí",
+      "terms": "Podmínky použití",
+      "subtitle": "Jak chráníme vaše data a soukromí",
+      "termsSubtitle": "Podmínky a pravidla pro používání naší aplikace",
+      "termsTitle": "Don't Click The Button Podmínky použití",
+      "privacyTitle": "Don't Click The Button Ochrana soukromí"
+    },
     "brickbybrick": {
       "category": "Již brzy",
       "description": "Vybuduj své impérium cihlu po cihle! Spravuj zdroje, rozšiřuj své podnikání a staň se ultimátním magnátem v této strategické idle hře.",
@@ -85,11 +96,12 @@
     "cs": "Čeština"
   },
   "privacy": {
-    "title": "Ochrana soukromí",
+    "title": "Zásady ochrany osobních údajů",
+    "subtitle": "Jak chráníme vaše data a soukromí",
     "loading": "Načítá se zásady ochrany soukromí..."
   },
   "terms": {
-    "title": "Podmínky použití", 
+    "title": "Podmínky použití",
     "loading": "Načítá se podmínky použití..."
   },
   "404": {

@@ -2,11 +2,11 @@ Privacy Policy
 
 Effective Date: October 1, 2025
 Contact: **indietapstudio@gmail.com**
-Controller: FairplayX (Juraj Acsay)
+Controller: IndieTapStudio (Juraj Acsay)
 
 INTRODUCTION
 
-FairplayX ("we") respects your privacy. This Privacy Policy explains how information is handled in the Clickoji mobile application ("App"). The App is free and ad-supported. We do not run our own backend, do not require registration, and do not send marketing emails. We do not collect or store your personal data on our servers. Any advertising-related data, where applicable, is processed by Google AdMob under its own policies.
+IndieTapStudio ("we") respects your privacy. This Privacy Policy explains how information is handled in the Clickoji mobile application ("App"). The App is free and ad-supported. We do not run our own backend, do not require registration, and do not send marketing emails. We do not collect or store your personal data on our servers. Any advertising-related data, where applicable, is processed by Google AdMob under its own policies.
 
 Audience: We design Clickoji for users 13+. Users under 16 will not see any ads. Users 16+ may see ads (personalized only with consent).
 

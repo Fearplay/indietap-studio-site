@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
         // Prevent flash of unstyled content and language flash - improved version
-        (function() {
+        (function () {
             // Theme logic: Check localStorage first, then system preference
             let theme = localStorage.getItem('theme');
             if (!theme) {
@@ -21,12 +21,12 @@
                 // Save the detected preference to localStorage
                 localStorage.setItem('theme', theme);
             }
-            
+
             // Language logic: Check URL parameter first, then localStorage, then default
             const urlParams = new URLSearchParams(window.location.search);
             const urlLang = urlParams.get('lang');
             let language;
-            
+
             if (urlLang && (urlLang === 'en' || urlLang === 'cs')) {
                 // Valid language in URL, use it and save to localStorage
                 language = urlLang;
@@ -36,7 +36,7 @@
                 language = localStorage.getItem('language') || 'en';
             }
             const html = document.documentElement;
-            
+
             // Apply theme immediately to html element
             if (theme === 'dark') {
                 html.setAttribute('data-theme', 'dark');
@@ -45,14 +45,14 @@
                 html.removeAttribute('data-theme');
                 html.classList.remove('dark-theme');
             }
-            
+
             // Apply language immediately to prevent flash
             html.setAttribute('lang', language);
-            
+
             // Store language for later use
             window._initialLanguage = language;
             window._initialTheme = theme;
-            
+
             // When body is available, also apply theme and loading state
             function applyBodyTheme() {
                 if (document.body) {
@@ -60,7 +60,7 @@
                         document.body.setAttribute('data-theme', 'dark');
                     }
                     document.body.classList.add('loading');
-                    
+
                     // Keep loading state until translations are applied
                     // This will be removed by localization.js after translations are loaded
                 } else {
@@ -68,7 +68,7 @@
                     setTimeout(applyBodyTheme, 1);
                 }
             }
-            
+
             applyBodyTheme();
         })();
     </script>
@@ -89,7 +89,7 @@
                     <a href="index.html#hero" class="nav-link" data-key="navigation.apps">Apps & Games</a>
                     <a href="contact.html" class="nav-link" data-key="navigation.contact">Contact</a>
                 </nav>
-                
+
                 <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
                     <span></span>
                     <span></span>
@@ -112,15 +112,17 @@
     <section class="privacy-terms">
         <div class="container">
             <div class="app-header">
-                <img src="assets/icons/couplefy_icon.png" alt="Couplefy" style="width: 80px; height: 80px; border-radius: 20px;">
+                <img src="assets/icons/couplefy_icon.png" alt="Couplefy"
+                    style="width: 80px; height: 80px; border-radius: 20px;">
                 <div>
                     <h1>Couplefy Privacy Policy</h1>
                     <p class="app-subtitle" data-key="apps.couplefy.subtitle">How we protect your relationship data</p>
                 </div>
             </div>
-            
+
             <div class="policy-content">
-                <div id="privacy-content" data-policy-path="assets/policies/couplefy/couplefy_privacy.txt" data-policy-path-cs="assets/policies/couplefy/couplefy_privacy_cs.txt">
+                <div id="privacy-content" data-policy-path="assets/policies/couplefy/couplefy_privacy.txt"
+                    data-policy-path-cs="assets/policies/couplefy/couplefy_privacy_cs.txt">
                     <p data-key="privacy.loading">Loading privacy policy...</p>
                 </div>
             </div>
@@ -135,7 +137,7 @@
                     <h3>IndieTap Studio</h3>
                     <p data-key="footer.tagline">Creating amazing mobile experiences</p>
                 </div>
-                
+
                 <div class="footer-links">
                     <div class="footer-section">
                         <h4 data-key="footer.company">Company</h4>
@@ -144,15 +146,15 @@
                             <li><a href="contact.html" data-key="footer.contact">Contact</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h4 data-key="footer.legal">Legal</h4>
                         <ul>
                             <li><a href="privacy.html" data-key="footer.privacy">Privacy Policy</a></li>
-                            <li><a href="terms.html" data-key="footer.terms">Terms of Service</a></li>
+                            <!-- <li><a href="terms.html" data-key="footer.terms">Terms of Service</a></li> -->
                         </ul>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h4 data-key="footer.preferences">Preferences</h4>
                         <div class="footer-controls">
@@ -173,7 +175,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <div class="footer-copyright">
                     <p data-key="footer.rights">&copy; 2025 IndieTap Studio. All rights reserved.</p>

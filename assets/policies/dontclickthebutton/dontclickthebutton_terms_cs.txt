@@ -1,13 +1,13 @@
 Podmínky používání
 
-Datum účinnosti: 1. října 2025
+Datum účinnosti: 14. prosince 2025
 Kontakt: **indietapstudio@gmail.com**
 Správce: IndieTapStudio (Juraj Acsay)
 
 O těchto podmínkách
 
-Tyto Podmínky upravují používání mobilní aplikace Clickoji („Aplikace", „Hra").
-Stažením, instalací nebo používáním Clickoji souhlasíte s těmito Podmínkami a se [Zásadami ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs).
+Tyto Podmínky upravují používání mobilní aplikace Don't Click The Button („Aplikace", „Hra").
+Stažením, instalací nebo používáním Don't Click The Button souhlasíte s těmito Podmínkami a se [Zásadami ochrany osobních údajů](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=cs).
 Nesouhlasíte-li, Aplikaci nepoužívejte.
 
 Kdo může Aplikaci používat
@@ -20,7 +20,7 @@ Kdo může Aplikaci používat
 
 Co je to za hru
 
-• Free-to-play „klikací" hra s emotikony pro zábavu.
+• Free-to-play hra pro zábavu.
 • Offline postup a úspěchy.
 • Volitelné odměňované video reklamy (sledování je dobrovolné a poskytuje herní odměny).
 • Žádné nákupy v aplikaci; postup se získává jen hraním.
@@ -30,7 +30,7 @@ Soukromí a data
 • Nemáme vlastní backend, nevyžadujeme registraci a nezasíláme marketingové e-maily.
 • Neshromažďujeme ani neukládáme vaše osobní údaje na naše servery.
 • Herní data a věková kategorie se ukládají lokálně ve vašem zařízení.
-• Data související s reklamou pro způsobilé uživatele (16+) může zpracovávat Google AdMob dle svých zásad a vašich voleb souhlasu (viz [Zásady ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs)).
+• Data související s reklamou pro způsobilé uživatele (16+) může zpracovávat Google AdMob dle svých zásad a vašich voleb souhlasu (viz [Zásady ochrany osobních údajů](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=cs)).
 
 Vaše povinnosti
 
@@ -66,7 +66,6 @@ Reklama
 Duševní vlastnictví
 
 • Aplikace, její kód, design a název patří IndieTapStudio.
-• Emoji grafika využívá Google Noto Emoji podle licence SIL Open Font License (OFL).
 • Hudba a zvukové efekty jsou řádně licencované.
 • Získáváte omezenou, nevýhradní, nepřevoditelnou a odvolatelnou licenci k užití Aplikace k zamýšlenému účelu.
 
@@ -126,6 +125,6 @@ Dotazy: **indietapstudio@gmail.com**
 
 Celá dohoda
 
-Tyto Podmínky, [Zásady ochrany osobních údajů](https://indietapstudio.eu/clickoji-privacy.html?lang=cs) a případná oznámení v aplikaci tvoří úplnou dohodu mezi vámi a IndieTapStudio ohledně Clickoji.
+Tyto Podmínky, [Zásady ochrany osobních údajů](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=cs) a případná oznámení v aplikaci tvoří úplnou dohodu mezi vámi a IndieTapStudio ohledně Don't Click The Button.
 
 © 2025 IndieTapStudio. Všechna práva vyhrazena.
