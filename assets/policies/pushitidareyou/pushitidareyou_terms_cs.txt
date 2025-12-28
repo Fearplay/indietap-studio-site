@@ -6,8 +6,8 @@ Správce: IndieTapStudio (Juraj Acsay)
 
 O těchto podmínkách
 
-Tyto Podmínky upravují používání mobilní aplikace Don't Click The Button („Aplikace", „Hra").
-Stažením, instalací nebo používáním Don't Click The Button souhlasíte s těmito Podmínkami a se [Zásadami ochrany osobních údajů](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=cs).
+Tyto Podmínky upravují používání mobilní aplikace Push It. I Dare You. („Aplikace", „Hra").
+Stažením, instalací nebo používáním Push It. I Dare You. souhlasíte s těmito Podmínkami a se [Zásadami ochrany osobních údajů](https://indietapstudio.eu/pushitidareyou-privacy.html?lang=cs).
 Nesouhlasíte-li, Aplikaci nepoužívejte.
 
 Kdo může Aplikaci používat
@@ -30,7 +30,7 @@ Soukromí a data
 • Nemáme vlastní backend, nevyžadujeme registraci a nezasíláme marketingové e-maily.
 • Neshromažďujeme ani neukládáme vaše osobní údaje na naše servery.
 • Herní data a věková kategorie se ukládají lokálně ve vašem zařízení.
-• Data související s reklamou pro způsobilé uživatele (16+) může zpracovávat Google AdMob dle svých zásad a vašich voleb souhlasu (viz [Zásady ochrany osobních údajů](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=cs)).
+• Data související s reklamou pro způsobilé uživatele (16+) může zpracovávat Google AdMob dle svých zásad a vašich voleb souhlasu (viz [Zásady ochrany osobních údajů](https://indietapstudio.eu/pushitidareyou-privacy.html?lang=cs)).
 
 Vaše povinnosti
 
@@ -125,6 +125,6 @@ Dotazy: **indietapstudio@gmail.com**
 
 Celá dohoda
 
-Tyto Podmínky, [Zásady ochrany osobních údajů](https://indietapstudio.eu/dontclickthebutton-privacy.html?lang=cs) a případná oznámení v aplikaci tvoří úplnou dohodu mezi vámi a IndieTapStudio ohledně Don't Click The Button.
+Tyto Podmínky, [Zásady ochrany osobních údajů](https://indietapstudio.eu/pushitidareyou-privacy.html?lang=cs) a případná oznámení v aplikaci tvoří úplnou dohodu mezi vámi a IndieTapStudio ohledně Push It. I Dare You.
 
 © 2025 IndieTapStudio. Všechna práva vyhrazena.
