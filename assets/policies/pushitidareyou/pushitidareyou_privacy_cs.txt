@@ -1,6 +1,13 @@
 Zásady ochrany osobních údajů
 
-Tato aplikace Don't Click The Button (dále jen „Aplikace") byla vytvořena společností Fearplay (dále jen „Poskytovatel služby") jako bezplatná mobilní aplikace. Tato služba je poskytována „tak, jak je" a může ji používat kdokoli bez omezení na věk – aplikace není omezena věkovou hranicí a je vhodná i pro děti.
+Datum účinnosti: 14. prosince 2025
+
+Kontakt: **indietapstudio@gmail.com**
+Správce: IndieTapStudio (Juraj Acsay)
+
+ÚVOD
+
+Tato aplikace Push It. I Dare You. (dále jen „Aplikace") byla vytvořena společností IndieTapStudio (dále jen „Poskytovatel služby") jako bezplatná mobilní aplikace. Tato služba je poskytována „tak, jak je" a může ji používat kdokoli bez omezení na věk – aplikace není omezena věkovou hranicí a je vhodná i pro děti.
 
 Shromažďování a používání údajů
 
@@ -17,7 +24,7 @@ Aplikace ukládá některá data, která uživatel zadá, lokálně na zařízen
 • Vizuální nastavení (tmavý režim, jazyk, apod.)
 • Nastavení a preference
 
-Tato data nejsou přístupna Poskytovateli služby, nejsou odesílána na žádné servery a nejsou mazána vzdáleně. Pokud si uživatel přeje data odstranit, může tak učinit odinstalací aplikace.
+Tato data nejsou přístupna Poskytovateli služby, nejsou odesílána na žádné servery a nejsou mazána vzdáleně. Pokud si uživatel přeje data odstranit, může tak učinit odinstalaci aplikace.
 
 Zabezpečení
 
@@ -26,10 +33,6 @@ Aplikace sama nevyužívá žádná síťová připojení, neodesílá data a ne
 Změny
 
 Zásady ochrany osobních údajů mohou být v budoucnu aktualizovány. O všech změnách bude informováno formou aktualizace tohoto dokumentu. Doporučujeme zásady pravidelně kontrolovat.
-
-Platnost zásad od
-
-14. prosince 2025
 
 Souhlas uživatele
 

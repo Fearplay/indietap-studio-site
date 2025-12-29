@@ -1,6 +1,13 @@
 Privacy Policy
 
-This privacy policy applies to the Don't Click The Button app (hereafter referred to as the "Application"), developed by Fearplay (hereafter referred to as the "Service Provider") as a free mobile application. The Application is provided "as is" and is intended for use by all age groups — including children. There are no age restrictions, as the app does not contain content or features unsuitable for younger users.
+Effective Date: December 14, 2025
+
+Contact: **indietapstudio@gmail.com**
+Controller: IndieTapStudio (Juraj Acsay)
+
+INTRODUCTION
+
+This privacy policy applies to the Push It. I Dare You. app (hereafter referred to as the "Application"), developed by IndieTapStudio (hereafter referred to as the "Service Provider") as a free mobile application. The Application is provided "as is" and is intended for use by all age groups — including children. There are no age restrictions, as the app does not contain content or features unsuitable for younger users.
 
 Data Collection and Use
 
@@ -17,7 +24,7 @@ The Application stores some user-provided data locally on the device. This inclu
 • Visual preferences (e.g., dark mode, language settings)
 • Settings and preferences
 
-This data is never transmitted, never shared, and never accessible to the Service Provider or any other party.
+This data is never transmitted, never shared, and never accessible to IndieTapStudio or any other party.
 If a user wishes to remove this data, they can do so simply by uninstalling the app.
 
 Security
@@ -28,14 +35,10 @@ Changes
 
 This Privacy Policy may be updated from time to time. Any changes will be published on this page. Users are encouraged to review the Privacy Policy periodically.
 
-Effective Date
-
-December 14, 2025
-
 Your Consent
 
 By using the Application, you acknowledge and agree that all data remains on your device and that no personal information is processed or transmitted externally.
 
 Contact
 
-If you have any questions regarding privacy or the Application itself, you can reach the Service Provider at: **indietapstudio@gmail.com**
+If you have any questions regarding privacy or the Application itself, you can reach us at: **indietapstudio@gmail.com**
