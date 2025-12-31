@@ -117,13 +117,21 @@ class PolicyLoader {
             'Children', 'DATA WE COLLECT', 'PURPOSES & LEGAL BASES (GDPR/UK GDPR)', 'YOUR CHOICES',
             'CHILDREN & TEENS', 'DATA RETENTION', 'SHARING & TRANSFERS', 'SECURITY', 'YOUR PRIVACY RIGHTS',
             'CALOPPA', 'INTERNATIONAL USERS', 'CHANGES', 'CONTACT',
+            // English - Terms of Service
+            'Terms of Service', 'About These Terms', 'Intended Use', 'Game Features', 'Privacy and Data',
+            'User Obligations', 'Intellectual Property', 'Availability and Changes',
+            'Disclaimer of Warranties and Liability', 'Governing Law', 'Changes to the Terms', 'Entire Agreement',
             // Czech - General
             'Zásady ochrany osobních údajů', 'Shromažďování a používání údajů', 'Lokálně uložená data',
             'Zabezpečení', 'Změny', 'Platnost zásad od', 'Souhlas uživatele', 'Kontakt', 'ÚVOD', 'Úvod',
             'Shromažďování osobních údajů', 'IP adresy a serverové zpracování', 'Externí služby – Google Fonts',
             'Děti', 'Změny zásad', 'DATA, KTERÁ SHROMAŽĎUJEME', 'ÚČELY A PRÁVNÍ ZÁKLADY (GDPR/UK GDPR)',
             'VAŠE MOŽNOSTI', 'DĚTI A TEENAGEŘI', 'UCHOVÁVÁNÍ DAT', 'SDÍLENÍ A PŘENOSY', 'ZABEZPEČENÍ',
-            'VAŠE PRÁVA NA OCHRANU SOUKROMÍ', 'MEZINÁRODNÍ UŽIVATELÉ', 'ZMĚNY', 'KONTAKT'
+            'VAŠE PRÁVA NA OCHRANU SOUKROMÍ', 'MEZINÁRODNÍ UŽIVATELÉ', 'ZMĚNY', 'KONTAKT',
+            // Czech - Terms of Service
+            'Podmínky používání', 'O těchto podmínkách', 'Určení aplikace', 'Funkce hry', 'Soukromí a data', 'Vaše povinnosti',
+            'Duševní vlastnictví', 'Dostupnost a změny aplikace', 'Vyloučení záruk a odpovědnosti',
+            'Rozhodné právo', 'Změny Podmínek používání', 'Celá dohoda'
         ];
 
         for (let i = 0; i < lines.length; i++) {
