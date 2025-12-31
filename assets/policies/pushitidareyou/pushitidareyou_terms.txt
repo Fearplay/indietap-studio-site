@@ -2,126 +2,86 @@ Terms of Service
 
 Effective Date: December 14, 2025
 Contact: **indietapstudio@gmail.com**
-Controller: IndieTapStudio (Juraj Acsay)
+
+Operator: IndieTapStudio (Juraj Acsay)
 
 About These Terms
 
-These Terms govern your use of the Push It. I Dare You. mobile application ("App", "Game").
+These Terms of Use govern the use of the mobile application Push It. I Dare You. ("Application", "Game").
+
 By downloading, installing, or using Push It. I Dare You., you agree to these Terms and our [Privacy Policy](https://indietapstudio.eu/pushitidareyou-privacy.html?lang=en).
+
 If you do not agree, do not use the App.
 
-Who Can Use the App
+Intended Use
 
-• Designed for users 13+.
-• Under 16: may play, but no ads are shown (we do not initialize AdMob requests).
-• 16+: may see ads; personalized ads only with valid consent where available.
-• You must provide truthful and accurate age information and must not misrepresent your age.
-• We store only an over/under-16 boolean to apply ad rules.
+The Application is a free-to-play game intended for a general audience.
+It does not include in-app purchases or mandatory online features.
 
-What the Game Is
+Game Features
 
-• Free-to-play game for entertainment.
-• Offline progress and achievements.
-• Optional rewarded video ads (watching ads is voluntary and grants in-game rewards).
-• No in-app purchases; all progression is earned via gameplay.
+The Application is provided solely for entertainment purposes
 
-Privacy & Data
+Game progress and achievements are stored locally on your device
 
-• We do not run our own backend, do not require registration, and do not send marketing emails.
-• We do not collect or store your personal data on our servers.
-• Game data and your age category are stored locally on your device.
-• Advertising-related data for eligible users (16+) may be processed by Google AdMob under its own policies and your consent choices (see [Privacy Policy](https://indietapstudio.eu/pushitidareyou-privacy.html?lang=en)).
+No registration or user account is required
 
-Your Responsibilities
+Privacy and Data
 
-• Use the App for personal, non-commercial entertainment.
-• Ensure your device meets requirements and has internet access to load ads (if eligible).
-• Do not hack, modify, reverse-engineer, decompile, or extract source code (except where allowed by law).
-• Do not use bots, cheats, exploits, or automation; do not interfere with security or ad delivery.
+We do not operate our own backend or servers
 
-Prohibited Activities
+We do not collect or store personal data
 
-• Using the App for unlawful purposes.
-• Attempting unauthorized access to systems or networks.
-• Reverse engineering, decompiling, or modifying the App.
-• Using cheats, bots, exploits, or automation.
-• Misrepresenting your age or attempting to bypass age-gating, consent, or ad-eligibility rules.
+All game data is stored locally on the user's device
 
-Consequences for Violations
+Uninstalling the Application will remove local game data unless it has been backed up by the device system.
 
-We may restrict or disable features (including ads and rewards), suspend or terminate access, or take other reasonable measures if you violate these Terms, including age misrepresentation.
+User Obligations
 
-Virtual Items & Balance
+You agree to:
 
-• Points, bonuses, and achievements have no real-world monetary value, are non-transferable, and cannot be exchanged for money or goods.
-• We may rebalance or change gameplay features at any time.
+use the Application only for personal, non-commercial purposes
 
-Advertising
+not interfere with the Application's code
 
-• Ads (for users 16+) are provided by Google AdMob under Google policies.
-• We do not control specific ad content.
-• Ads are never required to play.
-• Manage consent/personalization in Settings → Privacy choices and in device settings.
+not reverse engineer, decompile, or modify the Application (except where permitted by law)
+
+not use cheats, exploits, bots, or automated tools
 
 Intellectual Property
 
-• The App, its code, design, and name are owned by IndieTapStudio.
-• Music and sound effects are properly licensed.
-• You receive a limited, non-exclusive, non-transferable, revocable license to use the App as intended.
+The Application, including its name, code, graphics, design, and other elements, is protected by intellectual property laws and owned by IndieTapStudio.
 
-Third-Party Services
+You are granted a limited, non-exclusive, non-transferable, and revocable license to use the Application for its intended purpose.
 
-• The App may integrate third-party services (e.g., Google AdMob/UMP).
-• Your use of those services is subject to their terms and privacy policies.
-• We are not responsible for third-party services or content.
+Availability and Changes
 
-Disclaimers
+We may update, modify, or discontinue the Application at any time.
+We do not guarantee uninterrupted or error-free operation.
 
-• The App is provided "as is" and "as available" without warranties of any kind (including merchantability, fitness for a particular purpose, and non-infringement).
-• We do not guarantee uninterrupted, error-free, or secure operation.
+Disclaimer of Warranties and Liability
 
-Limitation of Liability
+The Application is provided "as is" and "as available", without warranties of any kind.
 
-• To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential, punitive, or exemplary damages (including loss of data, profits, or goodwill).
-• Our total liability will not exceed the amount you paid us to use the App (typically €0).
+To the maximum extent permitted by law, we are not liable for any indirect or consequential damages arising from the use of the Application.
 
-Indemnity
+Governing Law
 
-You agree to defend, indemnify, and hold harmless IndieTapStudio and affiliates from claims and expenses arising from your breach of these Terms, unlawful use, or violation of third-party rights.
+These Terms are governed by the laws of the Czech Republic and applicable European Union law.
+Any disputes shall be resolved by the competent courts of the Czech Republic.
 
-Changes, Suspension, Termination
+Changes to the Terms
 
-• We may update, modify, or discontinue features at any time.
-• We may suspend/terminate access for violations, legal, security, or operational reasons.
-• You may stop using the App anytime by uninstalling it; uninstalling permanently deletes local game data.
+These Terms of Use may be updated in the future.
+All changes will be communicated by updating this document.
+We recommend reviewing the Terms regularly.
 
-Governing Law & Venue
-
-• Governed by the laws of the Czech Republic and applicable European Union law.
-• Disputes will be resolved by the competent courts in the Czech Republic.
-• Outside the EU/UK, your mandatory local consumer protections remain unaffected.
-
-Consumer Rights (EEA/UK)
-
-Nothing here limits your non-waivable consumer rights under mandatory EEA/UK law; those rights prevail in case of conflict.
-
-Export & Sanctions Compliance
-
-You are not in a comprehensively sanctioned country and are not a prohibited party; you will comply with applicable export/sanctions laws.
-
-Severability & Waiver
-
-• If any provision is invalid or unenforceable, the rest remain in effect.
-• Our failure to enforce a provision is not a waiver.
-
-Updates to These Terms
-
-We may revise these Terms; the updated version will carry an updated Effective Date.
-Continued use after changes take effect constitutes acceptance.
+The updated version will always include a new "Last updated" date.
 
 Contact
 
-Questions: **indietapstudio@gmail.com**
+If you have any questions, contact us at:
+📧 **indietapstudio@gmail.com**
 
 Entire Agreement
 

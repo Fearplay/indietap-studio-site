@@ -2,126 +2,86 @@ Podmínky používání
 
 Datum účinnosti: 14. prosince 2025
 Kontakt: **indietapstudio@gmail.com**
+
 Správce: IndieTapStudio (Juraj Acsay)
 
 O těchto podmínkách
 
-Tyto Podmínky upravují používání mobilní aplikace Push It. I Dare You. („Aplikace", „Hra").
+Tyto Podmínky používání upravují používání mobilní aplikace Push It. I Dare You. („Aplikace", „Hra").
+
 Stažením, instalací nebo používáním Push It. I Dare You. souhlasíte s těmito Podmínkami a se [Zásadami ochrany osobních údajů](https://indietapstudio.eu/pushitidareyou-privacy.html?lang=cs).
-Nesouhlasíte-li, Aplikaci nepoužívejte.
 
-Kdo může Aplikaci používat
+Pokud s nimi nesouhlasíte, Aplikaci nepoužívejte.
 
-• Aplikace je určena uživatelům 13+.
-• Mladší 16 let: mohou hrát, ale nezobrazují se jim reklamy (neinicializujeme požadavky AdMob).
-• 16+: mohou vidět reklamy; personalizované pouze s platným souhlasem, pokud je dostupný.
-• Musíte uvádět pravdivé a přesné informace o svém věku a nesmíte svůj věk zkreslovat.
-• Ukládáme pouze boolean nad/pod 16 pro uplatnění pravidel reklam.
+Určení aplikace
 
-Co je to za hru
+Aplikace je free-to-play hra určená pro obecné publikum.
+Neobsahuje nákupy v aplikaci ani povinné online funkce.
 
-• Free-to-play hra pro zábavu.
-• Offline postup a úspěchy.
-• Volitelné odměňované video reklamy (sledování je dobrovolné a poskytuje herní odměny).
-• Žádné nákupy v aplikaci; postup se získává jen hraním.
+Funkce hry
+
+Aplikace slouží výhradně pro zábavu
+
+Postup a úspěchy se ukládají lokálně ve vašem zařízení
+
+Aplikace nevyžaduje registraci ani vytvoření uživatelského účtu
 
 Soukromí a data
 
-• Nemáme vlastní backend, nevyžadujeme registraci a nezasíláme marketingové e-maily.
-• Neshromažďujeme ani neukládáme vaše osobní údaje na naše servery.
-• Herní data a věková kategorie se ukládají lokálně ve vašem zařízení.
-• Data související s reklamou pro způsobilé uživatele (16+) může zpracovávat Google AdMob dle svých zásad a vašich voleb souhlasu (viz [Zásady ochrany osobních údajů](https://indietapstudio.eu/pushitidareyou-privacy.html?lang=cs)).
+Nemáme vlastní backend ani servery
+
+Neshromažďujeme ani neukládáme osobní údaje
+
+Herní data jsou ukládána pouze lokálně v zařízení uživatele
+
+Odinstalací Aplikace dojde ke smazání lokálních herních dat, pokud nebyla zálohována systémem zařízení.
 
 Vaše povinnosti
 
-• Aplikaci používejte pro osobní, nekomerční zábavu.
-• Zajistěte, že vaše zařízení splňuje požadavky a má internet pro načítání reklam (pokud jste způsobilí).
-• Nehackujte, neupravujte, neprovádějte reverse engineering, nedezassemblujte a nezískávejte zdrojový kód (kromě zákonem povolených výjimek).
-• Nepoužívejte boty, cheaty, exploity ani automatizaci; nezasahujte do zabezpečení ani doručování reklam.
+Zavazujete se:
 
-Zakázané činnosti
+používat Aplikaci pouze pro osobní, nekomerční účely
 
-• Používání Aplikace v rozporu se zákonem.
-• Pokusy o neoprávněný přístup k systémům nebo sítím.
-• Reverse engineering, dekompilace či modifikace Aplikace.
-• Používání cheatů, botů, exploitů nebo automatizace.
-• Zkreslování věku nebo obcházení ověření věku, souhlasu či pravidel způsobilosti pro reklamy.
+nezasahovat do kódu Aplikace
 
-Důsledky porušení
+neprovádět reverse engineering, dekompilaci ani jiné úpravy (s výjimkou zákonných výjimek)
 
-Můžeme omezit nebo deaktivovat funkce (včetně reklam a odměn), pozastavit či ukončit přístup nebo přijmout jiná přiměřená opatření, pokud porušíte tyto Podmínky, včetně nepravdivého uvedení věku.
-
-Virtuální položky a balanc
-
-• Body, bonusy a úspěchy nemají žádnou peněžní hodnotu, nejsou převoditelné a nelze je směnit za peníze ani zboží.
-• Herní prvky můžeme kdykoli rebalanceovat nebo měnit.
-
-Reklama
-
-• Reklamy (pro uživatele 16+) poskytuje Google AdMob dle zásad Google.
-• Nekontrolujeme konkrétní obsah jednotlivých reklam.
-• Reklamy nejsou nikdy povinné ke hraní.
-• Souhlas/personalizaci spravujte v Nastavení → Možnosti soukromí a v nastavení zařízení.
+nepoužívat cheaty, exploity, boty ani automatizované nástroje
 
 Duševní vlastnictví
 
-• Aplikace, její kód, design a název patří IndieTapStudio.
-• Hudba a zvukové efekty jsou řádně licencované.
-• Získáváte omezenou, nevýhradní, nepřevoditelnou a odvolatelnou licenci k užití Aplikace k zamýšlenému účelu.
+Aplikace, její název, kód, grafika, design a další prvky jsou chráněny právem duševního vlastnictví a patří IndieTapStudio.
 
-Služby třetích stran
+Získáváte omezenou, nevýhradní, nepřevoditelnou a odvolatelnou licenci k užívání Aplikace k jejímu zamýšlenému účelu.
 
-• Aplikace může integrovat služby třetích stran (např. Google AdMob/UMP).
-• Jejich použití se řídí jejich vlastními podmínkami a zásadami soukromí.
-• Neodpovídáme za obsah ani služby třetích stran.
+Dostupnost a změny aplikace
 
-Vyloučení záruk
+Aplikaci můžeme kdykoli aktualizovat, měnit nebo ukončit.
+Negarantujeme nepřetržitý ani bezchybný provoz.
 
-• Aplikace je poskytována „tak jak je" a „jak je dostupná", bez jakýchkoli záruk (včetně záruk obchodovatelnosti, vhodnosti pro konkrétní účel a neporušování práv).
-• Negarantujeme nepřetržitý, bezchybný ani bezpečný provoz.
+Vyloučení záruk a odpovědnosti
 
-Omezení odpovědnosti
+Aplikace je poskytována „tak jak je" a „jak je dostupná", bez jakýchkoli záruk.
 
-• V maximálním rozsahu dle práva neneseme odpovědnost za nepřímé, náhodné, zvláštní, následné, sankční či exemplární škody (včetně ztráty dat, zisku či dobré pověsti).
-• Naše celková odpovědnost nepřesáhne částku, kterou jste nám zaplatili za používání Aplikace (typicky 0 €).
+V maximálním rozsahu povoleném právem neneseme odpovědnost za nepřímé nebo následné škody vzniklé používáním Aplikace.
 
-Odškodnění
+Rozhodné právo
 
-Zavazujete se odškodnit a krýt IndieTapStudio a přidružené subjekty proti nárokům a nákladům vyplývajícím z porušení těchto Podmínek, nezákonného užití nebo porušení práv třetích osob.
+Tyto Podmínky se řídí právem České republiky a příslušným právem Evropské unie.
+Případné spory budou řešeny příslušnými soudy v České republice.
 
-Změny, pozastavení, ukončení
+Změny Podmínek používání
 
-• Funkce můžeme kdykoli aktualizovat, měnit nebo ukončit.
-• Přístup můžeme pozastavit/ukončit při porušení, z právních, bezpečnostních či provozních důvodů.
-• Aplikaci můžete kdykoli přestat používat odinstalací; odinstalace trvale smaže lokální herní data.
+Tyto Podmínky používání mohou být v budoucnu aktualizovány.
+O všech změnách bude informováno formou aktualizace tohoto dokumentu.
+Doporučujeme Podmínky pravidelně kontrolovat.
 
-Rozhodné právo a příslušnost
-
-• Řídí se právem České republiky a příslušným právem Evropské unie.
-• Spory budou řešit příslušné soudy v České republice.
-• Mimo EU/UK zůstávají vaše kogentní spotřebitelská práva nedotčena.
-
-Spotřebitelská práva (EHP/UK)
-
-Nic zde neomezuje vaše neodvolatelná spotřebitelská práva dle kogentního práva EHP/UK; v případě rozporu tato práva mají přednost.
-
-Export a sankce
-
-Nenacházíte se v zemi pod komplexními sankcemi a nejste zakázanou osobou; budete dodržovat příslušné předpisy o exportu/sankcích.
-
-Oddělitelnost a vzdání se práva
-
-• Neplatnost/nevymahatelnost některého ustanovení neovlivní platnost ostatních.
-• Naše neprosazení práva nepředstavuje vzdání se tohoto práva.
-
-Aktualizace Podmínek
-
-Tyto Podmínky můžeme upravovat; aktualizovaná verze ponese nové datum účinnosti.
-Další používání po účinnosti změn znamená souhlas s upravenými Podmínkami.
+Aktualizovaná verze vždy ponese nové datum „Poslední aktualizace".
 
 Kontakt
 
-Dotazy: **indietapstudio@gmail.com**
+V případě dotazů nás kontaktujte na:
+📧 **indietapstudio@gmail.com**
 
 Celá dohoda
 
