@@ -31,7 +31,9 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "subtitle": "How we protect your data and privacy",
-      "termsSubtitle": "Terms and conditions for using our app"
+      "termsSubtitle": "Terms and conditions for using our app",
+      "privacyTitle": "Clickoji Privacy Policy",
+      "termsTitle": "Clickoji Terms of Service"
     },
     "pushitidareyou": {
       "category": "Coming Soon",

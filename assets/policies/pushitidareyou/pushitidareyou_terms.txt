@@ -3,7 +3,7 @@ Terms of Service
 Effective Date: December 14, 2025
 Contact: **indietapstudio@gmail.com**
 
-Operator: IndieTapStudio (Juraj Acsay)
+Controller: IndieTapStudio (Juraj Acsay)
 
 About These Terms
 
@@ -20,33 +20,25 @@ It does not include in-app purchases or mandatory online features.
 
 Game Features
 
-The Application is provided solely for entertainment purposes
-
-Game progress and achievements are stored locally on your device
-
-No registration or user account is required
+• The Application is provided solely for entertainment purposes.
+• Game progress and achievements are stored locally on your device.
+• No registration or user account is required.
 
 Privacy and Data
 
-We do not operate our own backend or servers
-
-We do not collect or store personal data
-
-All game data is stored locally on the user's device
-
-Uninstalling the Application will remove local game data unless it has been backed up by the device system.
+• We do not operate our own backend or servers.
+• We do not collect or store personal data.
+• All game data is stored locally on the user's device.
+• Uninstalling the Application will remove local game data unless it has been backed up by the device system.
 
 User Obligations
 
 You agree to:
 
-use the Application only for personal, non-commercial purposes
-
-not interfere with the Application's code
-
-not reverse engineer, decompile, or modify the Application (except where permitted by law)
-
-not use cheats, exploits, bots, or automated tools
+• use the Application only for personal, non-commercial purposes
+• not interfere with the Application's code
+• not reverse engineer, decompile, or modify the Application (except where permitted by law)
+• not use cheats, exploits, bots, or automated tools
 
 Intellectual Property
 
@@ -81,7 +73,7 @@ The updated version will always include a new "Last updated" date.
 Contact
 
 If you have any questions, contact us at:
-📧 **indietapstudio@gmail.com**
+**indietapstudio@gmail.com**
 
 Entire Agreement
 

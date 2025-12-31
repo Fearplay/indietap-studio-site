@@ -20,33 +20,25 @@ Neobsahuje nákupy v aplikaci ani povinné online funkce.
 
 Funkce hry
 
-Aplikace slouží výhradně pro zábavu
-
-Postup a úspěchy se ukládají lokálně ve vašem zařízení
-
-Aplikace nevyžaduje registraci ani vytvoření uživatelského účtu
+• Aplikace slouží výhradně pro zábavu.
+• Postup a úspěchy se ukládají lokálně ve vašem zařízení.
+• Aplikace nevyžaduje registraci ani vytvoření uživatelského účtu.
 
 Soukromí a data
 
-Nemáme vlastní backend ani servery
-
-Neshromažďujeme ani neukládáme osobní údaje
-
-Herní data jsou ukládána pouze lokálně v zařízení uživatele
-
-Odinstalací Aplikace dojde ke smazání lokálních herních dat, pokud nebyla zálohována systémem zařízení.
+• Nemáme vlastní backend ani servery.
+• Neshromažďujeme ani neukládáme osobní údaje.
+• Herní data jsou ukládána pouze lokálně v zařízení uživatele.
+• Odinstalací Aplikace dojde ke smazání lokálních herních dat, pokud nebyla zálohována systémem zařízení.
 
 Vaše povinnosti
 
 Zavazujete se:
 
-používat Aplikaci pouze pro osobní, nekomerční účely
-
-nezasahovat do kódu Aplikace
-
-neprovádět reverse engineering, dekompilaci ani jiné úpravy (s výjimkou zákonných výjimek)
-
-nepoužívat cheaty, exploity, boty ani automatizované nástroje
+• používat Aplikaci pouze pro osobní, nekomerční účely
+• nezasahovat do kódu Aplikace
+• neprovádět reverse engineering, dekompilaci ani jiné úpravy (s výjimkou zákonných výjimek)
+• nepoužívat cheaty, exploity, boty ani automatizované nástroje
 
 Duševní vlastnictví
 
@@ -81,7 +73,7 @@ Aktualizovaná verze vždy ponese nové datum „Poslední aktualizace".
 Kontakt
 
 V případě dotazů nás kontaktujte na:
-📧 **indietapstudio@gmail.com**
+**indietapstudio@gmail.com**
 
 Celá dohoda
 
