@@ -477,6 +477,15 @@ body.language-changing [data-key] {
     align-items: center;
 }
 
+.dev-card,
+.dev-card:hover,
+.dev-card:focus,
+.dev-card:visited,
+.dev-card:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .dev-card {
     background: var(--bg-secondary);
     padding: 2.5rem;
@@ -485,8 +494,6 @@ body.language-changing [data-key] {
     box-shadow: 0 8px 32px var(--shadow);
     transition: all 0.3s ease;
     border: 1px solid var(--border);
-    text-decoration: none;
-    color: inherit;
     display: block;
 }
 
@@ -500,6 +507,11 @@ body.language-changing [data-key] {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
 }
 
 .dev-card-external {
@@ -524,13 +536,6 @@ body.language-changing [data-key] {
     justify-content: center;
     margin: 0 auto 1.5rem;
     color: white;
-}
-
-.dev-card h3 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 0.5rem;
 }
 
 .dev-card p {
