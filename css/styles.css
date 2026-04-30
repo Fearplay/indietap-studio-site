@@ -485,11 +485,33 @@ body.language-changing [data-key] {
     box-shadow: 0 8px 32px var(--shadow);
     transition: all 0.3s ease;
     border: 1px solid var(--border);
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .dev-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 16px 48px var(--shadow);
+    border-color: var(--accent-primary);
+}
+
+.dev-card h3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.dev-card-external {
+    color: var(--text-secondary);
+    opacity: 0.7;
+    transition: color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dev-card:hover .dev-card-external {
+    color: var(--accent-primary);
+    opacity: 1;
+    transform: translate(2px, -2px);
 }
 
 .dev-avatar {
@@ -531,6 +553,7 @@ body.language-changing [data-key] {
     gap: 2rem;
     max-width: 900px;
     margin: 0 auto;
+    align-items: start;
 }
 
 @media (max-width: 480px) {
