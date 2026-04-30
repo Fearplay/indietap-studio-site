@@ -418,7 +418,7 @@ body.language-changing [data-key] {
 /* About Page - Full Page */
 .about-page {
     padding: 120px 0 80px;
-    background: var(--bg-primary);
+    background: var(--bg-secondary);
     min-height: 100vh;
 }
 

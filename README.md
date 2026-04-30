@@ -2,70 +2,70 @@
 
 # IndieTap Studio Website
 
-Officiální webová stránka pro IndieTap Studio - tvoříme zábavné a užitečné mobilní aplikace.
+Official website for IndieTap Studio — we build fun and useful mobile apps.
 
-## 📁 Struktura projektu
+## 📁 Project structure
 
 ```
 indietap-studio-site/
-├── index.html              # Hlavní stránka
-├── about.html              # O nás
-├── contact.html            # Kontaktní stránka
-├── privacy.html            # Ochrana soukromí
-├── terms.html              # Podmínky použití
-├── 404.html                # Custom 404 stránka
+├── index.html              # Main page
+├── about.html              # About us
+├── contact.html            # Contact page
+├── privacy.html            # Privacy policy
+├── terms.html              # Terms of service
+├── 404.html                # Custom 404 page
 ├── css/
-│   └── styles.css          # Všechny CSS styly
+│   └── styles.css          # All CSS styles
 ├── js/
-│   ├── script.js           # Hlavní JavaScript funkcionalita
-│   └── localization.js     # Lokalizace a theme management
+│   ├── script.js           # Main JavaScript functionality
+│   └── localization.js     # Localization and theme management
 ├── assets/
-│   ├── icons/              # Ikony aplikací
-│   ├── locales/            # Jazykové soubory (EN/CS)
-│   └── policies/           # Textové soubory s právními dokumenty
-├── .htaccess               # Apache konfigurace
-├── CNAME                   # Custom doména pro GitHub Pages
-└── README.md               # Dokumentace
+│   ├── icons/              # App icons
+│   ├── locales/            # Language files (EN/CS)
+│   └── policies/           # Plain-text legal documents
+├── .htaccess               # Apache configuration
+├── CNAME                   # Custom domain for GitHub Pages
+└── README.md               # Documentation
 ```
 
-## 🚀 Funkce
+## 🚀 Features
 
-- **Responzivní design** - funguje na všech zařízeních (desktop, tablet, mobil)
-- **Dual-language support** - English/Czech s plnou lokalizací
-- **Dark/Light theme** - přepínání témat s anti-FOUC ochranou
-- **Moderní UI** - gradientové designy, animace, floating efekty
-- **Custom 404 stránka** - animovaná error stránka s navigací
-- **Real aplikace** - Couplefy (live) + Clickoji (coming soon)
-- **Performance optimized** - debounced events, lazy loading
-- **SEO friendly** - sémantické HTML, meta tagy
-- **Security headers** - XSS protection, content security
+- **Responsive design** — works on every device (desktop, tablet, mobile)
+- **Dual-language support** — full English/Czech localization
+- **Dark/Light theme** — theme switching with anti-FOUC protection
+- **Modern UI** — gradient designs, animations, floating effects
+- **Custom 404 page** — animated error page with navigation
+- **Real apps** — Couplefy, Clickoji, Push It. I Dare You. (live) plus upcoming titles
+- **Performance optimized** — debounced events, lazy loading
+- **SEO friendly** — semantic HTML, meta tags
+- **Security headers** — XSS protection, content security
 
-## 📱 Stránky
+## 📱 Pages
 
-1. **index.html** - Úvodní stránka s hero sekcí a aplikacemi
-2. **about.html** - O týmu a misi IndieTap Studio
-3. **contact.html** - Kontaktní formuláře a podpory
-4. **privacy.html** - Dynamicky načítaná ochrana soukromí
-5. **terms.html** - Dynamicky načítané podmínky použití
-6. **404.html** - Custom error stránka s animacemi
+1. **index.html** — Landing page with hero section and apps
+2. **about.html** — About the IndieTap Studio team and mission
+3. **contact.html** — Contact and support forms
+4. **privacy.html** — Dynamically loaded privacy policy
+5. **terms.html** — Dynamically loaded terms of service
+6. **404.html** — Custom error page with animations
 
-## 🛠️ Použité technologie
+## 🛠️ Tech stack
 
-- **HTML5** - sémantická struktura, ARIA accessibility
-- **CSS3** - moderní styling, gradients, animations, CSS variables
-- **Vanilla JavaScript** - ES6+, theme management, localization
-- **Google Fonts** - Inter font family pro moderní vzhled
-- **SVG ikony** - vektorové ikony pro crisp zobrazení
-- **JSON lokalizace** - strukturované jazykové soubory
+- **HTML5** — semantic structure, ARIA accessibility
+- **CSS3** — modern styling, gradients, animations, CSS variables
+- **Vanilla JavaScript** — ES6+, theme management, localization
+- **Google Fonts** — Inter font family for a modern look
+- **SVG icons** — vector icons for crisp rendering
+- **JSON localization** — structured language files
 
 ## 🌐 Deployment
 
-### GitHub Pages (současný hosting)
-- Automaticky se nasazuje z main branche
-- Custom doména: `indietapstudio.eu`
-- 404.html se automaticky aktivuje pro neexistující stránky
+### GitHub Pages (current hosting)
+- Auto-deploys from the `main` branch
+- Custom domain: `indietapstudio.eu`
+- `404.html` is automatically served for missing pages
 
-### Lokální spuštění
+### Local run
 ```bash
 # Python server
 python -m http.server 8000
@@ -73,39 +73,39 @@ python -m http.server 8000
 # Node.js serve
 npx serve
 
-# nebo jednoduše otevřete index.html v prohlížeči
+# or just open index.html in your browser
 ```
 
-## 🚫 Custom 404 Page
+## 🚫 Custom 404 page
 
-- **GitHub Pages**: Automaticky aktivní díky `404.html`
-- **Apache hosting**: Konfigurovano přes `.htaccess`
-- **Features**: Animované floating ikony, localized content, navigation buttons
-- **Mobile friendly**: Responzivní design s touch-friendly buttons
+- **GitHub Pages**: automatically active thanks to `404.html`
+- **Apache hosting**: configured via `.htaccess`
+- **Features**: animated floating icons, localized content, navigation buttons
+- **Mobile friendly**: responsive design with touch-friendly buttons
 
-## 📱 Responzivní breakpointy
+## 📱 Responsive breakpoints
 
-- **Desktop**: 1200px+ (plný layout)
-- **Tablet**: 768px - 1199px (zmenšené marginy)
-- **Mobile**: 480px - 767px (hamburger menu)
-- **Small Mobile**: < 480px (kompaktní layout)
+- **Desktop**: 1200px+ (full layout)
+- **Tablet**: 768px – 1199px (reduced margins)
+- **Mobile**: 480px – 767px (hamburger menu)
+- **Small mobile**: < 480px (compact layout)
 
-## 🎨 Design System
+## 🎨 Design system
 
-### Barevná paleta
-- **Light mode**: 
+### Color palette
+- **Light mode**:
   - Primary gradient: #8b5cf6 → #3b82f6
   - Background: #ffffff, #f8f9fa
   - Text: #1a1a1a, #666666
 - **Dark mode**:
-  - Primary gradient: #9333ea → #3b82f6  
+  - Primary gradient: #9333ea → #3b82f6
   - Background: #0f0f0f, #1a1a1a
   - Text: #ffffff, #cccccc
 
-### Theme Features
-- **Auto-detection**: Respects system preference
-- **FOUC Prevention**: Inline scripts prevent theme flashing
-- **Persistence**: localStorage saves user choice
+### Theme features
+- **Auto-detection**: respects system preference
+- **FOUC prevention**: inline scripts prevent theme flashing
+- **Persistence**: `localStorage` saves the user's choice
 - **Smooth transitions**: 0.3s ease transitions between themes
 
 © 2025 IndieTap Studio. All rights reserved.

@@ -46,6 +46,16 @@
       "termsSubtitle": "Terms and conditions for using our app",
       "termsTitle": "Push It. I Dare You. Terms of Service",
       "privacyTitle": "Push It. I Dare You. Privacy Policy"
+    },
+    "neonlabyrinth": {
+      "category": "Tactical Roguelike • Cyberpunk",
+      "description": "Turn-based cyberpunk roguelike on a 15×15 grid. Sneak through procedural sectors, EMP-stun bots before they reach you, and race story, endless and daily challenge modes.",
+      "comingSoon": "🚀 Coming Soon"
+    },
+    "streetmanager": {
+      "category": "Idle Tycoon • Career",
+      "description": "Neon idle/tycoon hybrid: tap a smart card, hire 18 businesses, beat real-work minigames and trade vehicles, art and stocks — all in a fully dynamic accent-color UI.",
+      "comingSoon": "🚀 Coming Soon"
     }
   },
   "about": {
